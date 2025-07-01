@@ -40,5 +40,6 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add alliances_with_logos.json
-          git commit -m "Update alliance logo JSON from app branch [skip ci]" || echo "No changes"
+          git add index.html
+          git commit -m "Update alliance logo JSON and index.html from app branch [skip ci]" || echo "No changes"
           git push origin main
