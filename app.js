@@ -61,7 +61,7 @@ console.log(`Checking ${idsToCheck.length} alliances for custom logos...`);
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-for (let i = 0; i < idsToCheck.length; i += concurrency) {
+for (let i = 0; false && i < idsToCheck.length; i += concurrency) {
   const batch = idsToCheck.slice(i, i + concurrency);
 
   await Promise.all(batch.map(async id => {
@@ -100,10 +100,10 @@ const allWithLogos = db.prepare(`
 `).all();
 
 // Find newest logoSince date
-const newestDate = allWithLogos.length > 0 ? allWithLogos[0].logoSince : null;
+let newestDate = allWithLogos.length > 0 ? allWithLogos[0].logoSince : null;
 
 // Build newest section
-const newest = allWithLogos
+let newest = allWithLogos
   .filter(row => row.logoSince === newestDate)
   .sort((a, b) => new Date(a.startDate) - new Date(b.startDate))  // oldest first
 
@@ -121,7 +121,7 @@ for (const row of allWithLogos) {
 }
 
 // Sort groups by month descending
-const grouped = Object.fromEntries(
+let grouped = Object.fromEntries(
   Object.entries(hasLogos)
     .sort((a, b) => b[0].localeCompare(a[0]))
 );
@@ -133,3 +133,103 @@ const output = {
 
 fs.writeFileSync('alliances_with_logos.json', JSON.stringify(output, null, 2));
 console.log('✅ Wrote alliances_with_logos.json');
+
+
+// Query all logos with metadata
+const rows = db.prepare(`
+  SELECT id, ticker, logoSince, startDate
+  FROM alliances
+  WHERE has_custom_logo = 1 AND logoSince IS NOT NULL AND startDate IS NOT NULL
+  ORDER BY logoSince DESC, startDate ASC, ticker ASC
+`).all();
+
+// Group newest logos (by latest logoSince)
+newestDate = rows[0]?.logoSince;
+newest = rows.filter(row => row.logoSince === newestDate);
+
+// Group by creation month
+grouped = {};
+for (const row of rows) {
+  const [year, monthNum] = row.startDate.split('-');
+  const monthName = new Date(row.startDate).toLocaleString('default', { month: 'long' });
+  const key = `${year} ${monthName}`;
+  grouped[key] = grouped[key] || [];
+  grouped[key].push(row);
+}
+
+// Sort grouped months descending
+const groupedSorted = Object.entries(grouped).sort((a, b) => {
+  return new Date(b[0]) - new Date(a[0]);
+});
+
+// Helper: render logo block
+const logoBlock = ({ id, ticker }) => `
+  <div class="pull-left"
+    style="text-align: center; width: 64px; height: 100px !important; max-height: 90px; margin-right: 1em; overflow: hidden; text-overflow: ellipsis;">
+    <a target="_blank" href="https://zkillboard.com/alliance/${id}/"><img
+      class="eveimage img-rounded"
+      src="https://image.eveonline.com/Alliance/${id}_64.png"
+      style="width: 64px; height: 64px;" rel="tooltip"
+      title="${ticker}"></a><small>&lt;${ticker}&gt;</small>
+  </div>`;
+
+// Build sections
+const newestHTML = newest.map(logoBlock).join('\n');
+
+const groupedHTML = groupedSorted.map(([month, logos]) => `
+  <div class="well pull-left" style="margin-right: 1em; padding-left: 1em;">
+    <h4>${month}</h4>
+    ${logos.map(logoBlock).join('\n')}
+  </div>`).join('\n');
+
+// Write full HTML page
+const html = `<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="logos.zzeve.com is for showing the newest alliance logos within the MMO Eve Online">
+  <meta name="title" content="logos.zzeve.com /">
+  <meta name="keywords" content="eve-online, eve, ccp, ccp games, massively, multiplayer, online, role, playing, game, mmorpg">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alliance Logos</title>
+  <link href="css/bootstrap-combined.min.2.2.2.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  <script src="js/jquery.min.1.8.3.js"></script>
+  <script src="/js/bootstrap.min.2.2.2.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar container">
+      <div class="navbar-inner">
+        <li class="brand" href="/"><img class="img-rounded" src="https://image.eveonline.com/Alliance/1_32.png"
+          style="padding: 0; margin: 0; background-color: #111; height: 25px; width: 25px;">&nbsp;
+          Alliance Logos</li>
+      </div>
+    </div>
+
+    <h5>Latest Alliance Logos <small>(sorted by alliance age)</small></h5>
+    <div class="row"><div class="span12">
+      <div class="well pull-left" style="margin-right: 1em; padding-left: 1em;">
+        ${newestHTML}
+      </div>
+    </div></div>
+
+    <h5>Alliances with Logos <small>(sorted by alliance creation date)</small></h5>
+    <div class="row"><div class="span12">
+      ${groupedHTML}
+    </div></div>
+
+    <div class="footer">
+      <hr>
+      <div class="pull-left">Brought to you by a bored <a target="_blank"
+        href="http://evewho.com/pilot/Squizz+Caphinator">Squizz Caphinator</a></div>
+    </div>
+  </div>
+</body>
+</html>`;
+
+// Save to disk
+fs.writeFileSync('index.html', html);
+console.log('✅ Wrote index.html');
