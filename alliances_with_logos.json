@@ -1,0 +1,6846 @@
+{
+  "newest": [
+    {
+      "id": 99009710,
+      "ticker": "TAS",
+      "logoSince": "2025-07-01",
+      "startDate": "2020-01-12T09:38:42Z"
+    },
+    {
+      "id": 99009747,
+      "ticker": "LANDS",
+      "logoSince": "2025-07-01",
+      "startDate": "2020-02-02T20:02:13Z"
+    },
+    {
+      "id": 99010779,
+      "ticker": "HV",
+      "logoSince": "2025-07-01",
+      "startDate": "2021-04-10T23:32:37Z"
+    },
+    {
+      "id": 99011867,
+      "ticker": "CRIIM",
+      "logoSince": "2025-07-01",
+      "startDate": "2022-11-11T23:01:04Z"
+    },
+    {
+      "id": 99012608,
+      "ticker": "SNOT",
+      "logoSince": "2025-07-01",
+      "startDate": "2023-09-14T10:13:57Z"
+    },
+    {
+      "id": 99012639,
+      "ticker": "STRAY",
+      "logoSince": "2025-07-01",
+      "startDate": "2023-09-29T15:40:22Z"
+    },
+    {
+      "id": 99012769,
+      "ticker": "BUNNY",
+      "logoSince": "2025-07-01",
+      "startDate": "2023-11-17T21:55:07Z"
+    },
+    {
+      "id": 99012896,
+      "ticker": "DEBUG",
+      "logoSince": "2025-07-01",
+      "startDate": "2023-12-30T21:23:18Z"
+    },
+    {
+      "id": 99013410,
+      "ticker": "KFCCT",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-07-26T16:01:24Z"
+    },
+    {
+      "id": 99013526,
+      "ticker": "-BGG-",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-09-19T10:33:35Z"
+    },
+    {
+      "id": 99013538,
+      "ticker": "P.A.A",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-09-26T16:51:14Z"
+    },
+    {
+      "id": 99013612,
+      "ticker": "ABV",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-10-26T17:53:37Z"
+    },
+    {
+      "id": 99013655,
+      "ticker": "SIU",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-11-07T22:32:56Z"
+    },
+    {
+      "id": 99013674,
+      "ticker": "RCKL",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-11-16T01:04:31Z"
+    },
+    {
+      "id": 99013675,
+      "ticker": "WBCA",
+      "logoSince": "2025-07-01",
+      "startDate": "2024-11-16T08:57:22Z"
+    }
+  ],
+  "hasLogos": {
+    "2025-01": [
+      {
+        "id": 99013817,
+        "ticker": "MOUSE",
+        "logoSince": "2025-05-17",
+        "startDate": "2025-01-10T18:37:02Z"
+      },
+      {
+        "id": 99013831,
+        "ticker": "SLEEP",
+        "logoSince": "2025-05-17",
+        "startDate": "2025-01-16T16:32:47Z"
+      }
+    ],
+    "2024-11": [
+      {
+        "id": 99013674,
+        "ticker": "RCKL",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-11-16T01:04:31Z"
+      },
+      {
+        "id": 99013655,
+        "ticker": "SIU",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-11-07T22:32:56Z"
+      },
+      {
+        "id": 99013675,
+        "ticker": "WBCA",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-11-16T08:57:22Z"
+      }
+    ],
+    "2024-10": [
+      {
+        "id": 99013612,
+        "ticker": "ABV",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-10-26T17:53:37Z"
+      },
+      {
+        "id": 99013563,
+        "ticker": "AXXF",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-10-05T20:43:35Z"
+      },
+      {
+        "id": 99013583,
+        "ticker": "ORE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-10-15T10:55:03Z"
+      }
+    ],
+    "2024-09": [
+      {
+        "id": 99013526,
+        "ticker": "-BGG-",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-09-19T10:33:35Z"
+      },
+      {
+        "id": 99013538,
+        "ticker": "P.A.A",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-09-26T16:51:14Z"
+      },
+      {
+        "id": 99013516,
+        "ticker": "MSF.",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-09-14T22:55:10Z"
+      },
+      {
+        "id": 99013519,
+        "ticker": "PEACE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-09-16T05:55:35Z"
+      },
+      {
+        "id": 99013539,
+        "ticker": "TDSP",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-09-26T18:42:45Z"
+      }
+    ],
+    "2024-08": [
+      {
+        "id": 99013478,
+        "ticker": "PALLI",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-08-27T08:35:27Z"
+      },
+      {
+        "id": 99013450,
+        "ticker": "UNION",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-08-15T20:03:17Z"
+      }
+    ],
+    "2024-07": [
+      {
+        "id": 99013410,
+        "ticker": "KFCCT",
+        "logoSince": "2025-07-01",
+        "startDate": "2024-07-26T16:01:24Z"
+      },
+      {
+        "id": 99013401,
+        "ticker": "EWAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-07-14T19:00:47Z"
+      },
+      {
+        "id": 99013420,
+        "ticker": "HI",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-07-31T18:34:19Z"
+      },
+      {
+        "id": 99013380,
+        "ticker": "SNEKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-07-01T17:28:49Z"
+      }
+    ],
+    "2024-06": [
+      {
+        "id": 99013304,
+        "ticker": "-5.0",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-01T19:02:53Z"
+      },
+      {
+        "id": 99013315,
+        "ticker": "BIRBS",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-10T00:02:13Z"
+      },
+      {
+        "id": 99013333,
+        "ticker": "CIC",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-15T14:49:52Z"
+      },
+      {
+        "id": 99013362,
+        "ticker": "EMAE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-25T18:59:47Z"
+      },
+      {
+        "id": 99013357,
+        "ticker": "EOL.",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-23T23:14:12Z"
+      },
+      {
+        "id": 99013341,
+        "ticker": "FT",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-17T06:11:28Z"
+      },
+      {
+        "id": 99013346,
+        "ticker": "HB",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-18T16:02:38Z"
+      },
+      {
+        "id": 99013309,
+        "ticker": "MDVFA",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-05T13:06:26Z"
+      },
+      {
+        "id": 99013342,
+        "ticker": "ME",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-17T06:11:50Z"
+      },
+      {
+        "id": 99013359,
+        "ticker": "NOPOS",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-24T23:30:50Z"
+      },
+      {
+        "id": 99013345,
+        "ticker": "RNH",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-18T14:36:58Z"
+      },
+      {
+        "id": 99013305,
+        "ticker": "ROPE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-02T17:24:57Z"
+      },
+      {
+        "id": 99013330,
+        "ticker": "URSA",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-14T19:07:51Z"
+      },
+      {
+        "id": 99013340,
+        "ticker": "VF",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-06-17T06:10:28Z"
+      }
+    ],
+    "2024-05": [
+      {
+        "id": 99013247,
+        "ticker": "6OX.C",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-15T00:32:57Z"
+      },
+      {
+        "id": 99013201,
+        "ticker": "ABSOP",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-02T09:03:36Z"
+      },
+      {
+        "id": 99013294,
+        "ticker": "ASMLE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-30T14:31:40Z"
+      },
+      {
+        "id": 99013284,
+        "ticker": "BLOB5",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-27T21:17:51Z"
+      },
+      {
+        "id": 99013231,
+        "ticker": "BLUD",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-11T20:00:23Z"
+      },
+      {
+        "id": 99013217,
+        "ticker": "EOL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-08T05:12:45Z"
+      },
+      {
+        "id": 99013299,
+        "ticker": "MAD",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-31T16:02:47Z"
+      },
+      {
+        "id": 99013264,
+        "ticker": "MOLE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-21T13:04:29Z"
+      },
+      {
+        "id": 99013232,
+        "ticker": "NOSEA",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-12T01:24:18Z"
+      },
+      {
+        "id": 99013223,
+        "ticker": "OMNI-",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-09T05:39:26Z"
+      },
+      {
+        "id": 99013280,
+        "ticker": "PG",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-26T14:32:38Z"
+      },
+      {
+        "id": 99013234,
+        "ticker": "R.IP.",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-12T12:50:00Z"
+      },
+      {
+        "id": 99013281,
+        "ticker": "ROACH",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-26T17:48:59Z"
+      },
+      {
+        "id": 99013251,
+        "ticker": "VHERO",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-05-17T11:26:08Z"
+      }
+    ],
+    "2024-04": [
+      {
+        "id": 99013122,
+        "ticker": "CHKR",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-02T10:25:43Z"
+      },
+      {
+        "id": 99013135,
+        "ticker": "EAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-06T00:26:24Z"
+      },
+      {
+        "id": 99013187,
+        "ticker": "FRONT",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-25T13:50:37Z"
+      },
+      {
+        "id": 99013127,
+        "ticker": "IN-ON",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-03T19:22:13Z"
+      },
+      {
+        "id": 99013177,
+        "ticker": "LBRTY",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-21T08:08:16Z"
+      },
+      {
+        "id": 99013142,
+        "ticker": "M0GGD",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-07T15:07:41Z"
+      },
+      {
+        "id": 99013195,
+        "ticker": "RDC",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-29T14:55:33Z"
+      },
+      {
+        "id": 99013165,
+        "ticker": "SNGGL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-04-16T03:41:42Z"
+      }
+    ],
+    "2024-03": [
+      {
+        "id": 99013081,
+        "ticker": "B.A",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-03-08T09:37:41Z"
+      },
+      {
+        "id": 99013097,
+        "ticker": "SUETA",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-03-17T18:21:15Z"
+      }
+    ],
+    "2024-02": [
+      {
+        "id": 99013010,
+        "ticker": "4011",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-08T13:34:45Z"
+      },
+      {
+        "id": 99013005,
+        "ticker": "BTB",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-06T16:22:57Z"
+      },
+      {
+        "id": 99013000,
+        "ticker": "C-TOC",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-05T02:41:56Z"
+      },
+      {
+        "id": 99013055,
+        "ticker": "DMC",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-28T22:24:40Z"
+      },
+      {
+        "id": 99012995,
+        "ticker": "DRL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-03T12:04:42Z"
+      },
+      {
+        "id": 99013040,
+        "ticker": "EVIL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-23T22:54:37Z"
+      },
+      {
+        "id": 99013003,
+        "ticker": "MEH",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-06T01:56:28Z"
+      },
+      {
+        "id": 99012991,
+        "ticker": "MIRTH",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-02T04:13:54Z"
+      },
+      {
+        "id": 99013028,
+        "ticker": "MNRCH",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-14T20:10:35Z"
+      },
+      {
+        "id": 99013049,
+        "ticker": "REBAL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-26T06:44:34Z"
+      },
+      {
+        "id": 99013036,
+        "ticker": "SHIZ0",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-22T15:09:03Z"
+      },
+      {
+        "id": 99013047,
+        "ticker": "SOL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-25T06:19:21Z"
+      },
+      {
+        "id": 99013023,
+        "ticker": "TALE",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-13T10:32:27Z"
+      },
+      {
+        "id": 99013045,
+        "ticker": "UAFLH",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-02-24T20:23:33Z"
+      }
+    ],
+    "2024-01": [
+      {
+        "id": 99012932,
+        "ticker": "CHOAM",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-09T17:41:32Z"
+      },
+      {
+        "id": 99012929,
+        "ticker": "DECAY",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-08T16:18:06Z"
+      },
+      {
+        "id": 99012944,
+        "ticker": "EX E",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-16T20:09:10Z"
+      },
+      {
+        "id": 99012916,
+        "ticker": "FFA",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-05T16:34:42Z"
+      },
+      {
+        "id": 99012975,
+        "ticker": "HULL",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-27T21:24:22Z"
+      },
+      {
+        "id": 99012909,
+        "ticker": "IOWNU",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-02T16:24:24Z"
+      },
+      {
+        "id": 99012904,
+        "ticker": "KARHU",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-01T17:48:30Z"
+      },
+      {
+        "id": 99012923,
+        "ticker": "MERCY",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-07T04:28:40Z"
+      },
+      {
+        "id": 99012905,
+        "ticker": "OCAST",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-01T21:36:06Z"
+      },
+      {
+        "id": 99012947,
+        "ticker": "PRIME",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-18T20:30:58Z"
+      },
+      {
+        "id": 99012950,
+        "ticker": "SBP",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-20T01:15:58Z"
+      },
+      {
+        "id": 99012982,
+        "ticker": "SL4GS",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-29T10:52:34Z"
+      },
+      {
+        "id": 99012936,
+        "ticker": "SLAMD",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-14T00:25:28Z"
+      },
+      {
+        "id": 99012940,
+        "ticker": "ZUCK",
+        "logoSince": "2025-05-17",
+        "startDate": "2024-01-14T22:39:38Z"
+      }
+    ],
+    "2023-12": [
+      {
+        "id": 99012896,
+        "ticker": "DEBUG",
+        "logoSince": "2025-07-01",
+        "startDate": "2023-12-30T21:23:18Z"
+      },
+      {
+        "id": 99012847,
+        "ticker": ".GF.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-13T08:53:40Z"
+      },
+      {
+        "id": 99012837,
+        "ticker": "280MM",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-09T16:51:00Z"
+      },
+      {
+        "id": 99012891,
+        "ticker": "ABYSS",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-29T05:07:29Z"
+      },
+      {
+        "id": 99012859,
+        "ticker": "ANIME",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-19T05:15:58Z"
+      },
+      {
+        "id": 99012875,
+        "ticker": "BLUE",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-24T20:42:37Z"
+      },
+      {
+        "id": 99012845,
+        "ticker": "BOZON",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-12T23:48:23Z"
+      },
+      {
+        "id": 99012832,
+        "ticker": "FEED",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-08T15:13:43Z"
+      },
+      {
+        "id": 99012868,
+        "ticker": "GBR",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-23T07:07:32Z"
+      },
+      {
+        "id": 99012852,
+        "ticker": "GRIM",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-16T15:50:54Z"
+      },
+      {
+        "id": 99012827,
+        "ticker": "IMPDR",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-06T10:06:48Z"
+      },
+      {
+        "id": 99012848,
+        "ticker": "KKRD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-13T15:29:07Z"
+      },
+      {
+        "id": 99012823,
+        "ticker": "MASKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-05T00:50:14Z"
+      },
+      {
+        "id": 99012816,
+        "ticker": "ONLYH",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-03T04:19:07Z"
+      },
+      {
+        "id": 99012831,
+        "ticker": "RIBBT",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-08T09:27:43Z"
+      },
+      {
+        "id": 99012829,
+        "ticker": "WHUB",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-12-07T08:19:31Z"
+      }
+    ],
+    "2023-11": [
+      {
+        "id": 99012769,
+        "ticker": "BUNNY",
+        "logoSince": "2025-07-01",
+        "startDate": "2023-11-17T21:55:07Z"
+      },
+      {
+        "id": 99012770,
+        "ticker": "ADIEU",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-17T22:00:53Z"
+      },
+      {
+        "id": 99012728,
+        "ticker": "CRAF",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-06T17:38:14Z"
+      },
+      {
+        "id": 99012777,
+        "ticker": "D4DDY",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-19T20:22:24Z"
+      },
+      {
+        "id": 99012785,
+        "ticker": "FSH",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-22T11:06:56Z"
+      },
+      {
+        "id": 99012780,
+        "ticker": "NONE",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-20T19:08:09Z"
+      },
+      {
+        "id": 99012732,
+        "ticker": "PYCBI",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-07T14:42:53Z"
+      },
+      {
+        "id": 99012745,
+        "ticker": "RAHSD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-12T21:08:30Z"
+      },
+      {
+        "id": 99012716,
+        "ticker": "SRSXP",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-01T04:34:02Z"
+      },
+      {
+        "id": 99012757,
+        "ticker": "ZGE",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-11-16T06:53:20Z"
+      }
+    ],
+    "2023-10": [
+      {
+        "id": 99012654,
+        "ticker": "-ANT-",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-05T14:55:27Z"
+      },
+      {
+        "id": 99012648,
+        "ticker": "BFT",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-03T12:38:54Z"
+      },
+      {
+        "id": 99012702,
+        "ticker": "ECHO.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-24T23:40:29Z"
+      },
+      {
+        "id": 99012665,
+        "ticker": "EFORT",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-08T06:52:45Z"
+      },
+      {
+        "id": 99012664,
+        "ticker": "RECU",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-08T06:36:57Z"
+      },
+      {
+        "id": 99012671,
+        "ticker": "TRM",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-10T11:42:52Z"
+      },
+      {
+        "id": 99012684,
+        "ticker": "WHSOC",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-10-14T21:19:17Z"
+      }
+    ],
+    "2023-09": [
+      {
+        "id": 99012608,
+        "ticker": "SNOT",
+        "logoSince": "2025-07-01",
+        "startDate": "2023-09-14T10:13:57Z"
+      },
+      {
+        "id": 99012639,
+        "ticker": "STRAY",
+        "logoSince": "2025-07-01",
+        "startDate": "2023-09-29T15:40:22Z"
+      },
+      {
+        "id": 99012618,
+        "ticker": "-QUL-",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-20T23:45:11Z"
+      },
+      {
+        "id": 99012635,
+        "ticker": ".PAPS",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-25T16:36:59Z"
+      },
+      {
+        "id": 99012605,
+        "ticker": "6A6II",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-13T04:14:50Z"
+      },
+      {
+        "id": 99012602,
+        "ticker": "AL0NE",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-11T21:52:11Z"
+      },
+      {
+        "id": 99012599,
+        "ticker": "BTC.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-10T00:38:45Z"
+      },
+      {
+        "id": 99012588,
+        "ticker": "DARKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-06T19:42:33Z"
+      },
+      {
+        "id": 99012629,
+        "ticker": "INVTD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-22T22:03:22Z"
+      },
+      {
+        "id": 99012623,
+        "ticker": "OHIO",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-22T02:13:01Z"
+      },
+      {
+        "id": 99012611,
+        "ticker": "RABBI",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-16T17:16:31Z"
+      },
+      {
+        "id": 99012576,
+        "ticker": "TER",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-02T14:59:51Z"
+      },
+      {
+        "id": 99012625,
+        "ticker": "THE S",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-22T08:00:18Z"
+      },
+      {
+        "id": 99012641,
+        "ticker": "WEALD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-29T18:41:32Z"
+      },
+      {
+        "id": 99012636,
+        "ticker": "WICKA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-25T19:44:07Z"
+      },
+      {
+        "id": 99012604,
+        "ticker": "XZEST",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-09-13T04:13:10Z"
+      }
+    ],
+    "2023-08": [
+      {
+        "id": 99012544,
+        "ticker": "AHBA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-08-19T02:37:35Z"
+      },
+      {
+        "id": 99012568,
+        "ticker": "FOREV",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-08-31T05:38:53Z"
+      },
+      {
+        "id": 99012554,
+        "ticker": "KAIJU",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-08-23T20:08:30Z"
+      }
+    ],
+    "2023-07": [
+      {
+        "id": 99012437,
+        "ticker": "CUY",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-07T13:13:33Z"
+      },
+      {
+        "id": 99012438,
+        "ticker": "D8COY",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-07T14:50:08Z"
+      },
+      {
+        "id": 99012502,
+        "ticker": "DTA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-31T18:43:37Z"
+      },
+      {
+        "id": 99012459,
+        "ticker": "NEON",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-14T16:02:52Z"
+      },
+      {
+        "id": 99012464,
+        "ticker": "NEVKI",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-16T14:24:24Z"
+      },
+      {
+        "id": 99012476,
+        "ticker": "SAD.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-21T14:52:21Z"
+      },
+      {
+        "id": 99012500,
+        "ticker": "SEND",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-30T22:51:14Z"
+      },
+      {
+        "id": 99012485,
+        "ticker": "TERBL",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-24T17:57:12Z"
+      },
+      {
+        "id": 99012449,
+        "ticker": "TOXIC",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-07-09T21:27:06Z"
+      }
+    ],
+    "2023-06": [
+      {
+        "id": 99012364,
+        "ticker": ".WA.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-11T13:37:04Z"
+      },
+      {
+        "id": 99012341,
+        "ticker": "BFG",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-03T16:06:25Z"
+      },
+      {
+        "id": 99012353,
+        "ticker": "BRSTL",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-07T06:03:00Z"
+      },
+      {
+        "id": 99012410,
+        "ticker": "DECOY",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-26T09:07:46Z"
+      },
+      {
+        "id": 99012389,
+        "ticker": "HU",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-19T22:23:33Z"
+      },
+      {
+        "id": 99012403,
+        "ticker": "ISEEU",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-25T09:19:40Z"
+      },
+      {
+        "id": 99012359,
+        "ticker": "MSA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-09T18:24:12Z"
+      },
+      {
+        "id": 99012405,
+        "ticker": "S.H.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-25T12:58:31Z"
+      },
+      {
+        "id": 99012367,
+        "ticker": "SKINC",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-12T13:26:15Z"
+      },
+      {
+        "id": 99012418,
+        "ticker": "SRSBZ",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-28T02:02:54Z"
+      },
+      {
+        "id": 99012398,
+        "ticker": "TAMA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-23T16:56:34Z"
+      },
+      {
+        "id": 99012358,
+        "ticker": "W01D",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-09T17:56:13Z"
+      },
+      {
+        "id": 99012399,
+        "ticker": "WARP0",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-06-24T04:47:40Z"
+      }
+    ],
+    "2023-05": [
+      {
+        "id": 99012311,
+        "ticker": "FI-MC",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-05-24T20:28:13Z"
+      },
+      {
+        "id": 99012287,
+        "ticker": "NHCO",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-05-13T12:08:00Z"
+      },
+      {
+        "id": 99012271,
+        "ticker": "VOX-L",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-05-04T01:11:54Z"
+      }
+    ],
+    "2023-04": [
+      {
+        "id": 99012196,
+        "ticker": "BLYAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-04-06T09:55:48Z"
+      },
+      {
+        "id": 99012239,
+        "ticker": "DESO",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-04-22T11:29:47Z"
+      },
+      {
+        "id": 99012229,
+        "ticker": "HINC",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-04-19T08:59:55Z"
+      },
+      {
+        "id": 99012257,
+        "ticker": "HURMA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-04-27T19:55:00Z"
+      },
+      {
+        "id": 99012243,
+        "ticker": "IILLL",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-04-23T01:19:39Z"
+      },
+      {
+        "id": 99012211,
+        "ticker": "SPECR",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-04-11T15:28:03Z"
+      }
+    ],
+    "2023-03": [
+      {
+        "id": 99012165,
+        "ticker": "GIZMO",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-03-19T09:32:47Z"
+      },
+      {
+        "id": 99012187,
+        "ticker": "STEX",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-03-31T13:28:41Z"
+      },
+      {
+        "id": 99012142,
+        "ticker": "WEPOZ",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-03-13T00:12:28Z"
+      },
+      {
+        "id": 99012155,
+        "ticker": "ZBROS",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-03-17T15:58:30Z"
+      }
+    ],
+    "2023-02": [
+      {
+        "id": 99012110,
+        "ticker": "--W--",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-24T15:43:00Z"
+      },
+      {
+        "id": 99012097,
+        "ticker": ".CAE.",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-20T04:04:33Z"
+      },
+      {
+        "id": 99012112,
+        "ticker": "BOMB",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-24T20:35:13Z"
+      },
+      {
+        "id": 99012067,
+        "ticker": "CAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-08T13:16:06Z"
+      },
+      {
+        "id": 99012062,
+        "ticker": "CRIKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-06T14:02:05Z"
+      },
+      {
+        "id": 99012072,
+        "ticker": "NA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-11T15:26:09Z"
+      },
+      {
+        "id": 99012122,
+        "ticker": "PROB",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-27T20:52:26Z"
+      },
+      {
+        "id": 99012089,
+        "ticker": "SINOV",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-17T06:50:09Z"
+      },
+      {
+        "id": 99012079,
+        "ticker": "USB-C",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-13T22:01:07Z"
+      },
+      {
+        "id": 99012094,
+        "ticker": "W7SKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-19T17:12:47Z"
+      },
+      {
+        "id": 99012111,
+        "ticker": "WALII",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-24T17:51:41Z"
+      },
+      {
+        "id": 99012060,
+        "ticker": "WATDO",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-02-05T21:25:24Z"
+      }
+    ],
+    "2023-01": [
+      {
+        "id": 99012019,
+        "ticker": "-BMD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-20T23:15:31Z"
+      },
+      {
+        "id": 99011983,
+        "ticker": "-PHX-",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-02T22:30:31Z"
+      },
+      {
+        "id": 99012040,
+        "ticker": "-R-A-",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-29T14:22:56Z"
+      },
+      {
+        "id": 99012030,
+        "ticker": "BIMBA",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-24T02:22:22Z"
+      },
+      {
+        "id": 99012039,
+        "ticker": "BORN",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-29T09:46:52Z"
+      },
+      {
+        "id": 99012009,
+        "ticker": "BUILD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-15T20:23:32Z"
+      },
+      {
+        "id": 99011990,
+        "ticker": "D3AD",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-07T10:19:34Z"
+      },
+      {
+        "id": 99012018,
+        "ticker": "EDENC",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-20T18:14:17Z"
+      },
+      {
+        "id": 99011978,
+        "ticker": "FL33T",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-01T23:21:34Z"
+      },
+      {
+        "id": 99012042,
+        "ticker": "FNT",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-30T18:17:16Z"
+      },
+      {
+        "id": 99012036,
+        "ticker": "FTS",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-27T16:50:32Z"
+      },
+      {
+        "id": 99011982,
+        "ticker": "STOKI",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-02T18:40:51Z"
+      },
+      {
+        "id": 99012025,
+        "ticker": "TTO",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-22T10:27:20Z"
+      },
+      {
+        "id": 99012021,
+        "ticker": "UAFL",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-21T14:27:47Z"
+      },
+      {
+        "id": 99011981,
+        "ticker": "WOWGF",
+        "logoSince": "2025-05-17",
+        "startDate": "2023-01-02T03:02:25Z"
+      }
+    ],
+    "2022-12": [
+      {
+        "id": 99011952,
+        "ticker": "ESSNC",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-12-20T12:28:24Z"
+      },
+      {
+        "id": 99011957,
+        "ticker": "GEESE",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-12-24T21:45:23Z"
+      },
+      {
+        "id": 99011936,
+        "ticker": "HAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-12-12T17:17:10Z"
+      },
+      {
+        "id": 99011942,
+        "ticker": "LIFE.",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-12-14T11:22:16Z"
+      },
+      {
+        "id": 99011935,
+        "ticker": "TURKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-12-11T18:27:10Z"
+      },
+      {
+        "id": 99011939,
+        "ticker": "VOX",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-12-13T21:12:22Z"
+      }
+    ],
+    "2022-11": [
+      {
+        "id": 99011867,
+        "ticker": "CRIIM",
+        "logoSince": "2025-07-01",
+        "startDate": "2022-11-11T23:01:04Z"
+      },
+      {
+        "id": 99011873,
+        "ticker": "C-3",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-13T16:08:09Z"
+      },
+      {
+        "id": 99011883,
+        "ticker": "GF-PK",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-16T20:48:38Z"
+      },
+      {
+        "id": 99011853,
+        "ticker": "IROCK",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-03T16:04:39Z"
+      },
+      {
+        "id": 99011869,
+        "ticker": "MOI",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-12T12:10:04Z"
+      },
+      {
+        "id": 99011859,
+        "ticker": "OTEX",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-08T03:07:31Z"
+      },
+      {
+        "id": 99011909,
+        "ticker": "RUST",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-25T20:32:17Z"
+      },
+      {
+        "id": 99011852,
+        "ticker": "T-X",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-02T21:04:19Z"
+      },
+      {
+        "id": 99011898,
+        "ticker": "VELD",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-11-24T18:17:08Z"
+      }
+    ],
+    "2022-10": [
+      {
+        "id": 99011797,
+        "ticker": "-OP-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-10-03T14:47:58Z"
+      },
+      {
+        "id": 99011821,
+        "ticker": "ADD4U",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-10-16T00:49:49Z"
+      },
+      {
+        "id": 99011828,
+        "ticker": "DGEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-10-23T06:16:56Z"
+      },
+      {
+        "id": 99011806,
+        "ticker": "LITG",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-10-08T18:46:11Z"
+      },
+      {
+        "id": 99011802,
+        "ticker": "WARBG",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-10-06T05:05:10Z"
+      }
+    ],
+    "2022-09": [
+      {
+        "id": 99011743,
+        "ticker": "-BKD-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-01T07:34:45Z"
+      },
+      {
+        "id": 99011787,
+        "ticker": "A-M-R",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-28T18:41:56Z"
+      },
+      {
+        "id": 99011765,
+        "ticker": "AURIC",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-09T20:46:47Z"
+      },
+      {
+        "id": 99011742,
+        "ticker": "AZDJ",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-01T06:12:59Z"
+      },
+      {
+        "id": 99011776,
+        "ticker": "H X H",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-16T14:40:45Z"
+      },
+      {
+        "id": 99011775,
+        "ticker": "NULL",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-16T14:34:46Z"
+      },
+      {
+        "id": 99011786,
+        "ticker": "ZV",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-09-25T22:01:22Z"
+      }
+    ],
+    "2022-08": [
+      {
+        "id": 99011720,
+        "ticker": "-ENIE",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-15T21:57:41Z"
+      },
+      {
+        "id": 99011697,
+        "ticker": "-SFA-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-06T20:38:49Z"
+      },
+      {
+        "id": 99011730,
+        "ticker": "AIDER",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-23T02:48:37Z"
+      },
+      {
+        "id": 99011702,
+        "ticker": "R-H-C",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-09T17:01:19Z"
+      },
+      {
+        "id": 99011719,
+        "ticker": "S.R.S",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-15T20:42:05Z"
+      },
+      {
+        "id": 99011683,
+        "ticker": "SAYR-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-02T18:07:28Z"
+      },
+      {
+        "id": 99011710,
+        "ticker": "UF",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-12T11:52:36Z"
+      },
+      {
+        "id": 99011684,
+        "ticker": "VERHO",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-03T04:23:21Z"
+      },
+      {
+        "id": 99011699,
+        "ticker": "WEFEW",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-07T20:16:42Z"
+      },
+      {
+        "id": 99011706,
+        "ticker": "ZEAL",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-08-10T23:51:43Z"
+      }
+    ],
+    "2022-07": [
+      {
+        "id": 99011655,
+        "ticker": "BLUME",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-07-14T12:52:30Z"
+      },
+      {
+        "id": 99011657,
+        "ticker": "NIGHT",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-07-15T08:46:10Z"
+      },
+      {
+        "id": 99011675,
+        "ticker": "SSF",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-07-25T19:24:27Z"
+      },
+      {
+        "id": 99011654,
+        "ticker": "WOKE",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-07-12T21:20:09Z"
+      }
+    ],
+    "2022-06": [
+      {
+        "id": 99011625,
+        "ticker": "BANAN",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-06-25T19:47:04Z"
+      },
+      {
+        "id": 99011608,
+        "ticker": "I-MIL",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-06-12T13:51:12Z"
+      },
+      {
+        "id": 99011614,
+        "ticker": "RONIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-06-21T16:49:02Z"
+      },
+      {
+        "id": 99011603,
+        "ticker": "SMAD",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-06-10T19:00:04Z"
+      },
+      {
+        "id": 99011606,
+        "ticker": "STRNG",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-06-11T23:48:12Z"
+      }
+    ],
+    "2022-05": [
+      {
+        "id": 99011546,
+        "ticker": "CHART",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-05-09T01:36:30Z"
+      },
+      {
+        "id": 99011573,
+        "ticker": "DYBD",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-05-26T20:40:43Z"
+      }
+    ],
+    "2022-04": [
+      {
+        "id": 99011523,
+        "ticker": "-JK-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-04-29T14:34:25Z"
+      },
+      {
+        "id": 99011528,
+        "ticker": "ASDFW",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-04-30T15:55:39Z"
+      },
+      {
+        "id": 99011507,
+        "ticker": "DWA",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-04-19T01:15:17Z"
+      },
+      {
+        "id": 99011489,
+        "ticker": "UCSC-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-04-08T16:47:41Z"
+      },
+      {
+        "id": 99011508,
+        "ticker": "VERGE",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-04-19T16:48:43Z"
+      },
+      {
+        "id": 99011477,
+        "ticker": "VOL",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-04-05T11:17:34Z"
+      }
+    ],
+    "2022-03": [
+      {
+        "id": 99011409,
+        "ticker": "AKC",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-03T14:35:06Z"
+      },
+      {
+        "id": 99011405,
+        "ticker": "HMSTA",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-01T13:19:03Z"
+      },
+      {
+        "id": 99011421,
+        "ticker": "JGC",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-06T18:44:14Z"
+      },
+      {
+        "id": 99011416,
+        "ticker": "LINE",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-05T10:17:23Z"
+      },
+      {
+        "id": 99011441,
+        "ticker": "NERV",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-14T04:21:27Z"
+      },
+      {
+        "id": 99011422,
+        "ticker": "RAPTR",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-06T20:16:15Z"
+      },
+      {
+        "id": 99011426,
+        "ticker": "S.U.S",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-03-07T20:15:24Z"
+      }
+    ],
+    "2022-02": [
+      {
+        "id": 99011375,
+        "ticker": "COMMY",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-15T17:00:43Z"
+      },
+      {
+        "id": 99011390,
+        "ticker": "CRYPT",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-22T02:20:05Z"
+      },
+      {
+        "id": 99011367,
+        "ticker": "DUDE",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-11T09:50:04Z"
+      },
+      {
+        "id": 99011373,
+        "ticker": "MM",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-14T06:15:23Z"
+      },
+      {
+        "id": 99011356,
+        "ticker": "NDRC",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-03T11:48:31Z"
+      },
+      {
+        "id": 99011378,
+        "ticker": "SGC",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-16T15:30:30Z"
+      },
+      {
+        "id": 99011387,
+        "ticker": "ZERG",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-02-21T16:07:36Z"
+      }
+    ],
+    "2022-01": [
+      {
+        "id": 99011328,
+        "ticker": "-DTF-",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-01-20T02:38:39Z"
+      },
+      {
+        "id": 99011292,
+        "ticker": ".ICE.",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-01-02T23:47:00Z"
+      },
+      {
+        "id": 99011291,
+        "ticker": "COSG",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-01-02T15:32:07Z"
+      },
+      {
+        "id": 99011332,
+        "ticker": "DEATH",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-01-22T03:33:34Z"
+      },
+      {
+        "id": 99011306,
+        "ticker": "FED-F",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-01-10T18:26:24Z"
+      },
+      {
+        "id": 99011312,
+        "ticker": "MO.",
+        "logoSince": "2025-05-17",
+        "startDate": "2022-01-12T09:57:23Z"
+      }
+    ],
+    "2021-12": [
+      {
+        "id": 99011271,
+        "ticker": "4CRAB",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-20T14:01:39Z"
+      },
+      {
+        "id": 99011262,
+        "ticker": "553M",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-15T23:12:17Z"
+      },
+      {
+        "id": 99011250,
+        "ticker": "DEGEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-09T02:27:36Z"
+      },
+      {
+        "id": 99011242,
+        "ticker": "DL",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-01T07:39:28Z"
+      },
+      {
+        "id": 99011249,
+        "ticker": "DP.",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-08T04:18:10Z"
+      },
+      {
+        "id": 99011279,
+        "ticker": "NAVY",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-25T01:20:08Z"
+      },
+      {
+        "id": 99011281,
+        "ticker": "NAVY.",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-25T17:26:02Z"
+      },
+      {
+        "id": 99011277,
+        "ticker": "PATH",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-24T03:33:01Z"
+      },
+      {
+        "id": 99011268,
+        "ticker": "REE",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-18T21:42:45Z"
+      },
+      {
+        "id": 99011257,
+        "ticker": "VGSYN",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-13T12:31:53Z"
+      },
+      {
+        "id": 99011260,
+        "ticker": "WARSL",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-12-15T17:13:25Z"
+      }
+    ],
+    "2021-11": [
+      {
+        "id": 99011206,
+        "ticker": "-AFA-",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-13T12:40:44Z"
+      },
+      {
+        "id": 99011227,
+        "ticker": ".SRT.",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-22T03:18:20Z"
+      },
+      {
+        "id": 99011219,
+        "ticker": "00F-",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-19T02:20:20Z"
+      },
+      {
+        "id": 99011223,
+        "ticker": "5IGMA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-19T18:41:49Z"
+      },
+      {
+        "id": 99011181,
+        "ticker": "D.F",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-01T15:50:24Z"
+      },
+      {
+        "id": 99011239,
+        "ticker": "L1GMA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-28T22:46:28Z"
+      },
+      {
+        "id": 99011199,
+        "ticker": "P-W-J",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-09T09:07:21Z"
+      },
+      {
+        "id": 99011193,
+        "ticker": "PEW",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-08T05:34:00Z"
+      },
+      {
+        "id": 99011218,
+        "ticker": "SEEG",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-11-18T15:37:57Z"
+      }
+    ],
+    "2021-10": [
+      {
+        "id": 99011168,
+        "ticker": "CAMP.",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-10-26T06:30:49Z"
+      },
+      {
+        "id": 99011148,
+        "ticker": "DUCK-",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-10-15T01:04:13Z"
+      },
+      {
+        "id": 99011144,
+        "ticker": "LUX",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-10-10T15:37:17Z"
+      },
+      {
+        "id": 99011162,
+        "ticker": "SHADO",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-10-23T14:21:58Z"
+      },
+      {
+        "id": 99011137,
+        "ticker": "SLUSH",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-10-06T20:21:25Z"
+      }
+    ],
+    "2021-09": [
+      {
+        "id": 99011119,
+        "ticker": "ABSOG",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-28T13:26:40Z"
+      },
+      {
+        "id": 99011107,
+        "ticker": "GLF",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-22T01:17:02Z"
+      },
+      {
+        "id": 99011127,
+        "ticker": "HOWL",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-30T20:50:53Z"
+      },
+      {
+        "id": 99011101,
+        "ticker": "IF",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-18T22:41:52Z"
+      },
+      {
+        "id": 99011095,
+        "ticker": "KNOW",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-16T18:06:24Z"
+      },
+      {
+        "id": 99011103,
+        "ticker": "TJTF",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-20T03:30:15Z"
+      },
+      {
+        "id": 99011078,
+        "ticker": "XFN",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-09-05T12:54:36Z"
+      }
+    ],
+    "2021-08": [
+      {
+        "id": 99011054,
+        "ticker": "ASTRO",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-20T23:51:25Z"
+      },
+      {
+        "id": 99011021,
+        "ticker": "C.B.S",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-02T20:45:03Z"
+      },
+      {
+        "id": 99011020,
+        "ticker": "GDI",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-02T16:14:47Z"
+      },
+      {
+        "id": 99011071,
+        "ticker": "HISNS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-31T13:21:48Z"
+      },
+      {
+        "id": 99011023,
+        "ticker": "JK.",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-03T19:40:22Z"
+      },
+      {
+        "id": 99011022,
+        "ticker": "JUTSU",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-03T19:28:36Z"
+      },
+      {
+        "id": 99011033,
+        "ticker": "SUIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-08T17:47:07Z"
+      },
+      {
+        "id": 99011069,
+        "ticker": "ZHIGA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-08-30T18:33:01Z"
+      }
+    ],
+    "2021-07": [
+      {
+        "id": 99010973,
+        "ticker": "125KM",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-17T13:54:48Z"
+      },
+      {
+        "id": 99010987,
+        "ticker": "7.62",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-21T21:23:49Z"
+      },
+      {
+        "id": 99011013,
+        "ticker": "ARRVL",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-31T19:40:51Z"
+      },
+      {
+        "id": 99010995,
+        "ticker": "EDICT",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-25T05:50:48Z"
+      },
+      {
+        "id": 99010950,
+        "ticker": "JFO",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-03T22:12:46Z"
+      },
+      {
+        "id": 99010959,
+        "ticker": "MUTT",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-11T09:44:33Z"
+      },
+      {
+        "id": 99010977,
+        "ticker": "PANTS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-18T06:12:22Z"
+      },
+      {
+        "id": 99010966,
+        "ticker": "R.SKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-14T16:13:40Z"
+      },
+      {
+        "id": 99010980,
+        "ticker": "SINK",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-18T21:32:22Z"
+      },
+      {
+        "id": 99010990,
+        "ticker": "USA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-23T07:41:11Z"
+      },
+      {
+        "id": 99010979,
+        "ticker": "XRMTX",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-07-18T20:30:24Z"
+      }
+    ],
+    "2021-06": [
+      {
+        "id": 99010931,
+        "ticker": "BL0B",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-25T11:57:00Z"
+      },
+      {
+        "id": 99010896,
+        "ticker": "CA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-06T05:45:39Z"
+      },
+      {
+        "id": 99010889,
+        "ticker": "DISI",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-02T07:48:11Z"
+      },
+      {
+        "id": 99010893,
+        "ticker": "HE HE",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-04T18:30:54Z"
+      },
+      {
+        "id": 99010906,
+        "ticker": "ROUND",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-10T04:30:32Z"
+      },
+      {
+        "id": 99010921,
+        "ticker": "RUSCO",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-19T00:32:01Z"
+      },
+      {
+        "id": 99010923,
+        "ticker": "S.T.A",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-20T11:58:43Z"
+      },
+      {
+        "id": 99010928,
+        "ticker": "T0AST",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-23T22:49:29Z"
+      },
+      {
+        "id": 99010943,
+        "ticker": "THM",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-06-30T21:40:29Z"
+      }
+    ],
+    "2021-05": [
+      {
+        "id": 99010828,
+        "ticker": "KHEDA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-05-02T13:02:51Z"
+      },
+      {
+        "id": 99010833,
+        "ticker": "LOOSE",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-05-04T01:20:58Z"
+      },
+      {
+        "id": 99010865,
+        "ticker": "TAXED",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-05-16T20:47:20Z"
+      },
+      {
+        "id": 99010877,
+        "ticker": "VAPOR",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-05-27T02:42:24Z"
+      }
+    ],
+    "2021-04": [
+      {
+        "id": 99010779,
+        "ticker": "HV",
+        "logoSince": "2025-07-01",
+        "startDate": "2021-04-10T23:32:37Z"
+      },
+      {
+        "id": 99010776,
+        "ticker": ".PA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-04-09T16:24:07Z"
+      },
+      {
+        "id": 99010802,
+        "ticker": "F.M.S",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-04-22T10:12:12Z"
+      },
+      {
+        "id": 99010787,
+        "ticker": "LUPUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-04-14T10:34:58Z"
+      },
+      {
+        "id": 99010785,
+        "ticker": "NOD.S",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-04-13T14:18:20Z"
+      },
+      {
+        "id": 99010810,
+        "ticker": "PRAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-04-25T17:22:58Z"
+      },
+      {
+        "id": 99010788,
+        "ticker": "SWAB",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-04-14T10:59:49Z"
+      }
+    ],
+    "2021-03": [
+      {
+        "id": 99010756,
+        "ticker": "21SEP",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-03-26T02:18:05Z"
+      },
+      {
+        "id": 99010750,
+        "ticker": "BIGPP",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-03-23T01:30:48Z"
+      },
+      {
+        "id": 99010729,
+        "ticker": "LIFE",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-03-14T09:37:27Z"
+      },
+      {
+        "id": 99010733,
+        "ticker": "LTBS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-03-17T07:17:24Z"
+      },
+      {
+        "id": 99010735,
+        "ticker": "SLOW",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-03-17T17:57:42Z"
+      },
+      {
+        "id": 99010758,
+        "ticker": "SPUK",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-03-26T15:27:38Z"
+      }
+    ],
+    "2021-02": [
+      {
+        "id": 99010641,
+        "ticker": "DUDES",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-04T12:16:23Z"
+      },
+      {
+        "id": 99010664,
+        "ticker": "FKICK",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-14T21:37:35Z"
+      },
+      {
+        "id": 99010685,
+        "ticker": "HYPRD",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-23T00:53:16Z"
+      },
+      {
+        "id": 99010653,
+        "ticker": "MKUGA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-11T21:07:36Z"
+      },
+      {
+        "id": 99010629,
+        "ticker": "SIMPS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-01T07:23:31Z"
+      },
+      {
+        "id": 99010636,
+        "ticker": "UNSC",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-02T17:11:55Z"
+      },
+      {
+        "id": 99010690,
+        "ticker": "ZORYA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-02-25T21:21:08Z"
+      }
+    ],
+    "2021-01": [
+      {
+        "id": 99010549,
+        "ticker": "-A-",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-04T02:09:55Z"
+      },
+      {
+        "id": 99010600,
+        "ticker": "BBII",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-22T21:20:11Z"
+      },
+      {
+        "id": 99010575,
+        "ticker": "C-FFA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-13T18:27:40Z"
+      },
+      {
+        "id": 99010560,
+        "ticker": "CLNY.",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-07T23:47:51Z"
+      },
+      {
+        "id": 99010625,
+        "ticker": "EDA",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-30T03:05:15Z"
+      },
+      {
+        "id": 99010576,
+        "ticker": "FARMS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-13T21:03:26Z"
+      },
+      {
+        "id": 99010580,
+        "ticker": "HED",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-14T18:37:38Z"
+      },
+      {
+        "id": 99010597,
+        "ticker": "HIHUN",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-22T01:06:01Z"
+      },
+      {
+        "id": 99010627,
+        "ticker": "JEANS",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-30T19:44:16Z"
+      },
+      {
+        "id": 99010561,
+        "ticker": "KM",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-08T07:04:58Z"
+      },
+      {
+        "id": 99010610,
+        "ticker": "MFIRE",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-24T19:28:25Z"
+      },
+      {
+        "id": 99010619,
+        "ticker": "REJCT",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-28T04:02:37Z"
+      },
+      {
+        "id": 99010569,
+        "ticker": "SAFET",
+        "logoSince": "2025-05-17",
+        "startDate": "2021-01-10T03:21:59Z"
+      }
+    ],
+    "2020-12": [
+      {
+        "id": 99010498,
+        "ticker": ".FAM.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-16T06:48:18Z"
+      },
+      {
+        "id": 99010530,
+        "ticker": ".ITY.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-27T14:05:33Z"
+      },
+      {
+        "id": 99010521,
+        "ticker": "A-M-S",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-24T17:40:59Z"
+      },
+      {
+        "id": 99010484,
+        "ticker": "BCAUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-09T03:46:36Z"
+      },
+      {
+        "id": 99010538,
+        "ticker": "BENDO",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-31T04:23:58Z"
+      },
+      {
+        "id": 99010487,
+        "ticker": "CLZOR",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-12T00:06:15Z"
+      },
+      {
+        "id": 99010469,
+        "ticker": "COSMC",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-02T10:29:39Z"
+      },
+      {
+        "id": 99010477,
+        "ticker": "DSWW",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-06T01:36:57Z"
+      },
+      {
+        "id": 99010517,
+        "ticker": "G.O.T",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-24T11:58:53Z"
+      },
+      {
+        "id": 99010508,
+        "ticker": "HORN",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-19T08:25:30Z"
+      },
+      {
+        "id": 99010468,
+        "ticker": "WOMP",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-12-02T03:45:53Z"
+      }
+    ],
+    "2020-11": [
+      {
+        "id": 99010417,
+        "ticker": "-PEW-",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-07T03:11:10Z"
+      },
+      {
+        "id": 99010421,
+        "ticker": "-SRP-",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-08T22:20:29Z"
+      },
+      {
+        "id": 99010414,
+        "ticker": "BOIZ",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-06T08:58:49Z"
+      },
+      {
+        "id": 99010435,
+        "ticker": "BURNS",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-14T22:05:13Z"
+      },
+      {
+        "id": 99010448,
+        "ticker": "GAME-",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-22T01:00:57Z"
+      },
+      {
+        "id": 99010431,
+        "ticker": "KYBER",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-13T18:14:36Z"
+      },
+      {
+        "id": 99010412,
+        "ticker": "NIS",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-05T12:09:13Z"
+      },
+      {
+        "id": 99010457,
+        "ticker": "PLLX",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-27T10:11:40Z"
+      },
+      {
+        "id": 99010409,
+        "ticker": "SEVRU",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-03T17:37:26Z"
+      },
+      {
+        "id": 99010452,
+        "ticker": "STILR",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-11-24T03:36:13Z"
+      }
+    ],
+    "2020-10": [
+      {
+        "id": 99010376,
+        "ticker": "-FEAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-23T15:55:29Z"
+      },
+      {
+        "id": 99010352,
+        "ticker": "-YUG-",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-14T23:28:08Z"
+      },
+      {
+        "id": 99010386,
+        "ticker": "ABSOH",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-27T14:30:47Z"
+      },
+      {
+        "id": 99010370,
+        "ticker": "C2NC5",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-20T14:43:25Z"
+      },
+      {
+        "id": 99010391,
+        "ticker": "DSC",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-29T17:23:37Z"
+      },
+      {
+        "id": 99010360,
+        "ticker": "HEROS",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-17T15:07:50Z"
+      },
+      {
+        "id": 99010339,
+        "ticker": "HI5EC",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-07T00:21:21Z"
+      },
+      {
+        "id": 99010372,
+        "ticker": "IR0N.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-21T00:27:19Z"
+      },
+      {
+        "id": 99010341,
+        "ticker": "MMH",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-08T01:42:18Z"
+      },
+      {
+        "id": 99010330,
+        "ticker": "NEST.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-02T17:59:20Z"
+      },
+      {
+        "id": 99010389,
+        "ticker": "OUT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-10-28T23:41:51Z"
+      }
+    ],
+    "2020-09": [
+      {
+        "id": 99010321,
+        "ticker": "CBEAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-09-26T21:13:19Z"
+      },
+      {
+        "id": 99010285,
+        "ticker": "FKSTK",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-09-09T06:37:04Z"
+      },
+      {
+        "id": 99010281,
+        "ticker": "GAME",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-09-07T03:28:37Z"
+      },
+      {
+        "id": 99010325,
+        "ticker": "PF-13",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-09-29T19:51:12Z"
+      },
+      {
+        "id": 99010323,
+        "ticker": "SCR4M",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-09-28T18:30:44Z"
+      }
+    ],
+    "2020-08": [
+      {
+        "id": 99010265,
+        "ticker": "BLNI",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-08-31T19:51:03Z"
+      },
+      {
+        "id": 99010232,
+        "ticker": "MILDY",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-08-17T16:39:43Z"
+      },
+      {
+        "id": 99010224,
+        "ticker": "RHPHS",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-08-12T12:55:03Z"
+      }
+    ],
+    "2020-07": [
+      {
+        "id": 99010113,
+        "ticker": "CBD",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-06T07:23:46Z"
+      },
+      {
+        "id": 99010106,
+        "ticker": "CMWVA",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-02T13:19:22Z"
+      },
+      {
+        "id": 99010110,
+        "ticker": "DNG",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-04T08:52:33Z"
+      },
+      {
+        "id": 99010105,
+        "ticker": "DR1FT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-01T23:50:07Z"
+      },
+      {
+        "id": 99010140,
+        "ticker": "TRIAL",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-15T08:59:09Z"
+      },
+      {
+        "id": 99010129,
+        "ticker": "TURBO",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-12T20:45:04Z"
+      },
+      {
+        "id": 99010132,
+        "ticker": "ZILLA",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-07-13T16:52:01Z"
+      }
+    ],
+    "2020-06": [
+      {
+        "id": 99010098,
+        "ticker": "-KRIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-06-29T08:51:22Z"
+      },
+      {
+        "id": 99010079,
+        "ticker": "BRUVE",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-06-20T01:40:36Z"
+      },
+      {
+        "id": 99010047,
+        "ticker": "ITC",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-06-06T00:57:35Z"
+      },
+      {
+        "id": 99010089,
+        "ticker": "JAMES",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-06-26T15:47:20Z"
+      },
+      {
+        "id": 99010102,
+        "ticker": "WHPD",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-06-30T01:30:29Z"
+      },
+      {
+        "id": 99010077,
+        "ticker": "WLD",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-06-17T19:24:26Z"
+      }
+    ],
+    "2020-05": [
+      {
+        "id": 99009972,
+        "ticker": "BLACK",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-06T20:53:40Z"
+      },
+      {
+        "id": 99010004,
+        "ticker": "DF",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-21T14:49:29Z"
+      },
+      {
+        "id": 99009991,
+        "ticker": "I-BLU",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-14T22:17:26Z"
+      },
+      {
+        "id": 99010007,
+        "ticker": "PET.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-22T07:53:47Z"
+      },
+      {
+        "id": 99010015,
+        "ticker": "S4LTY",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-24T16:16:23Z"
+      },
+      {
+        "id": 99009977,
+        "ticker": "SSM",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-09T08:57:27Z"
+      },
+      {
+        "id": 99010031,
+        "ticker": "SWARM",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-30T22:04:27Z"
+      },
+      {
+        "id": 99010022,
+        "ticker": "WHBOO",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-27T14:29:49Z"
+      },
+      {
+        "id": 99009993,
+        "ticker": "XPLOD",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-05-15T13:10:09Z"
+      }
+    ],
+    "2020-04": [
+      {
+        "id": 99009933,
+        "ticker": ".AURA",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-20T00:35:16Z"
+      },
+      {
+        "id": 99009888,
+        "ticker": "ANOC",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-02T06:29:45Z"
+      },
+      {
+        "id": 99009919,
+        "ticker": "AT.0",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-13T03:29:51Z"
+      },
+      {
+        "id": 99009947,
+        "ticker": "BFA",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-26T06:57:24Z"
+      },
+      {
+        "id": 99009927,
+        "ticker": "BIGAB",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-17T02:12:24Z"
+      },
+      {
+        "id": 99009920,
+        "ticker": "DOOM.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-13T07:16:01Z"
+      },
+      {
+        "id": 99009902,
+        "ticker": "FIGL",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-06T23:43:26Z"
+      },
+      {
+        "id": 99009932,
+        "ticker": "PLOW",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-19T04:39:26Z"
+      },
+      {
+        "id": 99009938,
+        "ticker": "SKIP",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-23T01:26:46Z"
+      },
+      {
+        "id": 99009885,
+        "ticker": "VAULT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-04-01T01:45:37Z"
+      }
+    ],
+    "2020-03": [
+      {
+        "id": 99009856,
+        "ticker": "GBRD.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-03-20T23:20:42Z"
+      },
+      {
+        "id": 99009815,
+        "ticker": "ICDB",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-03-03T01:11:27Z"
+      },
+      {
+        "id": 99009843,
+        "ticker": "PRISM",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-03-15T21:54:21Z"
+      },
+      {
+        "id": 99009845,
+        "ticker": "SEDIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-03-16T13:18:58Z"
+      },
+      {
+        "id": 99009870,
+        "ticker": "TRASH",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-03-23T18:31:24Z"
+      },
+      {
+        "id": 99009841,
+        "ticker": "VEXX.",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-03-15T18:16:43Z"
+      }
+    ],
+    "2020-02": [
+      {
+        "id": 99009747,
+        "ticker": "LANDS",
+        "logoSince": "2025-07-01",
+        "startDate": "2020-02-02T20:02:13Z"
+      },
+      {
+        "id": 99009805,
+        "ticker": "2LATE",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-28T16:53:00Z"
+      },
+      {
+        "id": 99009758,
+        "ticker": "ABSOW",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-08T23:07:43Z"
+      },
+      {
+        "id": 99009764,
+        "ticker": "AZURE",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-11T12:40:42Z"
+      },
+      {
+        "id": 99009740,
+        "ticker": "DGI",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-01T01:19:42Z"
+      },
+      {
+        "id": 99009786,
+        "ticker": "DOPED",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-21T06:10:53Z"
+      },
+      {
+        "id": 99009757,
+        "ticker": "MUAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-08T17:39:54Z"
+      },
+      {
+        "id": 99009796,
+        "ticker": "N0.G0",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-24T19:01:20Z"
+      },
+      {
+        "id": 99009808,
+        "ticker": "RITEK",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-29T04:58:14Z"
+      },
+      {
+        "id": 99009748,
+        "ticker": "SORRY",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-02-02T21:32:12Z"
+      }
+    ],
+    "2020-01": [
+      {
+        "id": 99009710,
+        "ticker": "TAS",
+        "logoSince": "2025-07-01",
+        "startDate": "2020-01-12T09:38:42Z"
+      },
+      {
+        "id": 99009696,
+        "ticker": "BRISE",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-01-07T20:51:52Z"
+      },
+      {
+        "id": 99009698,
+        "ticker": "C540",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-01-08T14:16:23Z"
+      },
+      {
+        "id": 99009693,
+        "ticker": "CE",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-01-07T01:01:28Z"
+      },
+      {
+        "id": 99009716,
+        "ticker": "CMWTH",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-01-13T13:41:46Z"
+      },
+      {
+        "id": 99009733,
+        "ticker": "K-POT",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-01-25T18:49:49Z"
+      },
+      {
+        "id": 99009688,
+        "ticker": "M-R",
+        "logoSince": "2025-05-17",
+        "startDate": "2020-01-03T00:14:08Z"
+      }
+    ],
+    "2019-12": [
+      {
+        "id": 99009649,
+        "ticker": "R E H",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-12-15T19:08:31Z"
+      },
+      {
+        "id": 99009665,
+        "ticker": "RENT",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-12-23T17:41:03Z"
+      }
+    ],
+    "2019-11": [
+      {
+        "id": 99009614,
+        "ticker": "-WC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-30T17:49:52Z"
+      },
+      {
+        "id": 99009584,
+        "ticker": "DOCK-",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-16T02:28:41Z"
+      },
+      {
+        "id": 99009551,
+        "ticker": "KAZON",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-02T10:46:49Z"
+      },
+      {
+        "id": 99009567,
+        "ticker": "PLUK",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-08T20:11:05Z"
+      },
+      {
+        "id": 99009606,
+        "ticker": "SICOM",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-28T05:16:59Z"
+      },
+      {
+        "id": 99009579,
+        "ticker": "TIC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-12T22:26:06Z"
+      },
+      {
+        "id": 99009564,
+        "ticker": "WER4",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-11-08T05:23:03Z"
+      }
+    ],
+    "2019-10": [
+      {
+        "id": 99009539,
+        "ticker": "PAC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-10-28T11:36:52Z"
+      },
+      {
+        "id": 99009514,
+        "ticker": "PIBC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-10-10T15:26:17Z"
+      },
+      {
+        "id": 99009498,
+        "ticker": "RPD",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-10-04T16:28:21Z"
+      },
+      {
+        "id": 99009511,
+        "ticker": "UNCHA",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-10-09T08:02:34Z"
+      }
+    ],
+    "2019-09": [
+      {
+        "id": 99009444,
+        "ticker": "-HH-",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-09-03T10:17:55Z"
+      },
+      {
+        "id": 99009453,
+        "ticker": "ARETE",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-09-10T19:52:12Z"
+      },
+      {
+        "id": 99009478,
+        "ticker": "ENABL",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-09-28T02:21:59Z"
+      },
+      {
+        "id": 99009480,
+        "ticker": "MINER",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-09-28T14:14:28Z"
+      },
+      {
+        "id": 99009461,
+        "ticker": "WAW",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-09-14T14:35:19Z"
+      }
+    ],
+    "2019-08": [
+      {
+        "id": 99009373,
+        "ticker": "G",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-04T16:47:27Z"
+      },
+      {
+        "id": 99009379,
+        "ticker": "MOM",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-06T20:58:44Z"
+      },
+      {
+        "id": 99009376,
+        "ticker": "NOVAP",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-05T14:35:56Z"
+      },
+      {
+        "id": 99009412,
+        "ticker": "OPA.",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-20T21:15:46Z"
+      },
+      {
+        "id": 99009399,
+        "ticker": "OPTM",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-13T22:51:43Z"
+      },
+      {
+        "id": 99009415,
+        "ticker": "SHEPS",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-22T23:53:57Z"
+      },
+      {
+        "id": 99009384,
+        "ticker": "SUGAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-08T03:39:41Z"
+      },
+      {
+        "id": 99009405,
+        "ticker": "TE",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-08-17T15:52:45Z"
+      }
+    ],
+    "2019-07": [
+      {
+        "id": 99009321,
+        "ticker": "F O X",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-21T20:06:56Z"
+      },
+      {
+        "id": 99009341,
+        "ticker": "KWORM",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-26T17:41:57Z"
+      },
+      {
+        "id": 99009324,
+        "ticker": "NOVAC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-22T02:00:38Z"
+      },
+      {
+        "id": 99009287,
+        "ticker": "RIFT-",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-08T18:49:58Z"
+      },
+      {
+        "id": 99009331,
+        "ticker": "SCUM",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-24T20:36:22Z"
+      },
+      {
+        "id": 99009268,
+        "ticker": "SICO",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-02T11:36:07Z"
+      },
+      {
+        "id": 99009280,
+        "ticker": "TTC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-07-06T23:57:18Z"
+      }
+    ],
+    "2019-06": [
+      {
+        "id": 99009206,
+        "ticker": "CUBUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-06-04T19:38:47Z"
+      },
+      {
+        "id": 99009212,
+        "ticker": "FRFLY",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-06-06T10:57:49Z"
+      },
+      {
+        "id": 99009202,
+        "ticker": "PR.BL",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-06-02T19:14:20Z"
+      },
+      {
+        "id": 99009265,
+        "ticker": "SILNT",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-06-30T22:11:29Z"
+      },
+      {
+        "id": 99009221,
+        "ticker": "TRIGG",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-06-08T23:56:07Z"
+      }
+    ],
+    "2019-05": [
+      {
+        "id": 99009177,
+        "ticker": "-SPQE",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-24T06:43:52Z"
+      },
+      {
+        "id": 99009163,
+        "ticker": "D.C",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-18T04:51:47Z"
+      },
+      {
+        "id": 99009157,
+        "ticker": "GOFUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-17T12:08:52Z"
+      },
+      {
+        "id": 99009129,
+        "ticker": "NO",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-04T01:39:42Z"
+      },
+      {
+        "id": 99009142,
+        "ticker": "SIC",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-12T07:36:01Z"
+      },
+      {
+        "id": 99009134,
+        "ticker": "TSG",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-07T07:21:59Z"
+      },
+      {
+        "id": 99009168,
+        "ticker": "VLK",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-05-19T19:06:12Z"
+      }
+    ],
+    "2019-04": [
+      {
+        "id": 99009082,
+        "ticker": "AOM",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-04-16T02:07:12Z"
+      },
+      {
+        "id": 99009095,
+        "ticker": "LOLI",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-04-22T04:46:24Z"
+      },
+      {
+        "id": 99009120,
+        "ticker": "NOCIG",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-04-30T00:11:31Z"
+      },
+      {
+        "id": 99009104,
+        "ticker": "VINDI",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-04-24T21:21:57Z"
+      }
+    ],
+    "2019-03": [
+      {
+        "id": 99009002,
+        "ticker": "-9999",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-04T19:32:11Z"
+      },
+      {
+        "id": 99009024,
+        "ticker": ".BRO.",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-13T12:44:48Z"
+      },
+      {
+        "id": 99009013,
+        "ticker": "C-K",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-08T17:59:57Z"
+      },
+      {
+        "id": 99009021,
+        "ticker": "EGORL",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-11T18:34:07Z"
+      },
+      {
+        "id": 99009030,
+        "ticker": "SHARK",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-15T12:45:13Z"
+      },
+      {
+        "id": 99009048,
+        "ticker": "TROLL",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-22T10:40:35Z"
+      },
+      {
+        "id": 99009044,
+        "ticker": "U4N",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-03-21T00:34:37Z"
+      }
+    ],
+    "2019-02": [
+      {
+        "id": 99008958,
+        "ticker": "15SIS",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-02-08T20:17:03Z"
+      },
+      {
+        "id": 99008943,
+        "ticker": "CHAO",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-02-01T06:21:55Z"
+      },
+      {
+        "id": 99008944,
+        "ticker": "HOB",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-02-01T06:50:38Z"
+      },
+      {
+        "id": 99008987,
+        "ticker": "VULCN",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-02-25T19:45:54Z"
+      }
+    ],
+    "2019-01": [
+      {
+        "id": 99008899,
+        "ticker": "ADS",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-01-09T21:38:02Z"
+      },
+      {
+        "id": 99008897,
+        "ticker": "AMARR",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-01-09T18:26:25Z"
+      },
+      {
+        "id": 99008905,
+        "ticker": "NEGAN",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-01-14T05:46:22Z"
+      },
+      {
+        "id": 99008880,
+        "ticker": "SHHH",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-01-04T01:59:36Z"
+      },
+      {
+        "id": 99008898,
+        "ticker": "THMFA",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-01-09T21:34:47Z"
+      },
+      {
+        "id": 99008923,
+        "ticker": "TP",
+        "logoSince": "2025-05-17",
+        "startDate": "2019-01-25T21:30:01Z"
+      }
+    ],
+    "2018-12": [
+      {
+        "id": 99008809,
+        "ticker": "AARP.",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-12-05T01:39:22Z"
+      },
+      {
+        "id": 99008823,
+        "ticker": "ISK.",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-12-10T22:13:10Z"
+      },
+      {
+        "id": 99008816,
+        "ticker": "LUMEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-12-08T23:46:50Z"
+      },
+      {
+        "id": 99008829,
+        "ticker": "NET",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-12-12T18:35:51Z"
+      },
+      {
+        "id": 99008868,
+        "ticker": "SHTAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-12-30T02:58:50Z"
+      }
+    ],
+    "2018-11": [
+      {
+        "id": 99008751,
+        "ticker": "BMP",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-11-13T10:49:26Z"
+      },
+      {
+        "id": 99008791,
+        "ticker": "H-C",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-11-30T16:51:06Z"
+      },
+      {
+        "id": 99008788,
+        "ticker": "MEAN",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-11-29T20:29:37Z"
+      },
+      {
+        "id": 99008741,
+        "ticker": "ORGNC",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-11-11T02:13:08Z"
+      },
+      {
+        "id": 99008783,
+        "ticker": "PURGD",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-11-26T21:05:18Z"
+      },
+      {
+        "id": 99008787,
+        "ticker": "TRANS",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-11-29T16:35:07Z"
+      }
+    ],
+    "2018-10": [
+      {
+        "id": 99008697,
+        "ticker": "-GFC-",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-21T10:43:23Z"
+      },
+      {
+        "id": 99008674,
+        "ticker": "BORE",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-11T21:43:37Z"
+      },
+      {
+        "id": 99008665,
+        "ticker": "GEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-07T01:03:27Z"
+      },
+      {
+        "id": 99008701,
+        "ticker": "JOVCO",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-25T02:55:38Z"
+      },
+      {
+        "id": 99008684,
+        "ticker": "NYG",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-16T12:50:03Z"
+      },
+      {
+        "id": 99008656,
+        "ticker": "Q",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-05T14:18:38Z"
+      },
+      {
+        "id": 99008704,
+        "ticker": "YIKES",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-10-26T00:52:54Z"
+      }
+    ],
+    "2018-09": [
+      {
+        "id": 99008587,
+        "ticker": "DRG-A",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-09-09T20:29:31Z"
+      },
+      {
+        "id": 99008640,
+        "ticker": "S3XY",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-09-26T22:26:39Z"
+      },
+      {
+        "id": 99008595,
+        "ticker": "TDP",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-09-11T19:55:16Z"
+      }
+    ],
+    "2018-08": [
+      {
+        "id": 99008511,
+        "ticker": "--ASS",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-12T02:04:19Z"
+      },
+      {
+        "id": 99008539,
+        "ticker": "0RDER",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-20T17:07:08Z"
+      },
+      {
+        "id": 99008510,
+        "ticker": "ATS",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-11T22:49:33Z"
+      },
+      {
+        "id": 99008556,
+        "ticker": "EXTM",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-27T01:42:25Z"
+      },
+      {
+        "id": 99008551,
+        "ticker": "HEXXY",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-25T19:27:20Z"
+      },
+      {
+        "id": 99008534,
+        "ticker": "NIMOS",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-19T21:01:32Z"
+      },
+      {
+        "id": 99008516,
+        "ticker": "P-NAH",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-08-14T19:41:07Z"
+      }
+    ],
+    "2018-07": [
+      {
+        "id": 99008425,
+        "ticker": ".BUMS",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-07-07T15:02:03Z"
+      },
+      {
+        "id": 99008448,
+        "ticker": "APB",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-07-18T04:00:00Z"
+      },
+      {
+        "id": 99008458,
+        "ticker": "SFAQL",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-07-21T08:36:00Z"
+      },
+      {
+        "id": 99008416,
+        "ticker": "TT",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-07-01T14:29:05Z"
+      },
+      {
+        "id": 99008469,
+        "ticker": "URL",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-07-25T10:35:25Z"
+      },
+      {
+        "id": 99008463,
+        "ticker": "VMG",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-07-23T15:28:16Z"
+      }
+    ],
+    "2018-06": [
+      {
+        "id": 99008399,
+        "ticker": "A8DOG",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-06-21T00:42:28Z"
+      },
+      {
+        "id": 99008384,
+        "ticker": "BZK",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-06-11T13:32:53Z"
+      },
+      {
+        "id": 99008412,
+        "ticker": "LAC",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-06-29T22:13:47Z"
+      }
+    ],
+    "2018-05": [
+      {
+        "id": 99008271,
+        "ticker": "-GTF-",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-05-04T20:09:45Z"
+      },
+      {
+        "id": 99008293,
+        "ticker": "ARCH.",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-05-12T19:56:04Z"
+      },
+      {
+        "id": 99008269,
+        "ticker": "CUL8R",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-05-03T21:10:02Z"
+      },
+      {
+        "id": 99008313,
+        "ticker": "WELP.",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-05-19T09:36:22Z"
+      }
+    ],
+    "2018-04": [
+      {
+        "id": 99008223,
+        "ticker": "HKASS",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-04-15T22:26:32Z"
+      },
+      {
+        "id": 99008185,
+        "ticker": "MORTY",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-04-01T16:35:36Z"
+      }
+    ],
+    "2018-03": [
+      {
+        "id": 99008182,
+        "ticker": "DK0K",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-03-30T06:33:15Z"
+      }
+    ],
+    "2018-02": [
+      {
+        "id": 99008068,
+        "ticker": "RM",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-02-11T19:32:26Z"
+      }
+    ],
+    "2018-01": [
+      {
+        "id": 99007998,
+        "ticker": "BKAHN",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-01-09T16:21:11Z"
+      },
+      {
+        "id": 99008009,
+        "ticker": "E.DEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-01-13T15:22:13Z"
+      },
+      {
+        "id": 99007988,
+        "ticker": "INK",
+        "logoSince": "2025-05-17",
+        "startDate": "2018-01-04T19:09:43Z"
+      }
+    ],
+    "2017-12": [
+      {
+        "id": 99007928,
+        "ticker": "GAGGL",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-12-08T01:32:23Z"
+      },
+      {
+        "id": 99007969,
+        "ticker": "RUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-12-28T21:00:31Z"
+      },
+      {
+        "id": 99007974,
+        "ticker": "WKEND",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-12-29T15:54:16Z"
+      },
+      {
+        "id": 99007945,
+        "ticker": "WOOPS",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-12-14T21:53:47Z"
+      }
+    ],
+    "2017-11": [
+      {
+        "id": 99007879,
+        "ticker": "-TIME",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-11-13T19:12:39Z"
+      },
+      {
+        "id": 99007849,
+        "ticker": "ANEND",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-11-03T00:22:42Z"
+      },
+      {
+        "id": 99007887,
+        "ticker": "B0SS",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-11-16T05:04:10Z"
+      },
+      {
+        "id": 99007844,
+        "ticker": "CSR",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-11-01T19:13:32Z"
+      }
+    ],
+    "2017-10": [
+      {
+        "id": 99007828,
+        "ticker": "4BOB",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-10-24T22:42:15Z"
+      },
+      {
+        "id": 99007810,
+        "ticker": "M",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-10-14T23:42:00Z"
+      },
+      {
+        "id": 99007807,
+        "ticker": "NFB",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-10-13T21:01:34Z"
+      }
+    ],
+    "2017-09": [
+      {
+        "id": 99007753,
+        "ticker": "-10.",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-25T14:07:35Z"
+      },
+      {
+        "id": 99007755,
+        "ticker": "ANGST",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-25T20:17:12Z"
+      },
+      {
+        "id": 99007700,
+        "ticker": "C H",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-02T04:41:22Z"
+      },
+      {
+        "id": 99007707,
+        "ticker": "DAMN",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-03T20:43:22Z"
+      },
+      {
+        "id": 99007722,
+        "ticker": "S.R",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-09T13:29:43Z"
+      },
+      {
+        "id": 99007716,
+        "ticker": "T.R.C",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-07T22:14:30Z"
+      },
+      {
+        "id": 99007752,
+        "ticker": "UNBAD",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-09-25T02:18:40Z"
+      }
+    ],
+    "2017-08": [
+      {
+        "id": 99007672,
+        "ticker": ".BRA.",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-19T03:24:39Z"
+      },
+      {
+        "id": 99007640,
+        "ticker": ".POON",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-04T21:50:41Z"
+      },
+      {
+        "id": 99007641,
+        "ticker": "B-O-M",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-05T14:54:56Z"
+      },
+      {
+        "id": 99007629,
+        "ticker": "FERRA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-01T13:24:16Z"
+      },
+      {
+        "id": 99007656,
+        "ticker": "K",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-12T20:23:54Z"
+      },
+      {
+        "id": 99007678,
+        "ticker": "RAUM",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-21T00:51:27Z"
+      },
+      {
+        "id": 99007673,
+        "ticker": "SNFYN",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-19T19:03:44Z"
+      },
+      {
+        "id": 99007636,
+        "ticker": "STRYK",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-03T18:18:46Z"
+      },
+      {
+        "id": 99007663,
+        "ticker": "VEV",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-08-15T17:50:46Z"
+      }
+    ],
+    "2017-07": [
+      {
+        "id": 99007578,
+        "ticker": "ANIRO",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-07-08T20:04:23Z"
+      },
+      {
+        "id": 99007599,
+        "ticker": "CURB",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-07-17T22:19:10Z"
+      },
+      {
+        "id": 99007595,
+        "ticker": "GE",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-07-16T09:57:46Z"
+      },
+      {
+        "id": 99007568,
+        "ticker": "MNGLD",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-07-04T13:03:36Z"
+      },
+      {
+        "id": 99007592,
+        "ticker": "TRSH",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-07-15T00:43:29Z"
+      },
+      {
+        "id": 99007577,
+        "ticker": "TRUST",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-07-08T08:27:39Z"
+      }
+    ],
+    "2017-06": [
+      {
+        "id": 99007511,
+        "ticker": "BRAIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-06-10T21:05:36Z"
+      },
+      {
+        "id": 99007531,
+        "ticker": "F1NAL",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-06-18T22:21:16Z"
+      },
+      {
+        "id": 99007545,
+        "ticker": "H.E.L",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-06-24T13:52:25Z"
+      },
+      {
+        "id": 99007552,
+        "ticker": "NOGUN",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-06-26T05:36:06Z"
+      },
+      {
+        "id": 99007529,
+        "ticker": "SHS",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-06-17T21:11:55Z"
+      }
+    ],
+    "2017-05": [
+      {
+        "id": 99007485,
+        "ticker": "BGEA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-05-26T09:52:01Z"
+      },
+      {
+        "id": 99007439,
+        "ticker": "BS IT",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-05-07T04:47:05Z"
+      },
+      {
+        "id": 99007496,
+        "ticker": "KUSA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-05-31T05:47:15Z"
+      },
+      {
+        "id": 99007432,
+        "ticker": "MIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-05-05T13:54:31Z"
+      }
+    ],
+    "2017-04": [
+      {
+        "id": 99007356,
+        "ticker": "-RP-",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-04-02T12:15:17Z"
+      },
+      {
+        "id": 99007391,
+        "ticker": ".RHP",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-04-16T14:01:27Z"
+      },
+      {
+        "id": 99007403,
+        "ticker": "BADIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-04-21T02:53:38Z"
+      },
+      {
+        "id": 99007362,
+        "ticker": "RR",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-04-06T17:30:27Z"
+      },
+      {
+        "id": 99007408,
+        "ticker": "UMAD",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-04-22T22:21:09Z"
+      },
+      {
+        "id": 99007355,
+        "ticker": "WSBM",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-04-01T21:52:45Z"
+      }
+    ],
+    "2017-03": [
+      {
+        "id": 99007284,
+        "ticker": ".UFC.",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-03-02T19:43:27Z"
+      },
+      {
+        "id": 99007281,
+        "ticker": "CL0AK",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-03-01T22:10:05Z"
+      },
+      {
+        "id": 99007289,
+        "ticker": "FEDUP",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-03-06T22:43:02Z"
+      },
+      {
+        "id": 99007298,
+        "ticker": "P.45",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-03-10T21:15:52Z"
+      },
+      {
+        "id": 99007315,
+        "ticker": "SV.",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-03-18T12:10:25Z"
+      }
+    ],
+    "2017-02": [
+      {
+        "id": 99007268,
+        "ticker": "AI",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-23T03:28:56Z"
+      },
+      {
+        "id": 99007261,
+        "ticker": "AI.",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-21T03:09:49Z"
+      },
+      {
+        "id": 99007257,
+        "ticker": "HASH",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-19T04:41:48Z"
+      },
+      {
+        "id": 99007237,
+        "ticker": "HAWKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-13T01:10:09Z"
+      },
+      {
+        "id": 99007221,
+        "ticker": "I.S.K",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-07T18:16:59Z"
+      },
+      {
+        "id": 99007265,
+        "ticker": "LC",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-22T02:24:17Z"
+      },
+      {
+        "id": 99007263,
+        "ticker": "SLA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-21T19:31:31Z"
+      },
+      {
+        "id": 99007252,
+        "ticker": "TA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-02-17T18:17:28Z"
+      }
+    ],
+    "2017-01": [
+      {
+        "id": 99007160,
+        "ticker": "4OFUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-01-19T23:01:32Z"
+      },
+      {
+        "id": 99007136,
+        "ticker": "CYLDE",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-01-13T03:50:43Z"
+      },
+      {
+        "id": 99007123,
+        "ticker": "GDUSK",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-01-08T01:04:11Z"
+      },
+      {
+        "id": 99007199,
+        "ticker": "KINDA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-01-30T15:43:28Z"
+      },
+      {
+        "id": 99007203,
+        "ticker": "SB-SQ",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-01-31T15:55:05Z"
+      },
+      {
+        "id": 99007175,
+        "ticker": "XENA",
+        "logoSince": "2025-05-17",
+        "startDate": "2017-01-24T05:50:04Z"
+      }
+    ],
+    "2016-12": [
+      {
+        "id": 99007093,
+        "ticker": "ATLA",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-30T00:10:33Z"
+      },
+      {
+        "id": 99007098,
+        "ticker": "DS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-31T11:44:32Z"
+      },
+      {
+        "id": 99007061,
+        "ticker": "FM",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-17T22:44:04Z"
+      },
+      {
+        "id": 99007074,
+        "ticker": "PRSPR",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-20T06:21:49Z"
+      },
+      {
+        "id": 99007076,
+        "ticker": "ROGUE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-21T19:34:50Z"
+      },
+      {
+        "id": 99007054,
+        "ticker": "SOP",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-12T02:52:45Z"
+      },
+      {
+        "id": 99007090,
+        "ticker": "WOMBO",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-12-28T22:36:37Z"
+      }
+    ],
+    "2016-11": [
+      {
+        "id": 99007000,
+        "ticker": ".DST.",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-11-26T23:50:57Z"
+      },
+      {
+        "id": 99006934,
+        "ticker": "ADMS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-11-01T16:54:19Z"
+      },
+      {
+        "id": 99006941,
+        "ticker": "SGGRN",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-11-04T11:51:23Z"
+      },
+      {
+        "id": 99006970,
+        "ticker": "TITFE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-11-17T02:31:00Z"
+      },
+      {
+        "id": 99007005,
+        "ticker": "UNF-A",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-11-29T07:07:45Z"
+      }
+    ],
+    "2016-10": [
+      {
+        "id": 99006884,
+        "ticker": "QUIET",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-10-14T21:07:56Z"
+      },
+      {
+        "id": 99006861,
+        "ticker": "SG.",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-10-04T03:18:53Z"
+      }
+    ],
+    "2016-09": [
+      {
+        "id": 99006834,
+        "ticker": "BKFST",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-25T05:56:51Z"
+      },
+      {
+        "id": 99006795,
+        "ticker": "ELITE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-06T22:19:50Z"
+      },
+      {
+        "id": 99006820,
+        "ticker": "FLEE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-19T21:09:22Z"
+      },
+      {
+        "id": 99006821,
+        "ticker": "FOEX",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-20T11:51:09Z"
+      },
+      {
+        "id": 99006785,
+        "ticker": "JUI-C",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-03T18:46:24Z"
+      },
+      {
+        "id": 99006781,
+        "ticker": "SCHTY",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-01T17:52:14Z"
+      },
+      {
+        "id": 99006830,
+        "ticker": "VG",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-24T16:18:35Z"
+      },
+      {
+        "id": 99006812,
+        "ticker": "WORM",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-15T05:22:34Z"
+      },
+      {
+        "id": 99006805,
+        "ticker": "WORMS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-09-09T14:03:19Z"
+      }
+    ],
+    "2016-08": [
+      {
+        "id": 99006756,
+        "ticker": "-DNA-",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-08-20T18:36:09Z"
+      },
+      {
+        "id": 99006728,
+        "ticker": "CTS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-08-06T23:04:50Z"
+      },
+      {
+        "id": 99006734,
+        "ticker": "ICON",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-08-09T15:50:24Z"
+      },
+      {
+        "id": 99006771,
+        "ticker": "IMGAY",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-08-27T23:14:27Z"
+      },
+      {
+        "id": 99006750,
+        "ticker": "TNA",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-08-18T19:58:31Z"
+      },
+      {
+        "id": 99006751,
+        "ticker": "WR0NG",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-08-19T03:39:13Z"
+      }
+    ],
+    "2016-07": [
+      {
+        "id": 99006650,
+        "ticker": "GETIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-07-02T22:48:15Z"
+      },
+      {
+        "id": 99006709,
+        "ticker": "LOTEK",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-07-29T04:27:15Z"
+      },
+      {
+        "id": 99006690,
+        "ticker": "MCAV",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-07-21T14:21:55Z"
+      }
+    ],
+    "2016-06": [
+      {
+        "id": 99006636,
+        "ticker": "FEDS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-06-29T03:15:25Z"
+      },
+      {
+        "id": 99006625,
+        "ticker": "WANGS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-06-25T06:04:38Z"
+      }
+    ],
+    "2016-05": [
+      {
+        "id": 99006507,
+        "ticker": "ACORD",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-19T23:43:25Z"
+      },
+      {
+        "id": 99006468,
+        "ticker": "AT1TM",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-09T19:19:00Z"
+      },
+      {
+        "id": 99006550,
+        "ticker": "CTRL",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-28T17:59:46Z"
+      },
+      {
+        "id": 99006438,
+        "ticker": "DIVE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-03T00:26:51Z"
+      },
+      {
+        "id": 99006505,
+        "ticker": "JSIG",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-19T17:16:24Z"
+      },
+      {
+        "id": 99006444,
+        "ticker": "LINKK",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-04T04:24:41Z"
+      },
+      {
+        "id": 99006460,
+        "ticker": "MORTE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-08T19:39:33Z"
+      },
+      {
+        "id": 99006529,
+        "ticker": "SPLAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-23T04:25:46Z"
+      },
+      {
+        "id": 99006494,
+        "ticker": "SPRKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-18T01:18:32Z"
+      },
+      {
+        "id": 99006495,
+        "ticker": "WRECK",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-05-18T18:00:16Z"
+      }
+    ],
+    "2016-04": [
+      {
+        "id": 99006411,
+        "ticker": "-NSH-",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-26T22:22:42Z"
+      },
+      {
+        "id": 99006375,
+        "ticker": "CLOWN",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-17T13:31:14Z"
+      },
+      {
+        "id": 99006384,
+        "ticker": "DUTCH",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-20T06:44:52Z"
+      },
+      {
+        "id": 99006371,
+        "ticker": "FARMD",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-16T03:57:42Z"
+      },
+      {
+        "id": 99006406,
+        "ticker": "FRT-U",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-25T00:48:54Z"
+      },
+      {
+        "id": 99006343,
+        "ticker": "LORDE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-09T04:23:12Z"
+      },
+      {
+        "id": 99006327,
+        "ticker": "OLDS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-05T22:24:23Z"
+      },
+      {
+        "id": 99006396,
+        "ticker": "P1NGU",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-21T19:59:02Z"
+      },
+      {
+        "id": 99006319,
+        "ticker": "WDN",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-04-04T02:29:31Z"
+      }
+    ],
+    "2016-03": [
+      {
+        "id": 99006225,
+        "ticker": "0MS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-01T07:37:05Z"
+      },
+      {
+        "id": 99006249,
+        "ticker": "DSS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-07T22:13:54Z"
+      },
+      {
+        "id": 99006227,
+        "ticker": "FAS",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-02T08:42:24Z"
+      },
+      {
+        "id": 99006266,
+        "ticker": "LCH",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-14T12:32:29Z"
+      },
+      {
+        "id": 99006306,
+        "ticker": "NA-CL",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-29T02:38:49Z"
+      },
+      {
+        "id": 99006260,
+        "ticker": "REPUB",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-12T04:25:15Z"
+      },
+      {
+        "id": 99006287,
+        "ticker": "URKC",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-03-23T10:53:43Z"
+      }
+    ],
+    "2016-02": [
+      {
+        "id": 99006168,
+        "ticker": "-ARC-",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-02-10T04:41:12Z"
+      },
+      {
+        "id": 99006159,
+        "ticker": "MOGUL",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-02-06T18:04:43Z"
+      }
+    ],
+    "2016-01": [
+      {
+        "id": 99006109,
+        "ticker": ".M.",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-01-11T04:46:27Z"
+      },
+      {
+        "id": 99006112,
+        "ticker": "C0RE",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-01-11T23:13:11Z"
+      },
+      {
+        "id": 99006117,
+        "ticker": "EMBR.",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-01-18T03:02:13Z"
+      },
+      {
+        "id": 99006113,
+        "ticker": "NV",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-01-12T02:38:06Z"
+      },
+      {
+        "id": 99006144,
+        "ticker": "PART",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-01-29T17:51:16Z"
+      },
+      {
+        "id": 99006146,
+        "ticker": "SOTU",
+        "logoSince": "2025-05-17",
+        "startDate": "2016-01-30T14:40:50Z"
+      }
+    ],
+    "2015-12": [
+      {
+        "id": 99006020,
+        "ticker": "-SAS-",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-12-05T17:52:05Z"
+      },
+      {
+        "id": 99006063,
+        "ticker": "ATYPE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-12-27T04:45:06Z"
+      },
+      {
+        "id": 99006042,
+        "ticker": "F",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-12-19T06:50:32Z"
+      },
+      {
+        "id": 99006069,
+        "ticker": "TIKLE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-12-28T22:14:47Z"
+      }
+    ],
+    "2015-10": [
+      {
+        "id": 99005909,
+        "ticker": "HEII",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-10-14T20:26:51Z"
+      },
+      {
+        "id": 99005882,
+        "ticker": "PURE.",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-10-03T17:38:53Z"
+      },
+      {
+        "id": 99005918,
+        "ticker": "SHOOT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-10-18T14:21:32Z"
+      },
+      {
+        "id": 99005929,
+        "ticker": "SUDCO",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-10-23T17:25:28Z"
+      }
+    ],
+    "2015-09": [
+      {
+        "id": 99005803,
+        "ticker": "-INP-",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-03T23:08:42Z"
+      },
+      {
+        "id": 99005805,
+        "ticker": "-T C-",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-04T13:06:47Z"
+      },
+      {
+        "id": 99005831,
+        "ticker": "3BBB",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-14T22:47:47Z"
+      },
+      {
+        "id": 99005850,
+        "ticker": "A I",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-21T14:20:18Z"
+      },
+      {
+        "id": 99005799,
+        "ticker": "APEX",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-02T18:03:34Z"
+      },
+      {
+        "id": 99005846,
+        "ticker": "BVN",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-20T20:57:14Z"
+      },
+      {
+        "id": 99005866,
+        "ticker": "FUM8",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-28T03:06:37Z"
+      },
+      {
+        "id": 99005839,
+        "ticker": "GLHF",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-18T19:45:30Z"
+      },
+      {
+        "id": 99005843,
+        "ticker": "LUMPY",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-19T16:38:41Z"
+      },
+      {
+        "id": 99005830,
+        "ticker": "MEMOM",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-13T20:28:54Z"
+      },
+      {
+        "id": 99005824,
+        "ticker": "TAPAH",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-11T14:14:35Z"
+      },
+      {
+        "id": 99005864,
+        "ticker": "WISK",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-09-27T13:28:10Z"
+      }
+    ],
+    "2015-08": [
+      {
+        "id": 99005724,
+        "ticker": "-TM-",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-08-09T20:35:42Z"
+      },
+      {
+        "id": 99005742,
+        "ticker": "EPHOR",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-08-15T11:58:31Z"
+      },
+      {
+        "id": 99005731,
+        "ticker": "HOLES",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-08-12T16:15:33Z"
+      },
+      {
+        "id": 99005711,
+        "ticker": "LFEVE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-08-07T00:39:13Z"
+      },
+      {
+        "id": 99005771,
+        "ticker": "THERM",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-08-25T19:41:19Z"
+      },
+      {
+        "id": 99005709,
+        "ticker": "WILD",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-08-05T16:35:36Z"
+      }
+    ],
+    "2015-07": [
+      {
+        "id": 99005689,
+        "ticker": "BAIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-28T19:17:42Z"
+      },
+      {
+        "id": 99005688,
+        "ticker": "COGG",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-28T16:52:11Z"
+      },
+      {
+        "id": 99005678,
+        "ticker": "CTRLV",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-22T07:50:39Z"
+      },
+      {
+        "id": 99005677,
+        "ticker": "GLORY",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-22T07:06:25Z"
+      },
+      {
+        "id": 99005680,
+        "ticker": "LEEKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-23T17:27:52Z"
+      },
+      {
+        "id": 99005697,
+        "ticker": "POPE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-29T15:10:53Z"
+      },
+      {
+        "id": 99005627,
+        "ticker": "SPORK",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-07T01:12:31Z"
+      },
+      {
+        "id": 99005661,
+        "ticker": "TSHY",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-07-17T14:21:42Z"
+      }
+    ],
+    "2015-06": [
+      {
+        "id": 99005579,
+        "ticker": "BBG",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-06-17T14:06:56Z"
+      },
+      {
+        "id": 99005601,
+        "ticker": "DONUT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-06-27T05:42:21Z"
+      },
+      {
+        "id": 99005597,
+        "ticker": "GOTA",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-06-25T00:01:13Z"
+      },
+      {
+        "id": 99005547,
+        "ticker": "SW1FT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-06-04T10:14:12Z"
+      },
+      {
+        "id": 99005595,
+        "ticker": "TLSW",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-06-24T16:16:08Z"
+      }
+    ],
+    "2015-05": [
+      {
+        "id": 99005443,
+        "ticker": "-KWG-",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-03T19:45:17Z"
+      },
+      {
+        "id": 99005492,
+        "ticker": "CENTI",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-15T13:04:19Z"
+      },
+      {
+        "id": 99005481,
+        "ticker": "FLEEP",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-12T17:53:47Z"
+      },
+      {
+        "id": 99005513,
+        "ticker": "GOG",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-23T16:46:25Z"
+      },
+      {
+        "id": 99005518,
+        "ticker": "MI22",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-24T10:51:43Z"
+      },
+      {
+        "id": 99005530,
+        "ticker": "STYXX",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-31T04:15:38Z"
+      },
+      {
+        "id": 99005502,
+        "ticker": "SWEG.",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-19T15:20:39Z"
+      },
+      {
+        "id": 99005476,
+        "ticker": "SYNDE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-05-11T20:13:13Z"
+      }
+    ],
+    "2015-04": [
+      {
+        "id": 99005393,
+        "ticker": "2GTHR",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-19T14:52:46Z"
+      },
+      {
+        "id": 99005334,
+        "ticker": "CYBER",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-02T04:27:13Z"
+      },
+      {
+        "id": 99005369,
+        "ticker": "FIGHT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-11T19:01:37Z"
+      },
+      {
+        "id": 99005382,
+        "ticker": "JITA",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-16T18:28:20Z"
+      },
+      {
+        "id": 99005386,
+        "ticker": "RDSQD",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-17T12:05:37Z"
+      },
+      {
+        "id": 99005338,
+        "ticker": "REKTD",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-02T16:29:43Z"
+      },
+      {
+        "id": 99005381,
+        "ticker": "SIN7",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-16T17:42:25Z"
+      },
+      {
+        "id": 99005372,
+        "ticker": "SNE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-12T19:48:47Z"
+      },
+      {
+        "id": 99005364,
+        "ticker": "SRVUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-10T00:02:20Z"
+      },
+      {
+        "id": 99005391,
+        "ticker": "STEL-",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-18T03:48:07Z"
+      },
+      {
+        "id": 99005332,
+        "ticker": "VIT.C",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-01T10:04:07Z"
+      },
+      {
+        "id": 99005418,
+        "ticker": "WSKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-04-27T15:29:03Z"
+      }
+    ],
+    "2015-03": [
+      {
+        "id": 99005242,
+        "ticker": "AP0",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-01T00:05:34Z"
+      },
+      {
+        "id": 99005277,
+        "ticker": "BALLS",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-11T12:26:00Z"
+      },
+      {
+        "id": 99005266,
+        "ticker": "DEOS",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-07T23:53:13Z"
+      },
+      {
+        "id": 99005318,
+        "ticker": "HD-CK",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-26T23:36:52Z"
+      },
+      {
+        "id": 99005274,
+        "ticker": "LLDML",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-10T01:05:46Z"
+      },
+      {
+        "id": 99005299,
+        "ticker": "MGRGY",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-22T03:26:50Z"
+      },
+      {
+        "id": 99005275,
+        "ticker": "SOCKS",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-03-10T02:51:31Z"
+      }
+    ],
+    "2015-02": [
+      {
+        "id": 99005178,
+        "ticker": "ART0N",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-02-05T17:03:26Z"
+      },
+      {
+        "id": 99005168,
+        "ticker": "DIP",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-02-02T22:23:46Z"
+      },
+      {
+        "id": 99005224,
+        "ticker": "HADES",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-02-23T01:38:46Z"
+      },
+      {
+        "id": 99005198,
+        "ticker": "TAKSH",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-02-12T18:41:32Z"
+      }
+    ],
+    "2015-01": [
+      {
+        "id": 99005151,
+        "ticker": "2LGIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-01-29T21:23:16Z"
+      },
+      {
+        "id": 99005080,
+        "ticker": "EVE",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-01-04T05:47:03Z"
+      },
+      {
+        "id": 99005130,
+        "ticker": "SC0UT",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-01-23T10:37:01Z"
+      },
+      {
+        "id": 99005108,
+        "ticker": "SLR-W",
+        "logoSince": "2025-05-17",
+        "startDate": "2015-01-13T13:31:14Z"
+      }
+    ],
+    "2014-12": [
+      {
+        "id": 99005042,
+        "ticker": "DRM",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-12-22T06:04:10Z"
+      },
+      {
+        "id": 99005065,
+        "ticker": "HKRAB",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-12-31T03:17:54Z"
+      },
+      {
+        "id": 99005034,
+        "ticker": "W.SKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-12-20T22:14:58Z"
+      }
+    ],
+    "2014-11": [
+      {
+        "id": 99004945,
+        "ticker": ".IED",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-11-19T16:20:42Z"
+      },
+      {
+        "id": 99004901,
+        "ticker": "B B C",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-11-06T17:54:08Z"
+      },
+      {
+        "id": 99004942,
+        "ticker": "CNFLG",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-11-18T09:11:15Z"
+      },
+      {
+        "id": 99004956,
+        "ticker": "P0CA",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-11-21T22:54:46Z"
+      }
+    ],
+    "2014-10": [
+      {
+        "id": 99004818,
+        "ticker": "-EST-",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-10-06T13:44:52Z"
+      },
+      {
+        "id": 99004804,
+        "ticker": ".-D-.",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-10-01T13:37:26Z"
+      },
+      {
+        "id": 99004827,
+        "ticker": "AXIOS",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-10-12T11:34:52Z"
+      },
+      {
+        "id": 99004885,
+        "ticker": "DRWIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-10-31T02:37:15Z"
+      },
+      {
+        "id": 99004881,
+        "ticker": "EVIAN",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-10-29T20:23:24Z"
+      },
+      {
+        "id": 99004858,
+        "ticker": "PFR",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-10-24T21:30:21Z"
+      }
+    ],
+    "2014-09": [
+      {
+        "id": 99004779,
+        "ticker": "CY-27",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-09-17T17:24:41Z"
+      },
+      {
+        "id": 99004789,
+        "ticker": "GSP0T",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-09-22T06:44:44Z"
+      },
+      {
+        "id": 99004741,
+        "ticker": "RE",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-09-03T18:18:25Z"
+      }
+    ],
+    "2014-08": [
+      {
+        "id": 99004734,
+        "ticker": "-DRG-",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-08-31T16:16:28Z"
+      },
+      {
+        "id": 99004686,
+        "ticker": "A.D.C",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-08-18T21:06:57Z"
+      },
+      {
+        "id": 99004728,
+        "ticker": "ASMBL",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-08-29T01:11:42Z"
+      },
+      {
+        "id": 99004664,
+        "ticker": "HSPN",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-08-06T16:57:15Z"
+      },
+      {
+        "id": 99004683,
+        "ticker": "RISK",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-08-17T14:21:24Z"
+      }
+    ],
+    "2014-07": [
+      {
+        "id": 99004604,
+        "ticker": "PNS",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-07-14T06:40:51Z"
+      }
+    ],
+    "2014-06": [
+      {
+        "id": 99004552,
+        "ticker": "-WAR-",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-06-23T22:09:50Z"
+      },
+      {
+        "id": 99004541,
+        "ticker": "EACS",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-06-18T17:45:31Z"
+      },
+      {
+        "id": 99004507,
+        "ticker": "LICMY",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-06-07T14:51:30Z"
+      },
+      {
+        "id": 99004570,
+        "ticker": "SENSE",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-06-28T22:33:12Z"
+      },
+      {
+        "id": 99004567,
+        "ticker": "THIRD",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-06-28T01:05:21Z"
+      }
+    ],
+    "2014-05": [
+      {
+        "id": 99004425,
+        "ticker": "BASTN",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-05-06T21:37:13Z"
+      }
+    ],
+    "2014-04": [
+      {
+        "id": 99004344,
+        "ticker": "HOLE",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-04-12T12:36:21Z"
+      },
+      {
+        "id": 99004357,
+        "ticker": "TUSK.",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-04-14T23:49:18Z"
+      }
+    ],
+    "2014-03": [
+      {
+        "id": 99004295,
+        "ticker": "-ABA-",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-03-23T20:19:53Z"
+      },
+      {
+        "id": 99004302,
+        "ticker": "-EL-",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-03-26T17:06:44Z"
+      },
+      {
+        "id": 99004276,
+        "ticker": "D3ATH",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-03-17T20:10:23Z"
+      },
+      {
+        "id": 99004218,
+        "ticker": "SPIRT",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-03-03T19:00:58Z"
+      },
+      {
+        "id": 99004211,
+        "ticker": "YES",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-03-02T01:45:28Z"
+      }
+    ],
+    "2014-02": [
+      {
+        "id": 99004136,
+        "ticker": "DV",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-02-10T23:50:56Z"
+      },
+      {
+        "id": 99004170,
+        "ticker": "IGA",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-02-17T19:40:17Z"
+      },
+      {
+        "id": 99004172,
+        "ticker": "KANE",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-02-17T20:54:16Z"
+      },
+      {
+        "id": 99004108,
+        "ticker": "TGKA",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-02-03T13:15:31Z"
+      }
+    ],
+    "2014-01": [
+      {
+        "id": 99003995,
+        "ticker": "IGC",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-01-04T16:44:52Z"
+      },
+      {
+        "id": 99004080,
+        "ticker": "MITG",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-01-26T22:20:22Z"
+      },
+      {
+        "id": 99004013,
+        "ticker": "ODIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2014-01-07T16:39:46Z"
+      }
+    ],
+    "2013-12": [
+      {
+        "id": 99003918,
+        "ticker": "FLEET",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-12-12T00:57:47Z"
+      },
+      {
+        "id": 99003940,
+        "ticker": "M8WTF",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-12-20T13:15:11Z"
+      },
+      {
+        "id": 99003956,
+        "ticker": "PUSHX",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-12-26T06:03:16Z"
+      }
+    ],
+    "2013-11": [
+      {
+        "id": 99003805,
+        "ticker": "ALTS",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-11-06T03:49:27Z"
+      },
+      {
+        "id": 99003817,
+        "ticker": "INTER",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-11-10T17:41:58Z"
+      }
+    ],
+    "2013-10": [
+      {
+        "id": 99003739,
+        "ticker": "ADCT",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-10-14T19:26:42Z"
+      },
+      {
+        "id": 99003722,
+        "ticker": "CORD",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-10-09T17:38:26Z"
+      },
+      {
+        "id": 99003714,
+        "ticker": "EDEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-10-07T18:24:36Z"
+      },
+      {
+        "id": 99003744,
+        "ticker": "GAWWY",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-10-15T20:45:47Z"
+      },
+      {
+        "id": 99003699,
+        "ticker": "MOROS",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-10-03T21:10:14Z"
+      }
+    ],
+    "2013-09": [
+      {
+        "id": 99003624,
+        "ticker": "FEC",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-09-07T09:55:42Z"
+      },
+      {
+        "id": 99003686,
+        "ticker": "NAQS",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-09-28T10:13:02Z"
+      }
+    ],
+    "2013-08": [
+      {
+        "id": 99003557,
+        "ticker": "-LSH-",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-12T13:27:47Z"
+      },
+      {
+        "id": 99003581,
+        "ticker": "FRT",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-23T05:45:11Z"
+      },
+      {
+        "id": 99003539,
+        "ticker": "L0G0F",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-08T11:47:15Z"
+      },
+      {
+        "id": 99003579,
+        "ticker": "N0MAD",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-21T20:30:04Z"
+      },
+      {
+        "id": 99003541,
+        "ticker": "NAGA.",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-09T02:41:54Z"
+      },
+      {
+        "id": 99003568,
+        "ticker": "OAK",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-16T17:38:24Z"
+      },
+      {
+        "id": 99003595,
+        "ticker": "UI",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-28T03:08:19Z"
+      },
+      {
+        "id": 99003538,
+        "ticker": "VOTE",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-08-08T07:56:43Z"
+      }
+    ],
+    "2013-07": [
+      {
+        "id": 99003510,
+        "ticker": "-SOD-",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-07-31T21:40:39Z"
+      },
+      {
+        "id": 99003420,
+        "ticker": "GRAV",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-07-02T19:42:59Z"
+      },
+      {
+        "id": 99003435,
+        "ticker": "RCOAT",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-07-06T01:38:37Z"
+      },
+      {
+        "id": 99003490,
+        "ticker": "UNPRO",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-07-25T22:55:17Z"
+      },
+      {
+        "id": 99003477,
+        "ticker": "WMTR",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-07-21T16:37:04Z"
+      }
+    ],
+    "2013-06": [
+      {
+        "id": 99003322,
+        "ticker": "-NEM-",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-06-04T18:21:28Z"
+      },
+      {
+        "id": 99003355,
+        "ticker": "IN.SP",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-06-12T11:47:48Z"
+      },
+      {
+        "id": 99003393,
+        "ticker": "R H -",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-06-22T23:15:43Z"
+      }
+    ],
+    "2013-05": [
+      {
+        "id": 99003214,
+        "ticker": "BRAVE",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-05-06T22:20:14Z"
+      },
+      {
+        "id": 99003216,
+        "ticker": "GCLUB",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-05-08T02:37:34Z"
+      },
+      {
+        "id": 99003285,
+        "ticker": "WARD",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-05-25T21:26:10Z"
+      },
+      {
+        "id": 99003244,
+        "ticker": "XPLCT",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-05-13T05:31:23Z"
+      }
+    ],
+    "2013-04": [
+      {
+        "id": 99003182,
+        "ticker": "M1C0",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-04-26T03:02:09Z"
+      }
+    ],
+    "2013-03": [
+      {
+        "id": 99003087,
+        "ticker": "APRLN",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-03-29T15:33:15Z"
+      }
+    ],
+    "2013-02": [
+      {
+        "id": 99002896,
+        "ticker": "-666-",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-02-02T08:30:10Z"
+      },
+      {
+        "id": 99002930,
+        "ticker": "ACRNM",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-02-07T17:58:53Z"
+      },
+      {
+        "id": 99003006,
+        "ticker": "B0T",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-02-28T06:07:31Z"
+      },
+      {
+        "id": 99002938,
+        "ticker": "DARK.",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-02-09T22:32:32Z"
+      },
+      {
+        "id": 99002952,
+        "ticker": "DEVHX",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-02-13T19:49:23Z"
+      },
+      {
+        "id": 99002974,
+        "ticker": "UDIE",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-02-19T16:07:30Z"
+      }
+    ],
+    "2013-01": [
+      {
+        "id": 99002826,
+        "ticker": "KIA",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-01-14T16:37:15Z"
+      },
+      {
+        "id": 99002821,
+        "ticker": "SERIN",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-01-13T03:42:59Z"
+      },
+      {
+        "id": 99002819,
+        "ticker": "SIA",
+        "logoSince": "2025-05-17",
+        "startDate": "2013-01-12T18:47:14Z"
+      }
+    ],
+    "2012-12": [
+      {
+        "id": 99002775,
+        "ticker": "CODE.",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-12-29T20:40:34Z"
+      },
+      {
+        "id": 99002685,
+        "ticker": "SYN",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-12-01T10:28:12Z"
+      }
+    ],
+    "2012-11": [
+      {
+        "id": 99002621,
+        "ticker": "B.R.B",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-11-09T19:37:36Z"
+      },
+      {
+        "id": 99002600,
+        "ticker": "BOZO",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-11-04T00:31:15Z"
+      },
+      {
+        "id": 99002644,
+        "ticker": "DEADS",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-11-16T17:46:15Z"
+      },
+      {
+        "id": 99002661,
+        "ticker": "RECCA",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-11-20T15:27:28Z"
+      },
+      {
+        "id": 99002594,
+        "ticker": "URA",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-11-01T12:11:43Z"
+      }
+    ],
+    "2012-10": [
+      {
+        "id": 99002542,
+        "ticker": "CSE",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-10-15T13:19:00Z"
+      },
+      {
+        "id": 99002584,
+        "ticker": "WAVE",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-10-29T18:08:51Z"
+      }
+    ],
+    "2012-09": [
+      {
+        "id": 99002411,
+        "ticker": "HAPPY",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-09-02T15:21:00Z"
+      },
+      {
+        "id": 99002417,
+        "ticker": "TXG",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-09-04T11:32:00Z"
+      }
+    ],
+    "2012-08": [
+      {
+        "id": 99002329,
+        "ticker": "CAS",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-08-04T20:26:00Z"
+      },
+      {
+        "id": 99002360,
+        "ticker": "FSTAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-08-15T19:18:00Z"
+      },
+      {
+        "id": 99002348,
+        "ticker": "IOS",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-08-09T14:53:00Z"
+      },
+      {
+        "id": 99002367,
+        "ticker": "IOU",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-08-17T17:30:00Z"
+      },
+      {
+        "id": 99002396,
+        "ticker": "TEREC",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-08-28T16:58:00Z"
+      }
+    ],
+    "2012-07": [
+      {
+        "id": 99002302,
+        "ticker": "-ZZZ-",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-07-27T11:47:00Z"
+      },
+      {
+        "id": 99002231,
+        "ticker": "TOG",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-07-02T20:06:00Z"
+      },
+      {
+        "id": 99002253,
+        "ticker": "USURP",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-07-13T09:37:00Z"
+      }
+    ],
+    "2012-06": [
+      {
+        "id": 99002172,
+        "ticker": "J4LP",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-06-05T05:07:00Z"
+      },
+      {
+        "id": 99002217,
+        "ticker": "R1DER",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-06-27T18:50:00Z"
+      },
+      {
+        "id": 99002190,
+        "ticker": "WISKY",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-06-13T22:23:00Z"
+      }
+    ],
+    "2012-05": [
+      {
+        "id": 99002055,
+        "ticker": "NACHO",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-05-01T01:52:00Z"
+      }
+    ],
+    "2012-04": [
+      {
+        "id": 99001954,
+        "ticker": "-000-",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-08T14:46:00Z"
+      },
+      {
+        "id": 99002003,
+        "ticker": "-X3-",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-20T21:14:00Z"
+      },
+      {
+        "id": 99001969,
+        "ticker": ".S0B.",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-11T18:01:00Z"
+      },
+      {
+        "id": 99001932,
+        "ticker": "CHISP",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-04T00:04:00Z"
+      },
+      {
+        "id": 99001968,
+        "ticker": "CRIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-11T17:35:00Z"
+      },
+      {
+        "id": 99001972,
+        "ticker": "MEEPE",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-12T22:26:00Z"
+      },
+      {
+        "id": 99001963,
+        "ticker": "MOIST",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-09T14:23:00Z"
+      },
+      {
+        "id": 99001938,
+        "ticker": "O",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-05T20:54:00Z"
+      },
+      {
+        "id": 99001952,
+        "ticker": "PM",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-08T12:16:00Z"
+      },
+      {
+        "id": 99001970,
+        "ticker": "RFRD",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-04-11T19:35:00Z"
+      }
+    ],
+    "2012-03": [
+      {
+        "id": 99001795,
+        "ticker": "BNANA",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-03-07T02:22:00Z"
+      },
+      {
+        "id": 99001904,
+        "ticker": "HONOR",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-03-28T09:08:00Z"
+      },
+      {
+        "id": 99001830,
+        "ticker": "PYCB",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-03-13T18:47:00Z"
+      }
+    ],
+    "2012-02": [
+      {
+        "id": 99001716,
+        "ticker": "BAMM",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-02-18T15:26:00Z"
+      },
+      {
+        "id": 99001742,
+        "ticker": "CALSF",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-02-24T21:13:00Z"
+      },
+      {
+        "id": 99001697,
+        "ticker": "CYN0",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-02-10T14:41:00Z"
+      }
+    ],
+    "2012-01": [
+      {
+        "id": 99001626,
+        "ticker": "ESN",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-01-24T19:05:00Z"
+      },
+      {
+        "id": 99001542,
+        "ticker": "MAST",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-01-03T16:13:00Z"
+      },
+      {
+        "id": 99001619,
+        "ticker": "PAYUS",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-01-22T19:42:00Z"
+      },
+      {
+        "id": 99001648,
+        "ticker": "PTR",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-01-31T00:10:00Z"
+      },
+      {
+        "id": 99001600,
+        "ticker": "ZAIB",
+        "logoSince": "2025-05-17",
+        "startDate": "2012-01-17T02:23:00Z"
+      }
+    ],
+    "2011-12": [
+      {
+        "id": 99001426,
+        "ticker": "-GS-",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-12-04T12:54:00Z"
+      },
+      {
+        "id": 99001485,
+        "ticker": "ATEAM",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-12-20T19:36:00Z"
+      },
+      {
+        "id": 99001517,
+        "ticker": "GAKEP",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-12-29T18:09:00Z"
+      },
+      {
+        "id": 99001454,
+        "ticker": "LEGIT",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-12-12T07:52:00Z"
+      }
+    ],
+    "2011-11": [
+      {
+        "id": 99001407,
+        "ticker": "-GE-",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-11-29T18:37:00Z"
+      },
+      {
+        "id": 99001382,
+        "ticker": "-SD-",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-11-22T05:54:00Z"
+      },
+      {
+        "id": 99001317,
+        "ticker": ".RU",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-11-02T17:41:00Z"
+      },
+      {
+        "id": 99001376,
+        "ticker": "ISAF",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-11-20T03:28:00Z"
+      },
+      {
+        "id": 99001383,
+        "ticker": "U MAD",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-11-22T05:55:00Z"
+      }
+    ],
+    "2011-10": [
+      {
+        "id": 99001258,
+        "ticker": "LDB",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-10-15T04:11:00Z"
+      },
+      {
+        "id": 99001278,
+        "ticker": "P.H.",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-10-22T17:09:00Z"
+      }
+    ],
+    "2011-09": [
+      {
+        "id": 99001105,
+        "ticker": "-7TH-",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-04T00:29:00Z"
+      },
+      {
+        "id": 99001188,
+        "ticker": "-DAC-",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-24T17:32:00Z"
+      },
+      {
+        "id": 99001202,
+        "ticker": "AL3X",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-27T10:37:00Z"
+      },
+      {
+        "id": 99001159,
+        "ticker": "BAW",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-17T02:35:00Z"
+      },
+      {
+        "id": 99001152,
+        "ticker": "DCA",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-14T06:07:00Z"
+      },
+      {
+        "id": 99001182,
+        "ticker": "MOARR",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-23T14:01:00Z"
+      },
+      {
+        "id": 99001109,
+        "ticker": "SOLRQ",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-09-04T22:48:00Z"
+      }
+    ],
+    "2011-07": [
+      {
+        "id": 99000973,
+        "ticker": "SYLPH",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-07-25T14:03:00Z"
+      }
+    ],
+    "2011-06": [
+      {
+        "id": 99000854,
+        "ticker": "ADHC",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-06-24T19:33:00Z"
+      },
+      {
+        "id": 99000814,
+        "ticker": "E8OLA",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-06-12T19:44:00Z"
+      },
+      {
+        "id": 99000852,
+        "ticker": "LOLGF",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-06-24T19:00:00Z"
+      },
+      {
+        "id": 99000767,
+        "ticker": "SSC",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-06-05T03:30:00Z"
+      }
+    ],
+    "2011-05": [
+      {
+        "id": 99000652,
+        "ticker": "RVB-B",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-05-02T14:18:00Z"
+      },
+      {
+        "id": 99000645,
+        "ticker": "RVB-R",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-05-01T13:56:00Z"
+      },
+      {
+        "id": 99000739,
+        "ticker": "SOUND",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-05-28T04:21:00Z"
+      }
+    ],
+    "2011-02": [
+      {
+        "id": 99000423,
+        "ticker": "A A",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-02-28T20:22:00Z"
+      }
+    ],
+    "2011-01": [
+      {
+        "id": 99000281,
+        "ticker": "CODEX",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-01-16T21:59:00Z"
+      },
+      {
+        "id": 99000285,
+        "ticker": "MMMMM",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-01-18T04:47:00Z"
+      },
+      {
+        "id": 99000314,
+        "ticker": "PVP",
+        "logoSince": "2025-05-17",
+        "startDate": "2011-01-25T20:27:00Z"
+      }
+    ],
+    "2010-12": [
+      {
+        "id": 99000200,
+        "ticker": "DEVIL",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-12-29T01:39:00Z"
+      },
+      {
+        "id": 99000112,
+        "ticker": "FC0RD",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-12-13T02:49:00Z"
+      },
+      {
+        "id": 99000180,
+        "ticker": "MENTL",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-12-23T22:38:00Z"
+      },
+      {
+        "id": 99000137,
+        "ticker": "RF",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-12-16T02:35:00Z"
+      },
+      {
+        "id": 99000153,
+        "ticker": "T2N",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-12-18T20:35:00Z"
+      },
+      {
+        "id": 99000102,
+        "ticker": "YF",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-12-09T21:45:00Z"
+      }
+    ],
+    "2010-10": [
+      {
+        "id": 1839636692,
+        "ticker": "MAD.S",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-10-30T01:46:00Z"
+      },
+      {
+        "id": 1680888152,
+        "ticker": "MYM8",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-10-26T14:50:00Z"
+      }
+    ],
+    "2010-09": [
+      {
+        "id": 1530983307,
+        "ticker": "-DA-",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-09-12T21:13:00Z"
+      },
+      {
+        "id": 117383987,
+        "ticker": "AFK",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-09-30T20:47:00Z"
+      },
+      {
+        "id": 1838908040,
+        "ticker": "FAIL",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-09-29T20:42:00Z"
+      },
+      {
+        "id": 139606862,
+        "ticker": "FUBAR",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-09-07T09:38:00Z"
+      },
+      {
+        "id": 1657542160,
+        "ticker": "GRA",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-09-24T22:58:00Z"
+      },
+      {
+        "id": 1742306959,
+        "ticker": "O O E",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-09-26T20:12:00Z"
+      }
+    ],
+    "2010-08": [
+      {
+        "id": 707482380,
+        "ticker": "-DTS-",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-08-22T22:43:00Z"
+      },
+      {
+        "id": 1459096720,
+        "ticker": "BOSS.",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-08-02T18:00:00Z"
+      },
+      {
+        "id": 1496500070,
+        "ticker": "FROG",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-08-04T06:58:00Z"
+      },
+      {
+        "id": 1727758877,
+        "ticker": "NC",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-08-12T00:46:00Z"
+      },
+      {
+        "id": 473668485,
+        "ticker": "OWTF",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-08-21T10:30:00Z"
+      },
+      {
+        "id": 1025783526,
+        "ticker": "TAXUA",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-08-26T14:30:00Z"
+      }
+    ],
+    "2010-06": [
+      {
+        "id": 1354830081,
+        "ticker": "CONDI",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-06-01T05:36:00Z"
+      }
+    ],
+    "2010-05": [
+      {
+        "id": 877811706,
+        "ticker": "ANIMA",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-05-21T17:58:00Z"
+      },
+      {
+        "id": 173714703,
+        "ticker": "PHEW",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-05-14T16:41:00Z"
+      },
+      {
+        "id": 498125261,
+        "ticker": "TEST",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-05-12T21:05:00Z"
+      },
+      {
+        "id": 1189243859,
+        "ticker": "ZULU",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-05-01T23:57:00Z"
+      }
+    ],
+    "2010-04": [
+      {
+        "id": 1258727717,
+        "ticker": "ECHO",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-04-22T05:22:00Z"
+      }
+    ],
+    "2010-01": [
+      {
+        "id": 696361139,
+        "ticker": "OTHEC",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-01-05T12:57:00Z"
+      },
+      {
+        "id": 694867971,
+        "ticker": "OTHEI",
+        "logoSince": "2025-05-17",
+        "startDate": "2010-01-05T12:44:00Z"
+      }
+    ],
+    "2009-11": [
+      {
+        "id": 431502563,
+        "ticker": "KICK",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-11-29T19:23:00Z"
+      }
+    ],
+    "2009-10": [
+      {
+        "id": 960513040,
+        "ticker": "VEYR",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-10-23T00:04:00Z"
+      }
+    ],
+    "2009-09": [
+      {
+        "id": 1889367927,
+        "ticker": ".DARK",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-09-07T00:06:00Z"
+      },
+      {
+        "id": 434243723,
+        "ticker": "C C P",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-09-15T13:48:00Z"
+      },
+      {
+        "id": 551692893,
+        "ticker": "HYDRA",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-09-02T15:35:00Z"
+      },
+      {
+        "id": 499005583,
+        "ticker": "IM",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-09-04T19:45:00Z"
+      },
+      {
+        "id": 1042504553,
+        "ticker": "SLYCE",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-09-16T18:07:00Z"
+      }
+    ],
+    "2009-08": [
+      {
+        "id": 396211967,
+        "ticker": "ARCLI",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-08-17T21:13:00Z"
+      },
+      {
+        "id": 1559868580,
+        "ticker": "EHHHH",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-08-29T12:42:00Z"
+      }
+    ],
+    "2009-07": [
+      {
+        "id": 130011153,
+        "ticker": "AVA",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-07-17T14:15:00Z"
+      },
+      {
+        "id": 2008100782,
+        "ticker": "BATH",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-07-13T01:05:00Z"
+      },
+      {
+        "id": 459486691,
+        "ticker": "BITE",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-07-18T22:02:00Z"
+      },
+      {
+        "id": 912567626,
+        "ticker": "DOGS",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-07-20T01:48:00Z"
+      },
+      {
+        "id": 1699714763,
+        "ticker": "TSOEC",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-07-01T02:42:00Z"
+      }
+    ],
+    "2009-06": [
+      {
+        "id": 527015334,
+        "ticker": "EE",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-06-22T14:02:00Z"
+      }
+    ],
+    "2009-05": [
+      {
+        "id": 150097440,
+        "ticker": "LAWN",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-05-25T15:36:00Z"
+      },
+      {
+        "id": 131511956,
+        "ticker": "TNT",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-05-14T13:58:00Z"
+      }
+    ],
+    "2009-04": [
+      {
+        "id": 1002884793,
+        "ticker": "47R",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-04-02T07:41:00Z"
+      }
+    ],
+    "2009-03": [
+      {
+        "id": 421038446,
+        "ticker": "3XXXD",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-03-03T23:27:00Z"
+      },
+      {
+        "id": 905861359,
+        "ticker": "BR1CK",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-03-01T23:45:00Z"
+      },
+      {
+        "id": 751434080,
+        "ticker": "MUNDI",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-03-15T06:49:00Z"
+      }
+    ],
+    "2009-02": [
+      {
+        "id": 1911932230,
+        "ticker": "-IA-",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-02-19T00:12:00Z"
+      },
+      {
+        "id": 1691647675,
+        "ticker": "I-RED",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-02-12T05:29:00Z"
+      },
+      {
+        "id": 1086308227,
+        "ticker": "RANE",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-02-05T05:50:00Z"
+      },
+      {
+        "id": 679584932,
+        "ticker": "SMA",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-02-14T06:55:00Z"
+      }
+    ],
+    "2009-01": [
+      {
+        "id": 1006830534,
+        "ticker": "FCON",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-01-30T18:07:00Z"
+      },
+      {
+        "id": 405592709,
+        "ticker": "SSL",
+        "logoSince": "2025-05-17",
+        "startDate": "2009-01-19T14:58:00Z"
+      }
+    ],
+    "2008-12": [
+      {
+        "id": 1614483120,
+        "ticker": "BSOD",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-12-03T18:02:00Z"
+      },
+      {
+        "id": 1728396456,
+        "ticker": "IKILU",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-12-07T18:18:00Z"
+      }
+    ],
+    "2008-11": [
+      {
+        "id": 1228472388,
+        "ticker": "R.O.L",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-11-08T08:42:00Z"
+      },
+      {
+        "id": 495729389,
+        "ticker": "SHDWC",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-11-26T19:06:00Z"
+      }
+    ],
+    "2008-10": [
+      {
+        "id": 1900696668,
+        "ticker": "INIT.",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-10-03T22:56:00Z"
+      },
+      {
+        "id": 927292903,
+        "ticker": "STUGH",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-10-30T06:41:00Z"
+      },
+      {
+        "id": 864733958,
+        "ticker": "TISHU",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-10-29T01:54:00Z"
+      }
+    ],
+    "2008-09": [
+      {
+        "id": 361506519,
+        "ticker": "RURA",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-09-29T16:52:00Z"
+      }
+    ],
+    "2008-08": [
+      {
+        "id": 1119479143,
+        "ticker": "AGONY",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-08-15T18:03:00Z"
+      },
+      {
+        "id": 1645234854,
+        "ticker": "BTA",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-08-10T09:52:00Z"
+      },
+      {
+        "id": 1548582972,
+        "ticker": "MC",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-08-28T17:47:00Z"
+      },
+      {
+        "id": 1411711376,
+        "ticker": "X.I.X",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-08-05T13:25:00Z"
+      }
+    ],
+    "2008-07": [
+      {
+        "id": 1621208577,
+        "ticker": "SRA",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-07-10T18:12:00Z"
+      }
+    ],
+    "2008-05": [
+      {
+        "id": 154104258,
+        "ticker": "APOC",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-05-05T15:15:00Z"
+      }
+    ],
+    "2008-04": [
+      {
+        "id": 1603281980,
+        "ticker": "FCKU",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-04-28T16:56:00Z"
+      }
+    ],
+    "2008-03": [
+      {
+        "id": 1695357456,
+        "ticker": "CO2",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-03-02T21:44:00Z"
+      },
+      {
+        "id": 883289363,
+        "ticker": "THOR-",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-03-27T02:57:00Z"
+      },
+      {
+        "id": 505495351,
+        "ticker": "TYGRS",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-03-17T00:59:00Z"
+      }
+    ],
+    "2008-02": [
+      {
+        "id": 1609780791,
+        "ticker": "SAS",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-02-26T20:06:00Z"
+      }
+    ],
+    "2008-01": [
+      {
+        "id": 1186465684,
+        "ticker": "PIE",
+        "logoSince": "2025-05-17",
+        "startDate": "2008-01-15T00:00:00Z"
+      }
+    ],
+    "2007-12": [
+      {
+        "id": 1194892549,
+        "ticker": "4TH",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-12-30T17:43:00Z"
+      }
+    ],
+    "2007-11": [
+      {
+        "id": 1683694957,
+        "ticker": "-C.B-",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-11-01T19:51:00Z"
+      },
+      {
+        "id": 1681527727,
+        "ticker": "THC",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-11-01T14:25:00Z"
+      }
+    ],
+    "2007-08": [
+      {
+        "id": 1294094452,
+        "ticker": "ATA",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-08-25T21:25:00Z"
+      },
+      {
+        "id": 1136157539,
+        "ticker": "C0VEN",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-08-03T21:13:00Z"
+      },
+      {
+        "id": 1301367357,
+        "ticker": "MOA",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-08-26T17:28:00Z"
+      }
+    ],
+    "2007-06": [
+      {
+        "id": 448511760,
+        "ticker": "BOO",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-06-29T20:09:00Z"
+      },
+      {
+        "id": 917526329,
+        "ticker": "DOG",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-06-01T20:24:00Z"
+      }
+    ],
+    "2007-04": [
+      {
+        "id": 1438160193,
+        "ticker": "EV0KE",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-04-19T17:57:00Z"
+      },
+      {
+        "id": 1399057309,
+        "ticker": "RAX",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-04-16T20:13:00Z"
+      }
+    ],
+    "2007-02": [
+      {
+        "id": 982284363,
+        "ticker": "-7-",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-02-05T18:46:00Z"
+      }
+    ],
+    "2007-01": [
+      {
+        "id": 386292982,
+        "ticker": "-10.0",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-01-17T02:51:00Z"
+      },
+      {
+        "id": 906957604,
+        "ticker": "RELAX",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-01-14T17:44:00Z"
+      },
+      {
+        "id": 822746991,
+        "ticker": "VETO",
+        "logoSince": "2025-05-17",
+        "startDate": "2007-01-10T22:16:00Z"
+      }
+    ],
+    "2006-11": [
+      {
+        "id": 673381830,
+        "ticker": "IRC",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-11-30T13:17:00Z"
+      }
+    ],
+    "2006-10": [
+      {
+        "id": 347057845,
+        "ticker": "DSE",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-10-01T20:32:00Z"
+      },
+      {
+        "id": 403491609,
+        "ticker": "SOD",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-10-29T21:38:00Z"
+      }
+    ],
+    "2006-09": [
+      {
+        "id": 897877797,
+        "ticker": "--U--",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-09-16T15:21:00Z"
+      },
+      {
+        "id": 937872513,
+        "ticker": "IVY",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-09-17T20:10:00Z"
+      },
+      {
+        "id": 240835459,
+        "ticker": "VOLT",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-09-22T23:39:00Z"
+      }
+    ],
+    "2006-07": [
+      {
+        "id": 933731581,
+        "ticker": "TRI",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-07-14T18:53:00Z"
+      }
+    ],
+    "2006-04": [
+      {
+        "id": 655846070,
+        "ticker": "OSS",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-04-09T01:54:00Z"
+      }
+    ],
+    "2006-03": [
+      {
+        "id": 902819350,
+        "ticker": "OTHEP",
+        "logoSince": "2025-05-17",
+        "startDate": "2006-03-29T14:31:00Z"
+      }
+    ],
+    "2005-09": [
+      {
+        "id": 741557221,
+        "ticker": "-RZR-",
+        "logoSince": "2025-05-17",
+        "startDate": "2005-09-23T05:24:00Z"
+      }
+    ],
+    "2005-07": [
+      {
+        "id": 701459600,
+        "ticker": "-EM-",
+        "logoSince": "2025-05-17",
+        "startDate": "2005-07-25T23:12:00Z"
+      }
+    ],
+    "2005-03": [
+      {
+        "id": 159826257,
+        "ticker": "OTHER",
+        "logoSince": "2025-05-17",
+        "startDate": "2005-03-29T14:31:00Z"
+      }
+    ],
+    "2005-02": [
+      {
+        "id": 1220922756,
+        "ticker": "RED",
+        "logoSince": "2025-05-17",
+        "startDate": "2005-02-21T15:18:00Z"
+      }
+    ],
+    "2005-01": [
+      {
+        "id": 1439416485,
+        "ticker": "-SF-",
+        "logoSince": "2025-05-17",
+        "startDate": "2005-01-25T00:11:00Z"
+      },
+      {
+        "id": 1041482450,
+        "ticker": "HF",
+        "logoSince": "2025-05-17",
+        "startDate": "2005-01-11T05:08:00Z"
+      }
+    ],
+    "2004-11": [
+      {
+        "id": 1988009451,
+        "ticker": "CVA",
+        "logoSince": "2025-05-17",
+        "startDate": "2004-11-30T11:39:00Z"
+      },
+      {
+        "id": 1988009450,
+        "ticker": "SE",
+        "logoSince": "2025-05-17",
+        "startDate": "2004-11-30T11:39:00Z"
+      },
+      {
+        "id": 1966049571,
+        "ticker": "UNITY",
+        "logoSince": "2025-05-17",
+        "startDate": "2004-11-25T16:44:00Z"
+      }
+    ]
+  }
+}
