@@ -203,7 +203,7 @@ const html = `<!DOCTYPE html>
   <div class="container">
     <div class="navbar container">
       <div class="navbar-inner">
-        <li class="brand" href="/"><img class="img-rounded" src="https://image.eveonline.com/Alliance/1_32.png"
+        <li class="brand" href="/"><img class="eveimage img-rounded" src="https://image.eveonline.com/Alliance/1_32.png"
           style="padding: 0; margin: 0; background-color: #111; height: 25px; width: 25px;">&nbsp;
           Alliance Logos</li>
       </div>
