@@ -1,1 +1,16 @@
 .eveimage { background-color: #222; max-width:100%; height:auto; overflow: hidden; font-size: 0.1px;}
+
+
+/* invert filter based dark mode */
+body {
+    background-color: black;
+}
+
+body {
+    filter: invert(1);
+}
+
+.eveimage {
+    background-color: #222;
+    filter: invert(1);
+}
