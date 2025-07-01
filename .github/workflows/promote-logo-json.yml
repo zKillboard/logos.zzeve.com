@@ -6,6 +6,7 @@ on:
       - app
     paths:
       - alliances_with_logos.json  # Only trigger if this file changes
+  workflow_dispatch:
 
 permissions:
   contents: write
