@@ -1,0 +1,41 @@
+name: Promote JSON to Main
+
+on:
+  push:
+    branches:
+      - app
+    paths:
+      - alliances_with_logos.json  # Only trigger if this file changes
+
+permissions:
+  contents: write
+
+jobs:
+  promote-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout app branch
+        uses: actions/checkout@v4
+        with:
+          ref: app
+          path: app
+
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: Copy updated JSON file
+        run: |
+          cp app/alliances_with_logos.json main/
+
+      - name: Commit and push to main
+        run: |
+          cd main
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add alliances_with_logos.json
+          git commit -m "Update alliance logo JSON from app branch [skip ci]" || echo "No changes"
+          git push origin main
