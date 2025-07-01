@@ -61,7 +61,7 @@ console.log(`Checking ${idsToCheck.length} alliances for custom logos...`);
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
-for (let i = 0; false && i < idsToCheck.length; i += concurrency) {
+for (let i = 0; i < idsToCheck.length; i += concurrency) {
   const batch = idsToCheck.slice(i, i + concurrency);
 
   await Promise.all(batch.map(async id => {
