@@ -6,6 +6,7 @@ on:
       - app
     paths:
       - alliances_with_logos.json  # Only trigger if this file changes
+      - index.html  # Only trigger if this file changes
   workflow_dispatch:
 
 permissions:
@@ -31,6 +32,7 @@ jobs:
       - name: Copy updated JSON file
         run: |
           cp app/alliances_with_logos.json main/
+          cp app/index.html main/
 
       - name: Commit and push to main
         run: |
