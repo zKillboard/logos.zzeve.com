@@ -1,98 +1,106 @@
 {
   "newest": [
     {
-      "id": 99009710,
-      "ticker": "TAS",
-      "logoSince": "2025-07-01",
-      "startDate": "2020-01-12T09:38:42Z"
+      "id": 555959926,
+      "ticker": "FURY",
+      "logoSince": "2025-07-22",
+      "startDate": "2008-01-21T22:03:00Z"
     },
     {
-      "id": 99009747,
-      "ticker": "LANDS",
-      "logoSince": "2025-07-01",
-      "startDate": "2020-02-02T20:02:13Z"
+      "id": 99009229,
+      "ticker": "-745-",
+      "logoSince": "2025-07-22",
+      "startDate": "2019-06-14T18:29:56Z"
     },
     {
-      "id": 99010779,
-      "ticker": "HV",
-      "logoSince": "2025-07-01",
-      "startDate": "2021-04-10T23:32:37Z"
+      "id": 99011406,
+      "ticker": "RMA",
+      "logoSince": "2025-07-22",
+      "startDate": "2022-03-01T16:34:42Z"
     },
     {
-      "id": 99011867,
-      "ticker": "CRIIM",
-      "logoSince": "2025-07-01",
-      "startDate": "2022-11-11T23:01:04Z"
+      "id": 99012448,
+      "ticker": "NEWC0",
+      "logoSince": "2025-07-22",
+      "startDate": "2023-07-09T18:38:11Z"
     },
     {
-      "id": 99012608,
-      "ticker": "SNOT",
-      "logoSince": "2025-07-01",
-      "startDate": "2023-09-14T10:13:57Z"
+      "id": 99012627,
+      "ticker": "ICE",
+      "logoSince": "2025-07-22",
+      "startDate": "2023-09-22T18:20:21Z"
     },
     {
-      "id": 99012639,
-      "ticker": "STRAY",
-      "logoSince": "2025-07-01",
-      "startDate": "2023-09-29T15:40:22Z"
+      "id": 99012843,
+      "ticker": "BUSHI",
+      "logoSince": "2025-07-22",
+      "startDate": "2023-12-11T23:09:03Z"
     },
     {
-      "id": 99012769,
-      "ticker": "BUNNY",
-      "logoSince": "2025-07-01",
-      "startDate": "2023-11-17T21:55:07Z"
+      "id": 99012889,
+      "ticker": "BROS",
+      "logoSince": "2025-07-22",
+      "startDate": "2023-12-27T18:01:02Z"
     },
     {
-      "id": 99012896,
-      "ticker": "DEBUG",
-      "logoSince": "2025-07-01",
-      "startDate": "2023-12-30T21:23:18Z"
+      "id": 99013086,
+      "ticker": "FTWWH",
+      "logoSince": "2025-07-22",
+      "startDate": "2024-03-12T02:28:16Z"
     },
     {
-      "id": 99013410,
-      "ticker": "KFCCT",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-07-26T16:01:24Z"
+      "id": 99013233,
+      "ticker": "OSEC",
+      "logoSince": "2025-07-22",
+      "startDate": "2024-05-12T08:01:15Z"
     },
     {
-      "id": 99013526,
-      "ticker": "-BGG-",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-09-19T10:33:35Z"
+      "id": 99013448,
+      "ticker": "AUTO",
+      "logoSince": "2025-07-22",
+      "startDate": "2024-08-15T15:40:43Z"
     },
     {
-      "id": 99013538,
-      "ticker": "P.A.A",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-09-26T16:51:14Z"
+      "id": 99013806,
+      "ticker": "TCE",
+      "logoSince": "2025-07-22",
+      "startDate": "2025-01-05T19:47:32Z"
     },
     {
-      "id": 99013612,
-      "ticker": "ABV",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-10-26T17:53:37Z"
+      "id": 99013845,
+      "ticker": "WZRD",
+      "logoSince": "2025-07-22",
+      "startDate": "2025-01-20T13:33:16Z"
     },
     {
-      "id": 99013655,
-      "ticker": "SIU",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-11-07T22:32:56Z"
-    },
-    {
-      "id": 99013674,
-      "ticker": "RCKL",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-11-16T01:04:31Z"
-    },
-    {
-      "id": 99013675,
-      "ticker": "WBCA",
-      "logoSince": "2025-07-01",
-      "startDate": "2024-11-16T08:57:22Z"
+      "id": 99014129,
+      "ticker": "TCF",
+      "logoSince": "2025-07-22",
+      "startDate": "2025-05-28T17:07:53Z"
     }
   ],
   "hasLogos": {
+    "2025-05": [
+      {
+        "id": 99014129,
+        "ticker": "TCF",
+        "logoSince": "2025-07-22",
+        "startDate": "2025-05-28T17:07:53Z"
+      }
+    ],
     "2025-01": [
+      {
+        "id": 99013806,
+        "ticker": "TCE",
+        "logoSince": "2025-07-22",
+        "startDate": "2025-01-05T19:47:32Z"
+      },
+      {
+        "id": 99013845,
+        "ticker": "WZRD",
+        "logoSince": "2025-07-22",
+        "startDate": "2025-01-20T13:33:16Z"
+      },
       {
         "id": 99013817,
         "ticker": "MOUSE",
@@ -179,6 +187,12 @@
       }
     ],
     "2024-08": [
+      {
+        "id": 99013448,
+        "ticker": "AUTO",
+        "logoSince": "2025-07-22",
+        "startDate": "2024-08-15T15:40:43Z"
+      },
       {
         "id": 99013478,
         "ticker": "PALLI",
@@ -305,6 +319,12 @@
       }
     ],
     "2024-05": [
+      {
+        "id": 99013233,
+        "ticker": "OSEC",
+        "logoSince": "2025-07-22",
+        "startDate": "2024-05-12T08:01:15Z"
+      },
       {
         "id": 99013247,
         "ticker": "6OX.C",
@@ -441,6 +461,12 @@
       }
     ],
     "2024-03": [
+      {
+        "id": 99013086,
+        "ticker": "FTWWH",
+        "logoSince": "2025-07-22",
+        "startDate": "2024-03-12T02:28:16Z"
+      },
       {
         "id": 99013081,
         "ticker": "B.A",
@@ -627,6 +653,18 @@
       }
     ],
     "2023-12": [
+      {
+        "id": 99012889,
+        "ticker": "BROS",
+        "logoSince": "2025-07-22",
+        "startDate": "2023-12-27T18:01:02Z"
+      },
+      {
+        "id": 99012843,
+        "ticker": "BUSHI",
+        "logoSince": "2025-07-22",
+        "startDate": "2023-12-11T23:09:03Z"
+      },
       {
         "id": 99012896,
         "ticker": "DEBUG",
@@ -832,6 +870,12 @@
     ],
     "2023-09": [
       {
+        "id": 99012627,
+        "ticker": "ICE",
+        "logoSince": "2025-07-22",
+        "startDate": "2023-09-22T18:20:21Z"
+      },
+      {
         "id": 99012608,
         "ticker": "SNOT",
         "logoSince": "2025-07-01",
@@ -949,6 +993,12 @@
       }
     ],
     "2023-07": [
+      {
+        "id": 99012448,
+        "ticker": "NEWC0",
+        "logoSince": "2025-07-22",
+        "startDate": "2023-07-09T18:38:11Z"
+      },
       {
         "id": 99012437,
         "ticker": "CUY",
@@ -1677,6 +1727,12 @@
       }
     ],
     "2022-03": [
+      {
+        "id": 99011406,
+        "ticker": "RMA",
+        "logoSince": "2025-07-22",
+        "startDate": "2022-03-01T16:34:42Z"
+      },
       {
         "id": 99011409,
         "ticker": "AKC",
@@ -3213,6 +3269,12 @@
       }
     ],
     "2019-06": [
+      {
+        "id": 99009229,
+        "ticker": "-745-",
+        "logoSince": "2025-07-22",
+        "startDate": "2019-06-14T18:29:56Z"
+      },
       {
         "id": 99009206,
         "ticker": "CUBUS",
@@ -6605,6 +6667,12 @@
       }
     ],
     "2008-01": [
+      {
+        "id": 555959926,
+        "ticker": "FURY",
+        "logoSince": "2025-07-22",
+        "startDate": "2008-01-21T22:03:00Z"
+      },
       {
         "id": 1186465684,
         "ticker": "PIE",
