@@ -1,86 +1,136 @@
 {
   "newest": [
     {
-      "id": 555959926,
-      "ticker": "FURY",
-      "logoSince": "2025-07-22",
-      "startDate": "2008-01-21T22:03:00Z"
+      "id": 99001990,
+      "ticker": "PREDS",
+      "logoSince": "2025-08-19",
+      "startDate": "2012-04-17T14:03:00Z"
     },
     {
-      "id": 99009229,
-      "ticker": "-745-",
-      "logoSince": "2025-07-22",
-      "startDate": "2019-06-14T18:29:56Z"
+      "id": 99007326,
+      "ticker": "KPSS",
+      "logoSince": "2025-08-19",
+      "startDate": "2017-03-22T14:53:03Z"
     },
     {
-      "id": 99011406,
-      "ticker": "RMA",
-      "logoSince": "2025-07-22",
-      "startDate": "2022-03-01T16:34:42Z"
+      "id": 99008985,
+      "ticker": "SEKER",
+      "logoSince": "2025-08-19",
+      "startDate": "2019-02-25T09:27:12Z"
     },
     {
-      "id": 99012448,
-      "ticker": "NEWC0",
-      "logoSince": "2025-07-22",
-      "startDate": "2023-07-09T18:38:11Z"
+      "id": 99012428,
+      "ticker": "D-SY",
+      "logoSince": "2025-08-19",
+      "startDate": "2023-07-03T21:29:48Z"
     },
     {
-      "id": 99012627,
-      "ticker": "ICE",
-      "logoSince": "2025-07-22",
-      "startDate": "2023-09-22T18:20:21Z"
+      "id": 99012764,
+      "ticker": "TRU",
+      "logoSince": "2025-08-19",
+      "startDate": "2023-11-17T05:24:56Z"
     },
     {
-      "id": 99012843,
-      "ticker": "BUSHI",
-      "logoSince": "2025-07-22",
-      "startDate": "2023-12-11T23:09:03Z"
+      "id": 99013321,
+      "ticker": "DSA",
+      "logoSince": "2025-08-19",
+      "startDate": "2024-06-13T02:46:33Z"
     },
     {
-      "id": 99012889,
-      "ticker": "BROS",
-      "logoSince": "2025-07-22",
-      "startDate": "2023-12-27T18:01:02Z"
+      "id": 99013383,
+      "ticker": "PO3TS",
+      "logoSince": "2025-08-19",
+      "startDate": "2024-07-04T20:54:13Z"
     },
     {
-      "id": 99013086,
-      "ticker": "FTWWH",
-      "logoSince": "2025-07-22",
-      "startDate": "2024-03-12T02:28:16Z"
+      "id": 99013530,
+      "ticker": "GUARD",
+      "logoSince": "2025-08-19",
+      "startDate": "2024-09-21T15:24:11Z"
     },
     {
-      "id": 99013233,
-      "ticker": "OSEC",
-      "logoSince": "2025-07-22",
-      "startDate": "2024-05-12T08:01:15Z"
+      "id": 99013622,
+      "ticker": "XM",
+      "logoSince": "2025-08-19",
+      "startDate": "2024-10-29T22:56:34Z"
     },
     {
-      "id": 99013448,
-      "ticker": "AUTO",
-      "logoSince": "2025-07-22",
-      "startDate": "2024-08-15T15:40:43Z"
+      "id": 99013766,
+      "ticker": "DLCP",
+      "logoSince": "2025-08-19",
+      "startDate": "2024-12-19T01:12:07Z"
     },
     {
-      "id": 99013806,
-      "ticker": "TCE",
-      "logoSince": "2025-07-22",
-      "startDate": "2025-01-05T19:47:32Z"
+      "id": 99013786,
+      "ticker": "COA",
+      "logoSince": "2025-08-19",
+      "startDate": "2024-12-26T23:26:35Z"
     },
     {
-      "id": 99013845,
-      "ticker": "WZRD",
-      "logoSince": "2025-07-22",
-      "startDate": "2025-01-20T13:33:16Z"
+      "id": 99013823,
+      "ticker": "MEOWS",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-01-12T06:02:21Z"
     },
     {
-      "id": 99014129,
-      "ticker": "TCF",
-      "logoSince": "2025-07-22",
-      "startDate": "2025-05-28T17:07:53Z"
+      "id": 99013840,
+      "ticker": "ERLY",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-01-19T10:26:49Z"
+    },
+    {
+      "id": 99013846,
+      "ticker": "DAZH.",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-01-22T05:40:25Z"
+    },
+    {
+      "id": 99013885,
+      "ticker": "MD",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-02-08T11:53:23Z"
+    },
+    {
+      "id": 99014123,
+      "ticker": "NPSI.",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-05-25T23:49:25Z"
+    },
+    {
+      "id": 99014250,
+      "ticker": "SWEET",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-07-14T09:41:08Z"
+    },
+    {
+      "id": 99014261,
+      "ticker": "ISWER",
+      "logoSince": "2025-08-19",
+      "startDate": "2025-07-17T20:09:54Z"
     }
   ],
   "hasLogos": {
+    "2025-07": [
+      {
+        "id": 99014261,
+        "ticker": "ISWER",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-07-17T20:09:54Z"
+      },
+      {
+        "id": 99014250,
+        "ticker": "SWEET",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-07-14T09:41:08Z"
+      }
+    ],
     "2025-05": [
+      {
+        "id": 99014123,
+        "ticker": "NPSI.",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-05-25T23:49:25Z"
+      },
       {
         "id": 99014129,
         "ticker": "TCF",
@@ -88,7 +138,33 @@
         "startDate": "2025-05-28T17:07:53Z"
       }
     ],
+    "2025-02": [
+      {
+        "id": 99013885,
+        "ticker": "MD",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-02-08T11:53:23Z"
+      }
+    ],
     "2025-01": [
+      {
+        "id": 99013846,
+        "ticker": "DAZH.",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-01-22T05:40:25Z"
+      },
+      {
+        "id": 99013840,
+        "ticker": "ERLY",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-01-19T10:26:49Z"
+      },
+      {
+        "id": 99013823,
+        "ticker": "MEOWS",
+        "logoSince": "2025-08-19",
+        "startDate": "2025-01-12T06:02:21Z"
+      },
       {
         "id": 99013806,
         "ticker": "TCE",
@@ -114,6 +190,20 @@
         "startDate": "2025-01-16T16:32:47Z"
       }
     ],
+    "2024-12": [
+      {
+        "id": 99013786,
+        "ticker": "COA",
+        "logoSince": "2025-08-19",
+        "startDate": "2024-12-26T23:26:35Z"
+      },
+      {
+        "id": 99013766,
+        "ticker": "DLCP",
+        "logoSince": "2025-08-19",
+        "startDate": "2024-12-19T01:12:07Z"
+      }
+    ],
     "2024-11": [
       {
         "id": 99013674,
@@ -136,6 +226,12 @@
     ],
     "2024-10": [
       {
+        "id": 99013622,
+        "ticker": "XM",
+        "logoSince": "2025-08-19",
+        "startDate": "2024-10-29T22:56:34Z"
+      },
+      {
         "id": 99013612,
         "ticker": "ABV",
         "logoSince": "2025-07-01",
@@ -155,6 +251,12 @@
       }
     ],
     "2024-09": [
+      {
+        "id": 99013530,
+        "ticker": "GUARD",
+        "logoSince": "2025-08-19",
+        "startDate": "2024-09-21T15:24:11Z"
+      },
       {
         "id": 99013526,
         "ticker": "-BGG-",
@@ -208,6 +310,12 @@
     ],
     "2024-07": [
       {
+        "id": 99013383,
+        "ticker": "PO3TS",
+        "logoSince": "2025-08-19",
+        "startDate": "2024-07-04T20:54:13Z"
+      },
+      {
         "id": 99013410,
         "ticker": "KFCCT",
         "logoSince": "2025-07-01",
@@ -233,6 +341,12 @@
       }
     ],
     "2024-06": [
+      {
+        "id": 99013321,
+        "ticker": "DSA",
+        "logoSince": "2025-08-19",
+        "startDate": "2024-06-13T02:46:33Z"
+      },
       {
         "id": 99013304,
         "ticker": "-5.0",
@@ -764,6 +878,12 @@
     ],
     "2023-11": [
       {
+        "id": 99012764,
+        "ticker": "TRU",
+        "logoSince": "2025-08-19",
+        "startDate": "2023-11-17T05:24:56Z"
+      },
+      {
         "id": 99012769,
         "ticker": "BUNNY",
         "logoSince": "2025-07-01",
@@ -993,6 +1113,12 @@
       }
     ],
     "2023-07": [
+      {
+        "id": 99012428,
+        "ticker": "D-SY",
+        "logoSince": "2025-08-19",
+        "startDate": "2023-07-03T21:29:48Z"
+      },
       {
         "id": 99012448,
         "ticker": "NEWC0",
@@ -3422,6 +3548,12 @@
     ],
     "2019-02": [
       {
+        "id": 99008985,
+        "ticker": "SEKER",
+        "logoSince": "2025-08-19",
+        "startDate": "2019-02-25T09:27:12Z"
+      },
+      {
         "id": 99008958,
         "ticker": "15SIS",
         "logoSince": "2025-05-17",
@@ -4103,6 +4235,12 @@
       }
     ],
     "2017-03": [
+      {
+        "id": 99007326,
+        "ticker": "KPSS",
+        "logoSince": "2025-08-19",
+        "startDate": "2017-03-22T14:53:03Z"
+      },
       {
         "id": 99007284,
         "ticker": ".UFC.",
@@ -5833,6 +5971,12 @@
       }
     ],
     "2012-04": [
+      {
+        "id": 99001990,
+        "ticker": "PREDS",
+        "logoSince": "2025-08-19",
+        "startDate": "2012-04-17T14:03:00Z"
+      },
       {
         "id": 99001954,
         "ticker": "-000-",
