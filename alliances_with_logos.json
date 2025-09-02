@@ -1,116 +1,38 @@
 {
   "newest": [
     {
-      "id": 99001990,
-      "ticker": "PREDS",
-      "logoSince": "2025-08-19",
-      "startDate": "2012-04-17T14:03:00Z"
+      "id": 99009830,
+      "ticker": "LANTE",
+      "logoSince": "2025-09-02",
+      "startDate": "2020-03-11T01:03:51Z"
     },
     {
-      "id": 99007326,
-      "ticker": "KPSS",
-      "logoSince": "2025-08-19",
-      "startDate": "2017-03-22T14:53:03Z"
+      "id": 99013465,
+      "ticker": "W-FOX",
+      "logoSince": "2025-09-02",
+      "startDate": "2024-08-20T18:51:16Z"
     },
     {
-      "id": 99008985,
-      "ticker": "SEKER",
-      "logoSince": "2025-08-19",
-      "startDate": "2019-02-25T09:27:12Z"
+      "id": 99013691,
+      "ticker": "XIOMA",
+      "logoSince": "2025-09-02",
+      "startDate": "2024-11-23T00:33:03Z"
     },
     {
-      "id": 99012428,
-      "ticker": "D-SY",
-      "logoSince": "2025-08-19",
-      "startDate": "2023-07-03T21:29:48Z"
-    },
-    {
-      "id": 99012764,
-      "ticker": "TRU",
-      "logoSince": "2025-08-19",
-      "startDate": "2023-11-17T05:24:56Z"
-    },
-    {
-      "id": 99013321,
-      "ticker": "DSA",
-      "logoSince": "2025-08-19",
-      "startDate": "2024-06-13T02:46:33Z"
-    },
-    {
-      "id": 99013383,
-      "ticker": "PO3TS",
-      "logoSince": "2025-08-19",
-      "startDate": "2024-07-04T20:54:13Z"
-    },
-    {
-      "id": 99013530,
-      "ticker": "GUARD",
-      "logoSince": "2025-08-19",
-      "startDate": "2024-09-21T15:24:11Z"
-    },
-    {
-      "id": 99013622,
-      "ticker": "XM",
-      "logoSince": "2025-08-19",
-      "startDate": "2024-10-29T22:56:34Z"
-    },
-    {
-      "id": 99013766,
-      "ticker": "DLCP",
-      "logoSince": "2025-08-19",
-      "startDate": "2024-12-19T01:12:07Z"
-    },
-    {
-      "id": 99013786,
-      "ticker": "COA",
-      "logoSince": "2025-08-19",
-      "startDate": "2024-12-26T23:26:35Z"
-    },
-    {
-      "id": 99013823,
-      "ticker": "MEOWS",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-01-12T06:02:21Z"
-    },
-    {
-      "id": 99013840,
-      "ticker": "ERLY",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-01-19T10:26:49Z"
-    },
-    {
-      "id": 99013846,
-      "ticker": "DAZH.",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-01-22T05:40:25Z"
-    },
-    {
-      "id": 99013885,
-      "ticker": "MD",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-02-08T11:53:23Z"
-    },
-    {
-      "id": 99014123,
-      "ticker": "NPSI.",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-05-25T23:49:25Z"
-    },
-    {
-      "id": 99014250,
-      "ticker": "SWEET",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-07-14T09:41:08Z"
-    },
-    {
-      "id": 99014261,
-      "ticker": "ISWER",
-      "logoSince": "2025-08-19",
-      "startDate": "2025-07-17T20:09:54Z"
+      "id": 99014247,
+      "ticker": "NOSEA",
+      "logoSince": "2025-09-02",
+      "startDate": "2025-07-12T13:54:20Z"
     }
   ],
   "hasLogos": {
     "2025-07": [
+      {
+        "id": 99014247,
+        "ticker": "NOSEA",
+        "logoSince": "2025-09-02",
+        "startDate": "2025-07-12T13:54:20Z"
+      },
       {
         "id": 99014261,
         "ticker": "ISWER",
@@ -206,6 +128,12 @@
     ],
     "2024-11": [
       {
+        "id": 99013691,
+        "ticker": "XIOMA",
+        "logoSince": "2025-09-02",
+        "startDate": "2024-11-23T00:33:03Z"
+      },
+      {
         "id": 99013674,
         "ticker": "RCKL",
         "logoSince": "2025-07-01",
@@ -289,6 +217,12 @@
       }
     ],
     "2024-08": [
+      {
+        "id": 99013465,
+        "ticker": "W-FOX",
+        "logoSince": "2025-09-02",
+        "startDate": "2024-08-20T18:51:16Z"
+      },
       {
         "id": 99013448,
         "ticker": "AUTO",
@@ -3041,6 +2975,12 @@
       }
     ],
     "2020-03": [
+      {
+        "id": 99009830,
+        "ticker": "LANTE",
+        "logoSince": "2025-09-02",
+        "startDate": "2020-03-11T01:03:51Z"
+      },
       {
         "id": 99009856,
         "ticker": "GBRD.",
