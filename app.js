@@ -62,7 +62,6 @@ console.log(`Checking ${idsToCheck.length} alliances for custom logos...`);
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
 for (let i = 0; i < idsToCheck.length; i += concurrency) {
-	break;
 	const batch = idsToCheck.slice(i, i + concurrency);
 
 	await Promise.all(batch.map(async id => {
@@ -210,7 +209,7 @@ const html = `<!DOCTYPE html>
       </div>
     </div>
 
-    <h5>Latest Alliance Logos <small>(sorted by alliance age)</small></h5>
+    <h5>Latest Alliance Logos <small>${rows[0]?.logoSince} (sorted by alliance age)</small></h5>
     <div class="row"><div class="span12">
       <div class="well pull-left" style="margin-right: 1em; padding-left: 1em;">
         ${newestHTML}
