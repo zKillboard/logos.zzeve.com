@@ -1,28 +1,82 @@
 {
   "newest": [
     {
-      "id": 99009830,
-      "ticker": "LANTE",
-      "logoSince": "2025-09-02",
-      "startDate": "2020-03-11T01:03:51Z"
+      "id": 99009732,
+      "ticker": "JACKL",
+      "logoSince": "2025-10-07",
+      "startDate": "2020-01-25T00:51:28Z"
     },
     {
-      "id": 99013465,
-      "ticker": "W-FOX",
-      "logoSince": "2025-09-02",
-      "startDate": "2024-08-20T18:51:16Z"
+      "id": 99010900,
+      "ticker": "OUTER",
+      "logoSince": "2025-10-07",
+      "startDate": "2021-06-06T23:15:31Z"
     },
     {
-      "id": 99013691,
-      "ticker": "XIOMA",
-      "logoSince": "2025-09-02",
-      "startDate": "2024-11-23T00:33:03Z"
+      "id": 99012565,
+      "ticker": "3200",
+      "logoSince": "2025-10-07",
+      "startDate": "2023-08-30T20:32:01Z"
     },
     {
-      "id": 99014247,
-      "ticker": "NOSEA",
-      "logoSince": "2025-09-02",
-      "startDate": "2025-07-12T13:54:20Z"
+      "id": 99012572,
+      "ticker": "W",
+      "logoSince": "2025-10-07",
+      "startDate": "2023-09-02T02:23:50Z"
+    },
+    {
+      "id": 99012751,
+      "ticker": "CHUJI",
+      "logoSince": "2025-10-07",
+      "startDate": "2023-11-13T20:39:58Z"
+    },
+    {
+      "id": 99012911,
+      "ticker": "CLUB.",
+      "logoSince": "2025-10-07",
+      "startDate": "2024-01-03T16:00:08Z"
+    },
+    {
+      "id": 99013113,
+      "ticker": "BLINK",
+      "logoSince": "2025-10-07",
+      "startDate": "2024-03-29T11:49:41Z"
+    },
+    {
+      "id": 99013491,
+      "ticker": "CNT",
+      "logoSince": "2025-10-07",
+      "startDate": "2024-09-04T05:15:51Z"
+    },
+    {
+      "id": 99013544,
+      "ticker": "XGSCX",
+      "logoSince": "2025-10-07",
+      "startDate": "2024-09-29T00:33:09Z"
+    },
+    {
+      "id": 99013790,
+      "ticker": "FILM",
+      "logoSince": "2025-10-07",
+      "startDate": "2024-12-30T22:50:59Z"
+    },
+    {
+      "id": 99013901,
+      "ticker": "SLNT.",
+      "logoSince": "2025-10-07",
+      "startDate": "2025-02-18T05:06:56Z"
+    },
+    {
+      "id": 99013928,
+      "ticker": "P-G-R",
+      "logoSince": "2025-10-07",
+      "startDate": "2025-03-01T19:43:21Z"
+    },
+    {
+      "id": 99013955,
+      "ticker": "CARD",
+      "logoSince": "2025-10-07",
+      "startDate": "2025-03-09T04:22:25Z"
     }
   ],
   "hasLogos": {
@@ -60,7 +114,27 @@
         "startDate": "2025-05-28T17:07:53Z"
       }
     ],
+    "2025-03": [
+      {
+        "id": 99013955,
+        "ticker": "CARD",
+        "logoSince": "2025-10-07",
+        "startDate": "2025-03-09T04:22:25Z"
+      },
+      {
+        "id": 99013928,
+        "ticker": "P-G-R",
+        "logoSince": "2025-10-07",
+        "startDate": "2025-03-01T19:43:21Z"
+      }
+    ],
     "2025-02": [
+      {
+        "id": 99013901,
+        "ticker": "SLNT.",
+        "logoSince": "2025-10-07",
+        "startDate": "2025-02-18T05:06:56Z"
+      },
       {
         "id": 99013885,
         "ticker": "MD",
@@ -113,6 +187,12 @@
       }
     ],
     "2024-12": [
+      {
+        "id": 99013790,
+        "ticker": "FILM",
+        "logoSince": "2025-10-07",
+        "startDate": "2024-12-30T22:50:59Z"
+      },
       {
         "id": 99013786,
         "ticker": "COA",
@@ -179,6 +259,18 @@
       }
     ],
     "2024-09": [
+      {
+        "id": 99013491,
+        "ticker": "CNT",
+        "logoSince": "2025-10-07",
+        "startDate": "2024-09-04T05:15:51Z"
+      },
+      {
+        "id": 99013544,
+        "ticker": "XGSCX",
+        "logoSince": "2025-10-07",
+        "startDate": "2024-09-29T00:33:09Z"
+      },
       {
         "id": 99013530,
         "ticker": "GUARD",
@@ -510,6 +602,12 @@
     ],
     "2024-03": [
       {
+        "id": 99013113,
+        "ticker": "BLINK",
+        "logoSince": "2025-10-07",
+        "startDate": "2024-03-29T11:49:41Z"
+      },
+      {
         "id": 99013086,
         "ticker": "FTWWH",
         "logoSince": "2025-07-22",
@@ -615,6 +713,12 @@
       }
     ],
     "2024-01": [
+      {
+        "id": 99012911,
+        "ticker": "CLUB.",
+        "logoSince": "2025-10-07",
+        "startDate": "2024-01-03T16:00:08Z"
+      },
       {
         "id": 99012932,
         "ticker": "CHOAM",
@@ -812,6 +916,12 @@
     ],
     "2023-11": [
       {
+        "id": 99012751,
+        "ticker": "CHUJI",
+        "logoSince": "2025-10-07",
+        "startDate": "2023-11-13T20:39:58Z"
+      },
+      {
         "id": 99012764,
         "ticker": "TRU",
         "logoSince": "2025-08-19",
@@ -924,6 +1034,12 @@
     ],
     "2023-09": [
       {
+        "id": 99012572,
+        "ticker": "W",
+        "logoSince": "2025-10-07",
+        "startDate": "2023-09-02T02:23:50Z"
+      },
+      {
         "id": 99012627,
         "ticker": "ICE",
         "logoSince": "2025-07-22",
@@ -1027,6 +1143,12 @@
       }
     ],
     "2023-08": [
+      {
+        "id": 99012565,
+        "ticker": "3200",
+        "logoSince": "2025-10-07",
+        "startDate": "2023-08-30T20:32:01Z"
+      },
       {
         "id": 99012544,
         "ticker": "AHBA",
@@ -2238,6 +2360,12 @@
     ],
     "2021-06": [
       {
+        "id": 99010900,
+        "ticker": "OUTER",
+        "logoSince": "2025-10-07",
+        "startDate": "2021-06-06T23:15:31Z"
+      },
+      {
         "id": 99010931,
         "ticker": "BL0B",
         "logoSince": "2025-05-17",
@@ -3081,6 +3209,12 @@
       }
     ],
     "2020-01": [
+      {
+        "id": 99009732,
+        "ticker": "JACKL",
+        "logoSince": "2025-10-07",
+        "startDate": "2020-01-25T00:51:28Z"
+      },
       {
         "id": 99009710,
         "ticker": "TAS",
