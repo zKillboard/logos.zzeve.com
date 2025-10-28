@@ -60,6 +60,7 @@ const idsToCheck = allianceIds.filter(id => {
 console.log(`Checking ${idsToCheck.length} alliances for custom logos...`);
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+const newLogos = [];
 
 for (let i = 0; i < idsToCheck.length; i += concurrency) {
 	const batch = idsToCheck.slice(i, i + concurrency);
@@ -72,7 +73,12 @@ for (let i = 0; i < idsToCheck.length; i += concurrency) {
 			const logoSince = hasLogo ? new Date().toISOString().split('T')[0] : null;
 
 			if (hasLogo > 0) {
+				// Get alliance details for the webhook
+				const allianceData = db.prepare('SELECT ticker FROM alliances WHERE id = ?').get(id);
+				const ticker = allianceData?.ticker || 'Unknown';
+				
 				console.log('new logo', `https://images.evetech.net/Alliance/${id}_128.png`);
+				newLogos.push({ id, ticker });
 
 				db.prepare(`
           UPDATE alliances
@@ -90,6 +96,43 @@ for (let i = 0; i < idsToCheck.length; i += concurrency) {
 }
 
 console.log("✅ Alliance logos updated.");
+
+// Send Discord webhook notification if new logos were found
+if (newLogos.length > 0 && process.env.DISCORD_WEBHOOK) {
+	try {
+		const webhookData = {
+			embeds: [{
+				title: "🎨 New Alliance Logos Detected!",
+				description: `Found **${newLogos.length}** new custom alliance logo${newLogos.length > 1 ? 's' : ''}`,
+				color: 0x00ff00, // Green color
+				footer: {
+					text: "Alliance Logos Tracker",
+					icon_url: "https://image.eveonline.com/Alliance/1_32.png"
+				},
+				timestamp: new Date().toISOString(),
+				url: "https://logos.zzeve.com"
+			}]
+		};
+
+		const webhookResponse = await fetch(process.env.DISCORD_WEBHOOK, {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json',
+			},
+			body: JSON.stringify(webhookData)
+		});
+
+		if (webhookResponse.ok) {
+			console.log(`✅ Discord notification sent for ${newLogos.length} new logos`);
+		} else {
+			console.error('❌ Failed to send Discord notification:', webhookResponse.status, webhookResponse.statusText);
+		}
+	} catch (err) {
+		console.error('❌ Discord webhook error:', err.message);
+	}
+} else if (newLogos.length > 0) {
+	console.log(`ℹ️ Found ${newLogos.length} new logos but no Discord webhook configured`);
+}
 
 // Get all alliances with logos
 const allWithLogos = db.prepare(`
