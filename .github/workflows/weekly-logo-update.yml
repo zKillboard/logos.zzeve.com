@@ -24,7 +24,8 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install better-sqlite3@^12.2.0 node-fetch@^3.3.2 --no-package-lock --no-save
 
       - name: Run app.js
         run: node app.js
