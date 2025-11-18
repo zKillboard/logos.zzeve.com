@@ -1,118 +1,46 @@
 {
   "newest": [
     {
-      "id": 99007335,
-      "ticker": "HABIT",
-      "logoSince": "2025-10-28",
-      "startDate": "2017-03-26T06:06:02Z"
+      "id": 99002891,
+      "ticker": "BS",
+      "logoSince": "2025-11-18",
+      "startDate": "2013-01-30T22:37:37Z"
     },
     {
-      "id": 99009464,
-      "ticker": "-BG-",
-      "logoSince": "2025-10-28",
-      "startDate": "2019-09-15T19:11:18Z"
+      "id": 99012941,
+      "ticker": "LOST.",
+      "logoSince": "2025-11-18",
+      "startDate": "2024-01-15T02:39:08Z"
     },
     {
-      "id": 99012161,
-      "ticker": "N.EXP",
-      "logoSince": "2025-10-28",
-      "startDate": "2023-03-18T12:11:11Z"
+      "id": 99013385,
+      "ticker": "ABSYD",
+      "logoSince": "2025-11-18",
+      "startDate": "2024-07-04T22:54:52Z"
     },
     {
-      "id": 99012328,
-      "ticker": "STKN",
-      "logoSince": "2025-10-28",
-      "startDate": "2023-05-30T08:33:32Z"
+      "id": 99013690,
+      "ticker": "MASS",
+      "logoSince": "2025-11-18",
+      "startDate": "2024-11-22T12:45:23Z"
     },
     {
-      "id": 99013082,
-      "ticker": "GATOR",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-03-09T00:56:04Z"
+      "id": 99013920,
+      "ticker": "E",
+      "logoSince": "2025-11-18",
+      "startDate": "2025-02-27T18:13:00Z"
     },
     {
-      "id": 99013098,
-      "ticker": ".HRD.",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-03-17T19:38:51Z"
+      "id": 99014050,
+      "ticker": "LUNAR",
+      "logoSince": "2025-11-18",
+      "startDate": "2025-04-23T19:01:28Z"
     },
     {
-      "id": 99013565,
-      "ticker": "JOKE",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-10-07T06:57:33Z"
-    },
-    {
-      "id": 99013723,
-      "ticker": "FIRMA",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-12-04T19:17:16Z"
-    },
-    {
-      "id": 99013746,
-      "ticker": "TDGA",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-12-11T04:23:31Z"
-    },
-    {
-      "id": 99013794,
-      "ticker": "CAPYH",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-12-31T07:07:12Z"
-    },
-    {
-      "id": 99013795,
-      "ticker": "EZ.AT",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-12-31T11:31:56Z"
-    },
-    {
-      "id": 99013797,
-      "ticker": "4-D",
-      "logoSince": "2025-10-28",
-      "startDate": "2024-12-31T16:24:02Z"
-    },
-    {
-      "id": 99013802,
-      "ticker": "NOISK",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-01-03T21:15:23Z"
-    },
-    {
-      "id": 99013803,
-      "ticker": "WG-E",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-01-04T17:28:27Z"
-    },
-    {
-      "id": 99013809,
-      "ticker": "MUTED",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-01-06T20:23:14Z"
-    },
-    {
-      "id": 99013851,
-      "ticker": "MOCA",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-01-24T13:22:23Z"
-    },
-    {
-      "id": 99013894,
-      "ticker": "AUDHD",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-02-15T14:12:01Z"
-    },
-    {
-      "id": 99014008,
-      "ticker": "SMOKE",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-04-07T23:23:34Z"
-    },
-    {
-      "id": 99014292,
-      "ticker": "DIE",
-      "logoSince": "2025-10-28",
-      "startDate": "2025-08-02T14:55:32Z"
+      "id": 99014264,
+      "ticker": "DRACO",
+      "logoSince": "2025-11-18",
+      "startDate": "2025-07-19T14:48:15Z"
     }
   ],
   "hasLogos": {
@@ -125,6 +53,12 @@
       }
     ],
     "2025-07": [
+      {
+        "id": 99014264,
+        "ticker": "DRACO",
+        "logoSince": "2025-11-18",
+        "startDate": "2025-07-19T14:48:15Z"
+      },
       {
         "id": 99014247,
         "ticker": "NOSEA",
@@ -160,6 +94,12 @@
     ],
     "2025-04": [
       {
+        "id": 99014050,
+        "ticker": "LUNAR",
+        "logoSince": "2025-11-18",
+        "startDate": "2025-04-23T19:01:28Z"
+      },
+      {
         "id": 99014008,
         "ticker": "SMOKE",
         "logoSince": "2025-10-28",
@@ -181,6 +121,12 @@
       }
     ],
     "2025-02": [
+      {
+        "id": 99013920,
+        "ticker": "E",
+        "logoSince": "2025-11-18",
+        "startDate": "2025-02-27T18:13:00Z"
+      },
       {
         "id": 99013894,
         "ticker": "AUDHD",
@@ -320,6 +266,12 @@
     ],
     "2024-11": [
       {
+        "id": 99013690,
+        "ticker": "MASS",
+        "logoSince": "2025-11-18",
+        "startDate": "2024-11-22T12:45:23Z"
+      },
+      {
         "id": 99013691,
         "ticker": "XIOMA",
         "logoSince": "2025-09-02",
@@ -453,6 +405,12 @@
       }
     ],
     "2024-07": [
+      {
+        "id": 99013385,
+        "ticker": "ABSYD",
+        "logoSince": "2025-11-18",
+        "startDate": "2024-07-04T22:54:52Z"
+      },
       {
         "id": 99013383,
         "ticker": "PO3TS",
@@ -843,6 +801,12 @@
       }
     ],
     "2024-01": [
+      {
+        "id": 99012941,
+        "ticker": "LOST.",
+        "logoSince": "2025-11-18",
+        "startDate": "2024-01-15T02:39:08Z"
+      },
       {
         "id": 99012911,
         "ticker": "CLUB.",
@@ -6025,6 +5989,12 @@
       }
     ],
     "2013-01": [
+      {
+        "id": 99002891,
+        "ticker": "BS",
+        "logoSince": "2025-11-18",
+        "startDate": "2013-01-30T22:37:37Z"
+      },
       {
         "id": 99002826,
         "ticker": "KIA",
