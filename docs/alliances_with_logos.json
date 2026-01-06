@@ -1,46 +1,64 @@
 {
   "newest": [
     {
-      "id": 99002891,
-      "ticker": "BS",
-      "logoSince": "2025-11-18",
-      "startDate": "2013-01-30T22:37:37Z"
+      "id": 99006557,
+      "ticker": "WI.",
+      "logoSince": "2026-01-06",
+      "startDate": "2016-05-30T04:42:30Z"
     },
     {
-      "id": 99012941,
-      "ticker": "LOST.",
-      "logoSince": "2025-11-18",
-      "startDate": "2024-01-15T02:39:08Z"
+      "id": 99007649,
+      "ticker": "ZKILL",
+      "logoSince": "2026-01-06",
+      "startDate": "2017-08-08T14:48:55Z"
     },
     {
-      "id": 99013385,
-      "ticker": "ABSYD",
-      "logoSince": "2025-11-18",
-      "startDate": "2024-07-04T22:54:52Z"
+      "id": 99012442,
+      "ticker": "OZONE",
+      "logoSince": "2026-01-06",
+      "startDate": "2023-07-08T02:56:26Z"
     },
     {
-      "id": 99013690,
-      "ticker": "MASS",
-      "logoSince": "2025-11-18",
-      "startDate": "2024-11-22T12:45:23Z"
+      "id": 99013041,
+      "ticker": "FJORD",
+      "logoSince": "2026-01-06",
+      "startDate": "2024-02-24T01:44:20Z"
     },
     {
-      "id": 99013920,
-      "ticker": "E",
-      "logoSince": "2025-11-18",
-      "startDate": "2025-02-27T18:13:00Z"
+      "id": 99013349,
+      "ticker": "BR",
+      "logoSince": "2026-01-06",
+      "startDate": "2024-06-19T15:10:41Z"
     },
     {
-      "id": 99014050,
-      "ticker": "LUNAR",
-      "logoSince": "2025-11-18",
-      "startDate": "2025-04-23T19:01:28Z"
+      "id": 99013666,
+      "ticker": "SKULL",
+      "logoSince": "2026-01-06",
+      "startDate": "2024-11-12T01:43:26Z"
     },
     {
-      "id": 99014264,
-      "ticker": "DRACO",
-      "logoSince": "2025-11-18",
-      "startDate": "2025-07-19T14:48:15Z"
+      "id": 99014017,
+      "ticker": "M.W.R",
+      "logoSince": "2026-01-06",
+      "startDate": "2025-04-11T14:24:10Z"
+    },
+    {
+      "id": 99014051,
+      "ticker": "K-SE",
+      "logoSince": "2026-01-06",
+      "startDate": "2025-04-24T03:11:13Z"
+    },
+    {
+      "id": 99014052,
+      "ticker": "EXG",
+      "logoSince": "2026-01-06",
+      "startDate": "2025-04-24T07:18:14Z"
+    },
+    {
+      "id": 99014066,
+      "ticker": "PL",
+      "logoSince": "2026-01-06",
+      "startDate": "2025-04-29T22:10:14Z"
     }
   ],
   "hasLogos": {
@@ -93,6 +111,30 @@
       }
     ],
     "2025-04": [
+      {
+        "id": 99014052,
+        "ticker": "EXG",
+        "logoSince": "2026-01-06",
+        "startDate": "2025-04-24T07:18:14Z"
+      },
+      {
+        "id": 99014051,
+        "ticker": "K-SE",
+        "logoSince": "2026-01-06",
+        "startDate": "2025-04-24T03:11:13Z"
+      },
+      {
+        "id": 99014017,
+        "ticker": "M.W.R",
+        "logoSince": "2026-01-06",
+        "startDate": "2025-04-11T14:24:10Z"
+      },
+      {
+        "id": 99014066,
+        "ticker": "PL",
+        "logoSince": "2026-01-06",
+        "startDate": "2025-04-29T22:10:14Z"
+      },
       {
         "id": 99014050,
         "ticker": "LUNAR",
@@ -265,6 +307,12 @@
       }
     ],
     "2024-11": [
+      {
+        "id": 99013666,
+        "ticker": "SKULL",
+        "logoSince": "2026-01-06",
+        "startDate": "2024-11-12T01:43:26Z"
+      },
       {
         "id": 99013690,
         "ticker": "MASS",
@@ -443,6 +491,12 @@
       }
     ],
     "2024-06": [
+      {
+        "id": 99013349,
+        "ticker": "BR",
+        "logoSince": "2026-01-06",
+        "startDate": "2024-06-19T15:10:41Z"
+      },
       {
         "id": 99013321,
         "ticker": "DSA",
@@ -715,6 +769,12 @@
       }
     ],
     "2024-02": [
+      {
+        "id": 99013041,
+        "ticker": "FJORD",
+        "logoSince": "2026-01-06",
+        "startDate": "2024-02-24T01:44:20Z"
+      },
       {
         "id": 99013010,
         "ticker": "4011",
@@ -1263,6 +1323,12 @@
       }
     ],
     "2023-07": [
+      {
+        "id": 99012442,
+        "ticker": "OZONE",
+        "logoSince": "2026-01-06",
+        "startDate": "2023-07-08T02:56:26Z"
+      },
       {
         "id": 99012428,
         "ticker": "D-SY",
@@ -4232,6 +4298,12 @@
     ],
     "2017-08": [
       {
+        "id": 99007649,
+        "ticker": "ZKILL",
+        "logoSince": "2026-01-06",
+        "startDate": "2017-08-08T14:48:55Z"
+      },
+      {
         "id": 99007672,
         "ticker": ".BRA.",
         "logoSince": "2025-05-17",
@@ -4771,6 +4843,12 @@
       }
     ],
     "2016-05": [
+      {
+        "id": 99006557,
+        "ticker": "WI.",
+        "logoSince": "2026-01-06",
+        "startDate": "2016-05-30T04:42:30Z"
+      },
       {
         "id": 99006507,
         "ticker": "ACORD",
