@@ -1,64 +1,46 @@
 {
   "newest": [
     {
-      "id": 99006557,
-      "ticker": "WI.",
-      "logoSince": "2026-01-06",
-      "startDate": "2016-05-30T04:42:30Z"
+      "id": 99000818,
+      "ticker": "PONYX",
+      "logoSince": "2026-01-20",
+      "startDate": "2011-06-13T07:54:00Z"
     },
     {
-      "id": 99007649,
-      "ticker": "ZKILL",
-      "logoSince": "2026-01-06",
-      "startDate": "2017-08-08T14:48:55Z"
+      "id": 99000827,
+      "ticker": "-TUF-",
+      "logoSince": "2026-01-20",
+      "startDate": "2011-06-16T23:55:00Z"
     },
     {
-      "id": 99012442,
-      "ticker": "OZONE",
-      "logoSince": "2026-01-06",
-      "startDate": "2023-07-08T02:56:26Z"
+      "id": 99012953,
+      "ticker": "TIST",
+      "logoSince": "2026-01-20",
+      "startDate": "2024-01-20T20:58:23Z"
     },
     {
-      "id": 99013041,
-      "ticker": "FJORD",
-      "logoSince": "2026-01-06",
-      "startDate": "2024-02-24T01:44:20Z"
+      "id": 99013537,
+      "ticker": "EVIL.",
+      "logoSince": "2026-01-20",
+      "startDate": "2024-09-26T16:15:36Z"
     },
     {
-      "id": 99013349,
-      "ticker": "BR",
-      "logoSince": "2026-01-06",
-      "startDate": "2024-06-19T15:10:41Z"
+      "id": 99013628,
+      "ticker": "-NEB-",
+      "logoSince": "2026-01-20",
+      "startDate": "2024-10-31T19:15:46Z"
     },
     {
-      "id": 99013666,
-      "ticker": "SKULL",
-      "logoSince": "2026-01-06",
-      "startDate": "2024-11-12T01:43:26Z"
+      "id": 99013788,
+      "ticker": "AOSOL",
+      "logoSince": "2026-01-20",
+      "startDate": "2024-12-29T15:18:10Z"
     },
     {
-      "id": 99014017,
-      "ticker": "M.W.R",
-      "logoSince": "2026-01-06",
-      "startDate": "2025-04-11T14:24:10Z"
-    },
-    {
-      "id": 99014051,
-      "ticker": "K-SE",
-      "logoSince": "2026-01-06",
-      "startDate": "2025-04-24T03:11:13Z"
-    },
-    {
-      "id": 99014052,
-      "ticker": "EXG",
-      "logoSince": "2026-01-06",
-      "startDate": "2025-04-24T07:18:14Z"
-    },
-    {
-      "id": 99014066,
-      "ticker": "PL",
-      "logoSince": "2026-01-06",
-      "startDate": "2025-04-29T22:10:14Z"
+      "id": 99014069,
+      "ticker": "T.U",
+      "logoSince": "2026-01-20",
+      "startDate": "2025-05-01T18:30:00Z"
     }
   ],
   "hasLogos": {
@@ -97,6 +79,12 @@
       }
     ],
     "2025-05": [
+      {
+        "id": 99014069,
+        "ticker": "T.U",
+        "logoSince": "2026-01-20",
+        "startDate": "2025-05-01T18:30:00Z"
+      },
       {
         "id": 99014123,
         "ticker": "NPSI.",
@@ -258,6 +246,12 @@
     ],
     "2024-12": [
       {
+        "id": 99013788,
+        "ticker": "AOSOL",
+        "logoSince": "2026-01-20",
+        "startDate": "2024-12-29T15:18:10Z"
+      },
+      {
         "id": 99013797,
         "ticker": "4-D",
         "logoSince": "2025-10-28",
@@ -346,6 +340,12 @@
     ],
     "2024-10": [
       {
+        "id": 99013628,
+        "ticker": "-NEB-",
+        "logoSince": "2026-01-20",
+        "startDate": "2024-10-31T19:15:46Z"
+      },
+      {
         "id": 99013565,
         "ticker": "JOKE",
         "logoSince": "2025-10-28",
@@ -377,6 +377,12 @@
       }
     ],
     "2024-09": [
+      {
+        "id": 99013537,
+        "ticker": "EVIL.",
+        "logoSince": "2026-01-20",
+        "startDate": "2024-09-26T16:15:36Z"
+      },
       {
         "id": 99013491,
         "ticker": "CNT",
@@ -861,6 +867,12 @@
       }
     ],
     "2024-01": [
+      {
+        "id": 99012953,
+        "ticker": "TIST",
+        "logoSince": "2026-01-20",
+        "startDate": "2024-01-20T20:58:23Z"
+      },
       {
         "id": 99012941,
         "ticker": "LOST.",
@@ -6511,6 +6523,18 @@
       }
     ],
     "2011-06": [
+      {
+        "id": 99000827,
+        "ticker": "-TUF-",
+        "logoSince": "2026-01-20",
+        "startDate": "2011-06-16T23:55:00Z"
+      },
+      {
+        "id": 99000818,
+        "ticker": "PONYX",
+        "logoSince": "2026-01-20",
+        "startDate": "2011-06-13T07:54:00Z"
+      },
       {
         "id": 99000854,
         "ticker": "ADHC",
