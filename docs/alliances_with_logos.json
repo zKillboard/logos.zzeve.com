@@ -1,50 +1,136 @@
 {
   "newest": [
     {
-      "id": 99000818,
-      "ticker": "PONYX",
-      "logoSince": "2026-01-20",
-      "startDate": "2011-06-13T07:54:00Z"
+      "id": 99006975,
+      "ticker": "BENT",
+      "logoSince": "2026-03-03",
+      "startDate": "2016-11-18T06:17:57Z"
     },
     {
-      "id": 99000827,
-      "ticker": "-TUF-",
-      "logoSince": "2026-01-20",
-      "startDate": "2011-06-16T23:55:00Z"
+      "id": 99012617,
+      "ticker": "GWCS",
+      "logoSince": "2026-03-03",
+      "startDate": "2023-09-20T12:48:15Z"
     },
     {
-      "id": 99012953,
-      "ticker": "TIST",
-      "logoSince": "2026-01-20",
-      "startDate": "2024-01-20T20:58:23Z"
+      "id": 99012781,
+      "ticker": "ISYMP",
+      "logoSince": "2026-03-03",
+      "startDate": "2023-11-20T21:06:05Z"
     },
     {
-      "id": 99013537,
-      "ticker": "EVIL.",
-      "logoSince": "2026-01-20",
-      "startDate": "2024-09-26T16:15:36Z"
+      "id": 99013136,
+      "ticker": "GITS",
+      "logoSince": "2026-03-03",
+      "startDate": "2024-04-06T08:30:49Z"
     },
     {
-      "id": 99013628,
-      "ticker": "-NEB-",
-      "logoSince": "2026-01-20",
-      "startDate": "2024-10-31T19:15:46Z"
+      "id": 99013335,
+      "ticker": "TACE",
+      "logoSince": "2026-03-03",
+      "startDate": "2024-06-15T19:06:40Z"
     },
     {
-      "id": 99013788,
-      "ticker": "AOSOL",
-      "logoSince": "2026-01-20",
-      "startDate": "2024-12-29T15:18:10Z"
+      "id": 99013390,
+      "ticker": "-VL-",
+      "logoSince": "2026-03-03",
+      "startDate": "2024-07-07T18:28:41Z"
     },
     {
-      "id": 99014069,
-      "ticker": "T.U",
-      "logoSince": "2026-01-20",
-      "startDate": "2025-05-01T18:30:00Z"
+      "id": 99013513,
+      "ticker": "K162",
+      "logoSince": "2026-03-03",
+      "startDate": "2024-09-14T18:30:10Z"
+    },
+    {
+      "id": 99013710,
+      "ticker": "WEH8U",
+      "logoSince": "2026-03-03",
+      "startDate": "2024-11-29T20:00:16Z"
+    },
+    {
+      "id": 99013884,
+      "ticker": "VTX",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-02-08T02:21:46Z"
+    },
+    {
+      "id": 99014100,
+      "ticker": "FORTY",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-05-18T15:48:27Z"
+    },
+    {
+      "id": 99014131,
+      "ticker": "FELTD",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-05-30T16:27:52Z"
+    },
+    {
+      "id": 99014194,
+      "ticker": "CLOCK",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-06-23T23:55:46Z"
+    },
+    {
+      "id": 99014222,
+      "ticker": "5A",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-07-03T15:19:27Z"
+    },
+    {
+      "id": 99014268,
+      "ticker": "SATSI",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-07-20T21:42:02Z"
+    },
+    {
+      "id": 99014284,
+      "ticker": "7.62",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-07-29T11:18:31Z"
+    },
+    {
+      "id": 99014308,
+      "ticker": "STOWA",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-08-08T15:46:07Z"
+    },
+    {
+      "id": 99014309,
+      "ticker": "BSL",
+      "logoSince": "2026-03-03",
+      "startDate": "2025-08-08T20:49:01Z"
+    },
+    {
+      "id": 99014826,
+      "ticker": "PAYUS",
+      "logoSince": "2026-03-03",
+      "startDate": "2026-02-21T09:03:36Z"
     }
   ],
   "hasLogos": {
+    "2026-02": [
+      {
+        "id": 99014826,
+        "ticker": "PAYUS",
+        "logoSince": "2026-03-03",
+        "startDate": "2026-02-21T09:03:36Z"
+      }
+    ],
     "2025-08": [
+      {
+        "id": 99014309,
+        "ticker": "BSL",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-08-08T20:49:01Z"
+      },
+      {
+        "id": 99014308,
+        "ticker": "STOWA",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-08-08T15:46:07Z"
+      },
       {
         "id": 99014292,
         "ticker": "DIE",
@@ -53,6 +139,24 @@
       }
     ],
     "2025-07": [
+      {
+        "id": 99014222,
+        "ticker": "5A",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-07-03T15:19:27Z"
+      },
+      {
+        "id": 99014284,
+        "ticker": "7.62",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-07-29T11:18:31Z"
+      },
+      {
+        "id": 99014268,
+        "ticker": "SATSI",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-07-20T21:42:02Z"
+      },
       {
         "id": 99014264,
         "ticker": "DRACO",
@@ -78,7 +182,27 @@
         "startDate": "2025-07-14T09:41:08Z"
       }
     ],
+    "2025-06": [
+      {
+        "id": 99014194,
+        "ticker": "CLOCK",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-06-23T23:55:46Z"
+      }
+    ],
     "2025-05": [
+      {
+        "id": 99014131,
+        "ticker": "FELTD",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-05-30T16:27:52Z"
+      },
+      {
+        "id": 99014100,
+        "ticker": "FORTY",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-05-18T15:48:27Z"
+      },
       {
         "id": 99014069,
         "ticker": "T.U",
@@ -151,6 +275,12 @@
       }
     ],
     "2025-02": [
+      {
+        "id": 99013884,
+        "ticker": "VTX",
+        "logoSince": "2026-03-03",
+        "startDate": "2025-02-08T02:21:46Z"
+      },
       {
         "id": 99013920,
         "ticker": "E",
@@ -302,6 +432,12 @@
     ],
     "2024-11": [
       {
+        "id": 99013710,
+        "ticker": "WEH8U",
+        "logoSince": "2026-03-03",
+        "startDate": "2024-11-29T20:00:16Z"
+      },
+      {
         "id": 99013666,
         "ticker": "SKULL",
         "logoSince": "2026-01-06",
@@ -377,6 +513,12 @@
       }
     ],
     "2024-09": [
+      {
+        "id": 99013513,
+        "ticker": "K162",
+        "logoSince": "2026-03-03",
+        "startDate": "2024-09-14T18:30:10Z"
+      },
       {
         "id": 99013537,
         "ticker": "EVIL.",
@@ -460,6 +602,12 @@
     ],
     "2024-07": [
       {
+        "id": 99013390,
+        "ticker": "-VL-",
+        "logoSince": "2026-03-03",
+        "startDate": "2024-07-07T18:28:41Z"
+      },
+      {
         "id": 99013385,
         "ticker": "ABSYD",
         "logoSince": "2025-11-18",
@@ -497,6 +645,12 @@
       }
     ],
     "2024-06": [
+      {
+        "id": 99013335,
+        "ticker": "TACE",
+        "logoSince": "2026-03-03",
+        "startDate": "2024-06-15T19:06:40Z"
+      },
       {
         "id": 99013349,
         "ticker": "BR",
@@ -687,6 +841,12 @@
       }
     ],
     "2024-04": [
+      {
+        "id": 99013136,
+        "ticker": "GITS",
+        "logoSince": "2026-03-03",
+        "startDate": "2024-04-06T08:30:49Z"
+      },
       {
         "id": 99013122,
         "ticker": "CHKR",
@@ -1082,6 +1242,12 @@
     ],
     "2023-11": [
       {
+        "id": 99012781,
+        "ticker": "ISYMP",
+        "logoSince": "2026-03-03",
+        "startDate": "2023-11-20T21:06:05Z"
+      },
+      {
         "id": 99012751,
         "ticker": "CHUJI",
         "logoSince": "2025-10-07",
@@ -1199,6 +1365,12 @@
       }
     ],
     "2023-09": [
+      {
+        "id": 99012617,
+        "ticker": "GWCS",
+        "logoSince": "2026-03-03",
+        "startDate": "2023-09-20T12:48:15Z"
+      },
       {
         "id": 99012572,
         "ticker": "W",
@@ -4681,6 +4853,12 @@
       }
     ],
     "2016-11": [
+      {
+        "id": 99006975,
+        "ticker": "BENT",
+        "logoSince": "2026-03-03",
+        "startDate": "2016-11-18T06:17:57Z"
+      },
       {
         "id": 99007000,
         "ticker": ".DST.",
