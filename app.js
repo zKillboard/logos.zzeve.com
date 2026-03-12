@@ -238,7 +238,7 @@ const html = `<!DOCTYPE html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alliance Logos</title>
   <link href="css/bootstrap-combined.min.2.2.2.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/main.css?1" rel="stylesheet">
   <script src="js/jquery.min.1.8.3.js"></script>
   <script src="js/bootstrap.min.2.2.2.js"></script>
 </head>
