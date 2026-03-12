@@ -297,6 +297,7 @@ const html = `<!DOCTYPE html>
 	<script>
 		$(function () {
 			var $modal = $('#logo-modal');
+			var $modalBody = $modal.find('.modal-body');
 			var $modalTitle = $('#logo-modal-title');
 			var $modalImage = $('#logo-modal-image');
 			var $modalTicker = $('#logo-modal-ticker');
@@ -304,16 +305,34 @@ const html = `<!DOCTYPE html>
 			var $modalEveWho = $('#logo-modal-evewho');
 			var preservedScrollTop = 0;
 
+			function sizeModalImageToSquare() {
+				var modalBodyWidth = $modalBody.innerWidth();
+				if (!modalBodyWidth) return;
+
+				var size = Math.min(512, modalBodyWidth);
+				$modalImage.css({
+					width: size + 'px',
+					height: size + 'px'
+				});
+			}
+
 			$modal.on('show', function () {
 				preservedScrollTop = $(window).scrollTop();
 			});
 
 			$modal.on('shown', function () {
+				sizeModalImageToSquare();
 				$(window).scrollTop(preservedScrollTop);
 			});
 
 			$modal.on('hidden', function () {
 				$(window).scrollTop(preservedScrollTop);
+			});
+
+			$(window).on('resize', function () {
+				if ($modal.is(':visible')) {
+					sizeModalImageToSquare();
+				}
 			});
 
 			$(document).on('click', 'a[href^="https://zkillboard.com/alliance/"]', function (event) {
@@ -336,6 +355,7 @@ const html = `<!DOCTYPE html>
 				$modalTicker.text('<' + ticker + '>');
 				$modalZkill.attr('href', 'https://zkillboard.com/alliance/' + allianceId + '/');
 				$modalEveWho.attr('href', 'https://evewho.com/alliance/' + allianceId);
+				sizeModalImageToSquare();
 
 				preservedScrollTop = $(window).scrollTop();
 				$modal.css('top', (preservedScrollTop + 20) + 'px');
