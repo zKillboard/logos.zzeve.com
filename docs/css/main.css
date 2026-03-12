@@ -14,3 +14,8 @@ body {
     background-color: #222;
     filter: invert(1);
 }
+
+.modal-backdrop,
+.modal-backdrop.fade.in {
+    background-color: #fff;
+}

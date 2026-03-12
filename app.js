@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS alliances (
 )`);
 
 // Step 1: Fetch alliance IDs
-const idListRes = await fetch('https://esi.evetech.net/latest/alliances/?datasource=tranquility');
+const idListRes = await fetch('https://esi.evetech.net/alliances');
 const allianceIds = await idListRes.json();
 
 // Step 2: Fetch metadata ONLY for missing alliances
@@ -29,7 +29,7 @@ for (const id of allianceIds) {
 	if (existingIds.has(id)) continue;
 
 	try {
-		const res = await fetch(`https://esi.evetech.net/latest/alliances/${id}/?datasource=tranquility`);
+		const res = await fetch(`https://esi.evetech.net/alliances/${id}`);
 		if (!res.ok) continue;
 
 		const data = await res.json();
@@ -258,6 +258,24 @@ const html = `<!DOCTYPE html>
       </div>
     </div>
 
+		<div id="logo-modal" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="logo-modal-title"
+			aria-hidden="true">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h3 id="logo-modal-title">Alliance Logo</h3>
+			</div>
+			<div class="modal-body" style="text-align: center; max-height: none; overflow: visible;">
+				<img id="logo-modal-image" class="eveimage img-rounded" src="" alt="Alliance logo preview"
+					style="width: 512px; height: 512px;">
+				<div><small id="logo-modal-ticker"></small></div>
+			</div>
+			<div class="modal-footer">
+				<a id="logo-modal-zkill" class="btn btn-primary" target="_blank" href="#">zKillboard</a>
+				<a id="logo-modal-evewho" class="btn" target="_blank" href="#">EveWho</a>
+				<button type="button" class="btn" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+
     <h5>Latest Alliance Logos <small>${rows[0]?.logoSince} (sorted by alliance age)</small></h5>
     <div class="row"><div class="span12">
       <div class="well pull-left" style="margin-right: 1em; padding-left: 1em;">
@@ -276,6 +294,55 @@ const html = `<!DOCTYPE html>
         href="http://evewho.com/pilot/Squizz+Caphinator">Squizz Caphinator</a></div>
     </div>
   </div>
+	<script>
+		$(function () {
+			var $modal = $('#logo-modal');
+			var $modalTitle = $('#logo-modal-title');
+			var $modalImage = $('#logo-modal-image');
+			var $modalTicker = $('#logo-modal-ticker');
+			var $modalZkill = $('#logo-modal-zkill');
+			var $modalEveWho = $('#logo-modal-evewho');
+			var preservedScrollTop = 0;
+
+			$modal.on('show', function () {
+				preservedScrollTop = $(window).scrollTop();
+			});
+
+			$modal.on('shown', function () {
+				$(window).scrollTop(preservedScrollTop);
+			});
+
+			$modal.on('hidden', function () {
+				$(window).scrollTop(preservedScrollTop);
+			});
+
+			$(document).on('click', 'a[href^="https://zkillboard.com/alliance/"]', function (event) {
+				var $anchor = $(this);
+				var $img = $anchor.find('img.eveimage');
+				if (!$img.length) return;
+
+				event.preventDefault();
+
+				var href = $anchor.attr('href') || '';
+				var match = href.match(/alliance\/(\d+)/);
+				if (!match) return;
+
+				var allianceId = match[1];
+				var ticker = $img.attr('title') || allianceId;
+
+				$modalTitle.text(ticker + ' Alliance Logo');
+				$modalImage.attr('src', 'https://image.eveonline.com/Alliance/' + allianceId + '_512.png');
+				$modalImage.attr('alt', ticker + ' logo');
+				$modalTicker.text('<' + ticker + '>');
+				$modalZkill.attr('href', 'https://zkillboard.com/alliance/' + allianceId + '/');
+				$modalEveWho.attr('href', 'https://evewho.com/alliance/' + allianceId);
+
+				preservedScrollTop = $(window).scrollTop();
+				$modal.css('top', (preservedScrollTop + 20) + 'px');
+				$modal.modal('show');
+			});
+		});
+	</script>
 </body>
 </html>`;
 
