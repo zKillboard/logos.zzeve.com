@@ -343,10 +343,9 @@ const html = `<!DOCTYPE html>
 				event.preventDefault();
 
 				var href = $anchor.attr('href') || '';
-				var match = href.match(/alliance\/(\d+)/);
-				if (!match) return;
-
-				var allianceId = match[1];
+				var hrefParts = href.split('/').filter(Boolean);
+				var allianceId = hrefParts[hrefParts.length - 1];
+				if (!/^[0-9]+$/.test(allianceId)) return;
 				var ticker = $img.attr('title') || allianceId;
 
 				$modalTitle.text(ticker + ' Alliance Logo');
