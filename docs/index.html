@@ -11629,10 +11629,10 @@
 
 				event.preventDefault();
 
-        var href = $anchor.attr('href') || '';
-        var hrefParts = href.split('/').filter(Boolean);
-        var allianceId = hrefParts[hrefParts.length - 1];
-        if (!/^[0-9]+$/.test(allianceId)) return;
+				var href = $anchor.attr('href') || '';
+				var hrefParts = href.split('/').filter(Boolean);
+				var allianceId = hrefParts[hrefParts.length - 1];
+				if (!/^[0-9]+$/.test(allianceId)) return;
 				var ticker = $img.attr('title') || allianceId;
 
 				$modalTitle.text(ticker + ' Alliance Logo');
