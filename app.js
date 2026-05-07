@@ -249,12 +249,6 @@ const html = `<!DOCTYPE html>
         <li class="brand" href="/"><img class="eveimage img-rounded" src="https://image.eveonline.com/Alliance/1_32.png"
           style="padding: 0; margin: 0; background-color: #111; height: 25px; width: 25px;">&nbsp;
           Alliance Logos</li>
-        <ul class="nav pull-right">
-          <li><a href="https://github.com/zKillboard/logos.zzeve.com" target="_blank" title="View source code on GitHub">
-            <i class="icon-github" style="background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIgMEM1LjM3NCAwIDAgNS4zNzMgMCAxMiAwIDUuMzAyIDMuNDM4IDkuOCA4LjIwNyAxMC4zODdjLjU5OS0uMTExIDEuMTI1LS4zNDEgMS41MjUtLjY4NC0xLjk2Ni0xLjEwNi0zLjMzNi0zLjIyOS0zLjMzNi01LjY4NSAwLTEuMjU2LjQ1MS0yLjQxIDEuMTkzLTMuMjUyLS40NzQtLjkzNi0uNDA0LTIuMDA0LjE3Ni0yLjg3MiAxLjM0MSAwIDIuNjU3IDEuMzMgMy4yOTYgMS45ODkuOTMtLjI1NSAxLjkyNS0uMzkzIDIuOTk2LS4zOTMgMS4wNzEgMCAyLjA2Ni4xMzggMi45OTYuMzkzLjYzOS0uNjU5IDEuOTU1LTEuOTg5IDMuMjk3LTEuOTg5LjU4Ljg2OC42NSAxLjkzNi4xNzYgMi44NzIuNzQyLjg0MiAxLjE5MyAxLjk5NiAxLjE5MyAzLjI1MiAwIDIuNDU2LTEuMzcgNC41NzktMy4zMzYgNS42ODUuNC4zNDMuOTI2LjU3MyAxLjUyNS42ODRDMjAuNTYyIDIxLjggMjQgMTcuMzAyIDI0IDEyIDI0IDUuMzczIDE4LjYyNiAwIDEyIDB6bTAtMS4zOTNjNi4wOCAwIDExIDQuOTIgMTEgMTEgMCA0LjkwNi0zLjI3MSA5LjIyOC03Ljc0NyAxMC4xMTktLjU2OS0uMzQ2LS45ODMtLjgzNS0xLjA2My0xLjM5OC0uMDM1LS4yNDYtLjAzNS0uNTA4LS4wMzUtLjc3NyAwLS4yNjkgMC0uNTMxLjAzNS0uNzc3LjA4LS41NjMuNDk0LTEuMDUyIDEuMDYzLTEuMzk4LjMwOC0uMTg3LjY0OS0uMzIzIDEuMDE3LS4zOTIuOTQ5LS4xNzggMS42OTUtLjc5IDIuMDg0LTEuNjQ3LjExMy0uMjQzLjE5NC0uNTA1LjIzOS0uNzc4LjEwMy0uNjI4LS4wMS0xLjMwNS0uMjg5LTEuOTA5LS4wODMtLjE4LS4xODYtLjM0OC0uMzAzLS41MDItLjEzNy0uMTgxLS4yOTItLjMzNy0uNDY2LS40NzctLjQ2Mi0uMzY5LTEuMDI1LS42NTgtMS42ODUtLjgwMi0uMDg3LS4wMTktLjE3Ni0uMDM1LS4yNjYtLjA1LS0uMDkxLS4wMTUtLjE4Mi0uMDMtLjI3NC0uMDQzLS4zNzQtLjA1NS0uNzctLjA5NC0xLjE3OC0uMDk0cy0uODA0LjAzOS0xLjE3OC4wOTRjLS4wOTIuMDEzLS4xODMuMDI4LS4yNzQuMDQzLS4wOS4wMTUtLjE3OS4wMzEtLjI2Ni4wNS0uNjYuMTQ0LTEuMjIzLjQzMy0xLjY4NS44MDItLjE3NC4xNC0uMzI5LjI5Ni0uNDY2LjQ3Ny0uMTE3LjE1NC0uMjIuMzIyLS4zMDMuNTAyLS4yNzkuNjA0LS4zOTIgMS4yODEtLjI4OSAxLjkwOS4wNDUuMjczLjEyNi41MzUuMjM5Ljc3OC4zODkuODU3IDEuMTM1IDEuNDY5IDIuMDg0IDEuNjQ3LjM2OC4wNjkuNzA5LjIwNSAxLjAxNy4zOTIuNTY5LjM0Ni45ODMuODM1IDEuMDYzIDEuMzk4LjAzNS4yNDYuMDM1LjUwOC4wMzUuNzc3IDAgLjI2OSAwIC41MzEtLjAzNS43NzctLjA4LjU2My0uNDk0IDEuMDUyLTEuMDYzIDEuMzk4QzQyNzEgMjEuMjI4IDEgMTYuOTA2IDEgMTJjMC02LjA4IDQuOTItMTEgMTEtMTF6Ii8+PC9zdmc+'); background-repeat: no-repeat; background-position: center; width: 16px; height: 16px; display: inline-block; vertical-align: middle;"></i>
-            GitHub
-          </a></li>
-        </ul>
       </div>
     </div>
 
@@ -290,12 +284,16 @@ const html = `<!DOCTYPE html>
       ${groupedHTML}
     </div></div>
 
-    <div class="footer">
-      <hr>
-      <div class="pull-left">Brought to you by a bored <a target="_blank"
-        href="http://evewho.com/pilot/Squizz+Caphinator">Squizz Caphinator</a></div>
-    </div>
-  </div>
+  	<hr/>
+	<footer class="footer"><small>
+		<center><a href="https://evewho.com/character/1633218082">Brought to you by Squizz Caphinator</a> /  / <a href="https://github.com/zKillboard/logos.zzeve.com" target="_blank" title="View source code on GitHub">GitHub </a><br><a
+				class="zz-badge external-link ms-2" href="https://zzeve.com" target="_blank"><img
+					src="https://img.shields.io/badge/zz-Suite-blueviolet?style=flat-square" alt="Part of zz Suite"
+					style="vertical-align: middle;" class="eveimage"></a></center>
+		<center data-toggle="tooltip" style="cursor: pointer; text-decoration: underline" title=""
+			data-original-title="EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners. EVE Online, the EVE logo, EVE and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts or other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. CCP hf. has granted permission to evewho.com to use EVE Online and all associated logos and designs for promotional and information purposes on its website but does not endorse, and is not in any way affiliated with, evewho.com. CCP is in no way responsible for the content on or functioning of this website, nor can it be liable for any damage arising from the use of this website.">
+			All Eve Related Materials are Property of CCP Games</center>
+	</small></footer>
 	<script>
 		$(function () {
 			var $modal = $('#logo-modal');
