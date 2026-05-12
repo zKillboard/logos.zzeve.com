@@ -1,61 +1,111 @@
 {
   "newest": [
     {
-      "id": 99012928,
-      "ticker": "BMKET",
-      "logoSince": "2026-04-14",
-      "startDate": "2024-01-08T13:03:42Z"
+      "id": 99009322,
+      "ticker": "DUSK",
+      "logoSince": "2026-05-12",
+      "startDate": "2019-07-21T21:38:52Z"
     },
     {
-      "id": 99013343,
-      "ticker": "NEX",
-      "logoSince": "2026-04-14",
-      "startDate": "2024-06-18T03:27:38Z"
+      "id": 99010240,
+      "ticker": "CVAA",
+      "logoSince": "2026-05-12",
+      "startDate": "2020-08-20T21:50:07Z"
     },
     {
-      "id": 99013799,
-      "ticker": "INDE",
-      "logoSince": "2026-04-14",
-      "startDate": "2025-01-02T05:10:20Z"
+      "id": 99010526,
+      "ticker": "WV",
+      "logoSince": "2026-05-12",
+      "startDate": "2020-12-25T20:12:15Z"
     },
     {
-      "id": 99013925,
-      "ticker": "INRI",
-      "logoSince": "2026-04-14",
-      "startDate": "2025-02-28T19:57:25Z"
+      "id": 99012786,
+      "ticker": "DR.LR",
+      "logoSince": "2026-05-12",
+      "startDate": "2023-11-22T13:48:56Z"
     },
     {
-      "id": 99013963,
-      "ticker": "S.B.",
-      "logoSince": "2026-04-14",
-      "startDate": "2025-03-12T16:57:35Z"
+      "id": 99013553,
+      "ticker": "PONZI",
+      "logoSince": "2026-05-12",
+      "startDate": "2024-10-02T16:13:38Z"
     },
     {
-      "id": 99014143,
-      "ticker": "-VVV-",
-      "logoSince": "2026-04-14",
-      "startDate": "2025-06-02T17:42:36Z"
+      "id": 99013933,
+      "ticker": "GUADO",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-03-02T23:32:03Z"
     },
     {
-      "id": 99014192,
-      "ticker": "HELAB",
-      "logoSince": "2026-04-14",
-      "startDate": "2025-06-23T22:49:56Z"
+      "id": 99014068,
+      "ticker": "EUR0",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-05-01T18:09:55Z"
     },
     {
-      "id": 99014360,
-      "ticker": "KIC",
-      "logoSince": "2026-04-14",
-      "startDate": "2025-09-02T18:22:06Z"
+      "id": 99014279,
+      "ticker": "HX",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-07-28T08:36:18Z"
     },
     {
-      "id": 99014871,
-      "ticker": "JUI-C",
-      "logoSince": "2026-04-14",
-      "startDate": "2026-03-15T16:53:21Z"
+      "id": 99014328,
+      "ticker": "WHSP",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-08-19T13:10:30Z"
+    },
+    {
+      "id": 99014334,
+      "ticker": "RL",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-08-21T08:38:10Z"
+    },
+    {
+      "id": 99014445,
+      "ticker": "ROLL.",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-10-12T04:12:12Z"
+    },
+    {
+      "id": 99014455,
+      "ticker": "A0M",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-10-16T07:30:20Z"
+    },
+    {
+      "id": 99014466,
+      "ticker": "STRIX",
+      "logoSince": "2026-05-12",
+      "startDate": "2025-10-20T16:33:04Z"
+    },
+    {
+      "id": 99014919,
+      "ticker": "SAYR-",
+      "logoSince": "2026-05-12",
+      "startDate": "2026-04-10T19:51:46Z"
+    },
+    {
+      "id": 99014953,
+      "ticker": "BTB",
+      "logoSince": "2026-05-12",
+      "startDate": "2026-04-22T18:54:52Z"
     }
   ],
   "hasLogos": {
+    "2026-04": [
+      {
+        "id": 99014953,
+        "ticker": "BTB",
+        "logoSince": "2026-05-12",
+        "startDate": "2026-04-22T18:54:52Z"
+      },
+      {
+        "id": 99014919,
+        "ticker": "SAYR-",
+        "logoSince": "2026-05-12",
+        "startDate": "2026-04-10T19:51:46Z"
+      }
+    ],
     "2026-03": [
       {
         "id": 99014871,
@@ -72,6 +122,26 @@
         "startDate": "2026-02-21T09:03:36Z"
       }
     ],
+    "2025-10": [
+      {
+        "id": 99014455,
+        "ticker": "A0M",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-10-16T07:30:20Z"
+      },
+      {
+        "id": 99014445,
+        "ticker": "ROLL.",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-10-12T04:12:12Z"
+      },
+      {
+        "id": 99014466,
+        "ticker": "STRIX",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-10-20T16:33:04Z"
+      }
+    ],
     "2025-09": [
       {
         "id": 99014360,
@@ -81,6 +151,18 @@
       }
     ],
     "2025-08": [
+      {
+        "id": 99014334,
+        "ticker": "RL",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-08-21T08:38:10Z"
+      },
+      {
+        "id": 99014328,
+        "ticker": "WHSP",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-08-19T13:10:30Z"
+      },
       {
         "id": 99014309,
         "ticker": "BSL",
@@ -101,6 +183,12 @@
       }
     ],
     "2025-07": [
+      {
+        "id": 99014279,
+        "ticker": "HX",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-07-28T08:36:18Z"
+      },
       {
         "id": 99014222,
         "ticker": "5A",
@@ -165,6 +253,12 @@
       }
     ],
     "2025-05": [
+      {
+        "id": 99014068,
+        "ticker": "EUR0",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-05-01T18:09:55Z"
+      },
       {
         "id": 99014131,
         "ticker": "FELTD",
@@ -235,6 +329,12 @@
       }
     ],
     "2025-03": [
+      {
+        "id": 99013933,
+        "ticker": "GUADO",
+        "logoSince": "2026-05-12",
+        "startDate": "2025-03-02T23:32:03Z"
+      },
       {
         "id": 99013963,
         "ticker": "S.B.",
@@ -467,6 +567,12 @@
       }
     ],
     "2024-10": [
+      {
+        "id": 99013553,
+        "ticker": "PONZI",
+        "logoSince": "2026-05-12",
+        "startDate": "2024-10-02T16:13:38Z"
+      },
       {
         "id": 99013628,
         "ticker": "-NEB-",
@@ -1245,6 +1351,12 @@
       }
     ],
     "2023-11": [
+      {
+        "id": 99012786,
+        "ticker": "DR.LR",
+        "logoSince": "2026-05-12",
+        "startDate": "2023-11-22T13:48:56Z"
+      },
       {
         "id": 99012781,
         "ticker": "ISYMP",
@@ -3014,6 +3126,12 @@
     ],
     "2020-12": [
       {
+        "id": 99010526,
+        "ticker": "WV",
+        "logoSince": "2026-05-12",
+        "startDate": "2020-12-25T20:12:15Z"
+      },
+      {
         "id": 99010498,
         "ticker": ".FAM.",
         "logoSince": "2025-05-17",
@@ -3243,6 +3361,12 @@
       }
     ],
     "2020-08": [
+      {
+        "id": 99010240,
+        "ticker": "CVAA",
+        "logoSince": "2026-05-12",
+        "startDate": "2020-08-20T21:50:07Z"
+      },
       {
         "id": 99010265,
         "ticker": "BLNI",
@@ -3791,6 +3915,12 @@
       }
     ],
     "2019-07": [
+      {
+        "id": 99009322,
+        "ticker": "DUSK",
+        "logoSince": "2026-05-12",
+        "startDate": "2019-07-21T21:38:52Z"
+      },
       {
         "id": 99009321,
         "ticker": "F O X",
