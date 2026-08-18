@@ -1,6 +1,8 @@
 import fs from 'fs';
+import { createHash } from 'crypto';
 import fetch from 'node-fetch';
 import Database from 'better-sqlite3';
+import { generateOpenGraphImage } from './generate-opengraph.js';
 
 const db = new Database('alliances.db');
 
@@ -186,6 +188,18 @@ const rows = db.prepare(`
   ORDER BY logoSince DESC, startDate ASC, ticker ASC
 `).all();
 
+// Regenerate the social preview only when this run detects new custom logos.
+if (newLogos.length > 0) {
+	await generateOpenGraphImage(rows);
+} else {
+	console.log('ℹ️ No new logos; keeping the existing Open Graph image');
+}
+
+const ogImageVersion = createHash('sha256')
+	.update(fs.readFileSync('docs/opengraph.png'))
+	.digest('hex')
+	.slice(0, 12);
+
 // Group newest logos (by latest logoSince)
 newestDate = rows[0]?.logoSince;
 newest = rows.filter(row => row.logoSince === newestDate);
@@ -236,6 +250,23 @@ const html = `<!DOCTYPE html>
   <meta name="keywords" content="eve-online, eve, ccp, ccp games, massively, multiplayer, online, role, playing, game, mmorpg">
   <meta name="robots" content="index,follow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="https://logos.zzeve.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Alliance Logos">
+  <meta property="og:url" content="https://logos.zzeve.com/">
+  <meta property="og:title" content="Alliance Logos">
+  <meta property="og:description" content="Discover the newest custom alliance logos from EVE Online.">
+  <meta property="og:image" content="https://logos.zzeve.com/opengraph.png?v=${ogImageVersion}">
+  <meta property="og:image:secure_url" content="https://logos.zzeve.com/opengraph.png?v=${ogImageVersion}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A collage of recent EVE Online alliance logos">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Alliance Logos">
+  <meta name="twitter:description" content="Discover the newest custom alliance logos from EVE Online.">
+  <meta name="twitter:image" content="https://logos.zzeve.com/opengraph.png?v=${ogImageVersion}">
+  <meta name="twitter:image:alt" content="A collage of recent EVE Online alliance logos">
   <title>Alliance Logos</title>
   <link href="css/bootstrap-combined.min.2.2.2.css" rel="stylesheet">
   <link href="css/main.css?1" rel="stylesheet">

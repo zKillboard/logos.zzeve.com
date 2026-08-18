@@ -25,7 +25,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install better-sqlite3@^12.2.0 node-fetch@^3.3.2 --no-package-lock --no-save
+          npm install better-sqlite3@^12.2.0 node-fetch@^3.3.2 sharp@^0.34.3 --no-package-lock --no-save
 
       - name: Run app.js
         run: node app.js
@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add alliances.db docs/alliances_with_logos.json docs/index.html
+          git add alliances.db docs/alliances_with_logos.json docs/index.html docs/opengraph.png
           git commit -m "Weekly Alliance Image Check and Update" || echo "No changes to commit"
           git push

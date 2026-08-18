@@ -23,13 +23,14 @@ EVE Online alliances can upload custom logos to personalize their organizations.
 2. **Check for New Alliances**: Adds metadata for any previously unknown alliances
 3. **Logo Detection**: Checks image endpoints to detect custom logos (non-default images)
 4. **Data Storage**: Stores alliance data and logo status in SQLite database
-5. **Web Generation**: Creates static HTML page and JSON data file
+5. **Web Generation**: Creates the static HTML page and JSON data, regenerating the Open Graph collage only when new logos are detected
 6. **Auto-Deploy**: GitHub Pages serves the updated content
 
 ### Key Files
 - `app.js` - Main application logic for data fetching and processing
 - `docs/index.html` - Generated static website
 - `docs/alliances_with_logos.json` - JSON API endpoint with alliance data
+- `docs/opengraph.png` - Generated 1200×630 social preview using recent alliance logos
 - `alliances.db` - SQLite database storing alliance information
 - `.github/workflows/weekly-logo-update.yml` - Automated update workflow
 
@@ -80,7 +81,7 @@ git clone https://github.com/zKillboard/logos.zzeve.com.git
 cd logos.zzeve.com
 
 # Install dependencies (no package.json needed)
-npm install better-sqlite3@^12.2.0 node-fetch@^3.3.2 --no-package-lock --no-save
+npm install better-sqlite3@^12.2.0 node-fetch@^3.3.2 sharp@^0.34.3 --no-package-lock --no-save
 
 # Run the application
 node app.js
