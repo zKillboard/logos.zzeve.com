@@ -57,7 +57,7 @@ function textOverlay() {
 			<g text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="800"
 				stroke="#07090d" stroke-linejoin="round" paint-order="stroke fill" filter="url(#shadow)">
 				<text x="600" y="300" font-size="112" letter-spacing="5" stroke-width="20" fill="#fff">ALLIANCE LOGOS</text>
-				<text x="600" y="380" font-size="34" letter-spacing="7" stroke-width="11" fill="#8ed8ff">RECENT EMBLEMS FROM EVE ONLINE</text>
+				<text x="600" y="380" font-size="34" letter-spacing="7" stroke-width="11" fill="#8ed8ff">ALL THE LOGOS FROM EVE ONLINE</text>
 			</g>
 			<text x="600" y="573" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif"
 				font-size="28" font-weight="700" letter-spacing="3" fill="#fff" stroke="#07090d"
