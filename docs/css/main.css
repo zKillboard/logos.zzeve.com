@@ -1,21 +1,472 @@
-.eveimage { background-color: #222; max-width:100%; height:auto; overflow: hidden; font-size: 0.1px;}
+:root {
+    color-scheme: dark;
+}
 
+* {
+    box-sizing: border-box;
+}
 
-/* invert filter based dark mode */
-body {
-    background-color: black;
+html {
+    scroll-padding-top: 1rem;
 }
 
 body {
-    filter: invert(1);
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    color: #f1f1f1;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+
+a {
+    color: #75bcff;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    color: #b9dcff;
+}
+
+a:focus,
+button:focus,
+summary:focus,
+[tabindex]:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 3px;
+}
+
+.container {
+    width: auto;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+.skip-link {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    z-index: 2000;
+    padding: 10px 14px;
+    transform: translateY(-200%);
+    background: #ffbf47;
+    color: #121212;
+    font-weight: 700;
+}
+
+.skip-link:focus {
+    transform: translateY(0);
+    color: #121212;
+}
+
+.site-header {
+    margin-bottom: 28px;
+    background: #1a1a1a;
+    border-bottom: 1px solid #6b6b6b;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .navbar-inner {
+    min-height: 0;
+    padding: 0;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.navbar .brand {
+    display: inline-flex;
+    float: none;
+    align-items: center;
+    min-height: 56px;
+    margin: 0;
+    padding: 10px 0;
+    gap: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.navbar .brand:hover {
+    color: #b9dcff;
+}
+
+.navbar .brand .eveimage {
+    width: 32px;
+    height: 32px;
 }
 
 .eveimage {
-    background-color: #222;
-    filter: invert(1);
+    display: block;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #222222;
+    object-fit: contain;
+}
+
+h2,
+h3,
+p {
+    overflow-wrap: anywhere;
+}
+
+.logo-section {
+    margin-bottom: 36px;
+}
+
+.logo-section h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.3;
+}
+
+.section-meta {
+    margin: 4px 0 14px;
+    color: #c7c7c7;
+}
+
+.month-groups {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.well.logo-group {
+    width: fit-content;
+    max-width: 100%;
+    min-height: 0;
+    margin: 0;
+    padding: 16px;
+    background: #202020;
+    border: 1px solid #626262;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.logo-group h3 {
+    margin: 0 0 12px;
+    color: #ffffff;
+    font-size: 19px;
+    line-height: 1.35;
+}
+
+.logo-grid {
+    display: flex;
+    width: fit-content;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.alliance-logo {
+    width: 88px;
+    min-width: 0;
+    margin: 0;
+    flex: 0 0 88px;
+    text-align: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 0;
+    min-height: 108px;
+    padding: 8px;
+    flex-direction: column;
+    gap: 6px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.logo-link:hover,
+.logo-link:active {
+    background: #333333;
+    border-color: #777777;
+    color: #ffffff;
+}
+
+.logo-link .eveimage {
+    width: 64px;
+    height: 64px;
+    flex: 0 0 64px;
+}
+
+.logo-link span {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    color: inherit;
+    font-size: 14px;
+    line-height: 1.35;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.modal,
+.modal.fade.in {
+    top: 5%;
+    left: 50%;
+    width: min(620px, calc(100% - 32px));
+    max-height: 90vh;
+    margin: 0;
+    overflow: auto;
+    transform: translateX(-50%);
+    background: #202020;
+    color: #f1f1f1;
+    border: 1px solid #858585;
+    border-radius: 6px;
+    box-shadow: 0 12px 36px rgb(0 0 0 / 70%);
+}
+
+.modal-header,
+.modal-footer {
+    border-color: #626262;
+}
+
+.modal-header h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 22px;
+    line-height: 1.35;
+}
+
+.modal-header .close {
+    min-width: 44px;
+    min-height: 44px;
+    margin: -8px -8px 0 8px;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 1;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.modal-header .close:hover,
+.modal-header .close:focus {
+    color: #b9dcff;
+}
+
+.modal-body {
+    position: relative;
+    max-height: none;
+    padding: 20px 56px;
+    overflow: visible;
+    text-align: center;
+}
+
+.modal-body > .eveimage {
+    margin: 0 auto;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 4px 10px;
+    transform: translateY(-50%);
+    font-size: 30px;
+    line-height: 1;
+}
+
+.modal-nav-prev {
+    left: 8px;
+}
+
+.modal-nav-next {
+    right: 8px;
+}
+
+.modal-ticker {
+    min-height: 27px;
+    margin: 10px 0 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.modal-footer {
+    background: #191919;
+    box-shadow: none;
+}
+
+.btn,
+.modal-footer .btn {
+    min-width: 44px;
+    min-height: 44px;
+    padding: 10px 14px;
+    background: #383838;
+    color: #ffffff;
+    border: 1px solid #8a8a8a;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background: #4a4a4a;
+    color: #ffffff;
+}
+
+.btn-primary,
+.modal-footer .btn-primary {
+    background: #005ea8;
+    border-color: #75bcff;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background: #004b87;
 }
 
 .modal-backdrop,
 .modal-backdrop.fade.in {
-    background-color: #fff;
+    background: #000000;
+    opacity: .78;
+}
+
+.footer {
+    margin-top: 32px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    border-top: 1px solid #626262;
+    color: #c7c7c7;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0 0 10px;
+}
+
+.zz-badge {
+    display: inline-block;
+    min-width: 75px;
+    min-height: 24px;
+    padding: 2px 0;
+}
+
+.zz-badge img {
+    display: block;
+    width: 75px;
+    height: 20px;
+}
+
+.legal {
+    max-width: 850px;
+    margin: 16px auto 0;
+}
+
+.legal summary {
+    min-height: 24px;
+    color: #75bcff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.legal p {
+    margin-top: 12px;
+    color: #e1e1e1;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .site-header {
+        margin-bottom: 20px;
+    }
+
+    .alliance-logo {
+        width: 76px;
+        flex-basis: 76px;
+    }
+
+    .well.logo-group {
+        padding: 12px;
+    }
+
+    .modal,
+    .modal.fade.in {
+        right: 12px;
+        left: 12px;
+        width: auto;
+        transform: none;
+    }
+
+    .modal-body {
+        padding-right: 52px;
+        padding-left: 52px;
+    }
+
+    .modal-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 8px;
+    }
+
+    .modal-footer .btn + .btn {
+        margin-left: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        transition-duration: .01ms !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
+
+@media (forced-colors: active) {
+    .logo-link,
+    .well.logo-group,
+    .modal {
+        border: 1px solid CanvasText;
+    }
 }

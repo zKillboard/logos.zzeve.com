@@ -5,6 +5,7 @@ import Database from 'better-sqlite3';
 import { generateOpenGraphImage } from './generate-opengraph.js';
 
 const db = new Database('alliances.db');
+const generateOnly = process.argv.includes('--generate-only');
 
 // Ensure table exists
 db.exec(`
@@ -18,122 +19,118 @@ CREATE TABLE IF NOT EXISTS alliances (
   last_checked TEXT
 )`);
 
-// Step 1: Fetch alliance IDs
-const idListRes = await fetch('https://esi.evetech.net/alliances');
-const allianceIds = await idListRes.json();
-
-// Step 2: Fetch metadata ONLY for missing alliances
-const existingIds = new Set(
-	db.prepare('SELECT id FROM alliances').all().map(row => row.id)
-);
-
-for (const id of allianceIds) {
-	if (existingIds.has(id)) continue;
-
-	try {
-		const res = await fetch(`https://esi.evetech.net/alliances/${id}`);
-		if (!res.ok) continue;
-
-		const data = await res.json();
-		console.log('Fetched data for', data.name);
-
-		db.prepare(`
-      INSERT INTO alliances (id, ticker, startDate)
-      VALUES (?, ?, ?)
-    `).run(
-			id,
-			data.ticker ?? null,
-			data.date_founded ?? null
-		);
-	} catch (err) {
-		console.error(`Metadata error for ${id}:`, err.message);
-	}
-}
-
-console.log("✅ Alliances updated.");
-
-const concurrency = 10;
-
-const idsToCheck = allianceIds.filter(id => {
-	const row = db.prepare('SELECT has_custom_logo FROM alliances WHERE id = ?').get(id);
-	return !row?.has_custom_logo;
-});
-
-console.log(`Checking ${idsToCheck.length} alliances for custom logos...`);
-
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const newLogos = [];
 
-for (let i = 0; i < idsToCheck.length; i += concurrency) {
-	const batch = idsToCheck.slice(i, i + concurrency);
+if (!generateOnly) {
+	// Step 1: Fetch alliance IDs
+	const idListRes = await fetch('https://esi.evetech.net/alliances');
+	const allianceIds = await idListRes.json();
 
-	await Promise.all(batch.map(async id => {
+	// Step 2: Fetch metadata ONLY for missing alliances
+	const existingIds = new Set(
+		db.prepare('SELECT id FROM alliances').all().map(row => row.id)
+	);
+
+	for (const id of allianceIds) {
+		if (existingIds.has(id)) continue;
+
 		try {
-			const res = await fetch(`https://images.evetech.net/Alliance/${id}_128.png`, { method: 'HEAD' });
-			const size = parseInt(res.headers.get('content-length'), 10);
-			const hasLogo = size !== 9353 ? 1 : 0;
-			const logoSince = hasLogo ? new Date().toISOString().split('T')[0] : null;
+			const res = await fetch(`https://esi.evetech.net/alliances/${id}`);
+			if (!res.ok) continue;
 
-			if (hasLogo > 0) {
-				// Get alliance details for the webhook
-				const allianceData = db.prepare('SELECT ticker FROM alliances WHERE id = ?').get(id);
-				const ticker = allianceData?.ticker || 'Unknown';
-				
-				console.log('new logo', `https://images.evetech.net/Alliance/${id}_128.png`);
-				newLogos.push({ id, ticker });
+			const data = await res.json();
+			console.log('Fetched data for', data.name);
 
-				db.prepare(`
-          UPDATE alliances
-          SET size = ?, has_custom_logo = ?, logoSince = ?
-          WHERE id = ?
-        `).run(size, hasLogo, logoSince, id);
+			db.prepare(`
+        INSERT INTO alliances (id, ticker, startDate)
+        VALUES (?, ?, ?)
+      `).run(
+				id,
+				data.ticker ?? null,
+				data.date_founded ?? null
+			);
+		} catch (err) {
+			console.error(`Metadata error for ${id}:`, err.message);
+		}
+	}
+
+	console.log('Alliances updated.');
+
+	const concurrency = 10;
+	const idsToCheck = allianceIds.filter(id => {
+		const row = db.prepare('SELECT has_custom_logo FROM alliances WHERE id = ?').get(id);
+		return !row?.has_custom_logo;
+	});
+	const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+	console.log(`Checking ${idsToCheck.length} alliances for custom logos...`);
+
+	for (let i = 0; i < idsToCheck.length; i += concurrency) {
+		const batch = idsToCheck.slice(i, i + concurrency);
+
+		await Promise.all(batch.map(async id => {
+			try {
+				const res = await fetch(`https://images.evetech.net/Alliance/${id}_128.png`, { method: 'HEAD' });
+				const size = parseInt(res.headers.get('content-length'), 10);
+				const hasLogo = size !== 9353 ? 1 : 0;
+				const logoSince = hasLogo ? new Date().toISOString().split('T')[0] : null;
+
+				if (hasLogo > 0) {
+					const allianceData = db.prepare('SELECT ticker FROM alliances WHERE id = ?').get(id);
+					const ticker = allianceData?.ticker || 'Unknown';
+
+					console.log('new logo', `https://images.evetech.net/Alliance/${id}_128.png`);
+					newLogos.push({ id, ticker });
+
+					db.prepare(`
+            UPDATE alliances
+            SET size = ?, has_custom_logo = ?, logoSince = ?
+            WHERE id = ?
+          `).run(size, hasLogo, logoSince, id);
+				}
+			} catch (err) {
+				console.error(`Logo check error for ${id}:`, err.message);
+			}
+		}));
+
+		await delay(200);
+	}
+
+	console.log('Alliance logos updated.');
+
+	if (newLogos.length > 0 && process.env.DISCORD_WEBHOOK) {
+		try {
+			const webhookData = {
+				embeds: [{
+					title: 'New Alliance Logos Detected!',
+					description: `Found **${newLogos.length}** new custom alliance logo${newLogos.length > 1 ? 's' : ''}`,
+					color: 0x00ff00,
+					footer: {
+						text: 'Alliance Logos Tracker',
+						icon_url: 'https://image.eveonline.com/Alliance/1_32.png'
+					},
+					timestamp: new Date().toISOString(),
+					url: 'https://logos.zzeve.com'
+				}]
+			};
+
+			const webhookResponse = await fetch(process.env.DISCORD_WEBHOOK, {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify(webhookData)
+			});
+
+			if (webhookResponse.ok) {
+				console.log(`Discord notification sent for ${newLogos.length} new logos`);
+			} else {
+				console.error('Failed to send Discord notification:', webhookResponse.status, webhookResponse.statusText);
 			}
 		} catch (err) {
-			console.error(`Logo check error for ${id}:`, err.message);
+			console.error('Discord webhook error:', err.message);
 		}
-	}));
-
-	// backoff delay to be polite to ESI CDN
-	await delay(200); // 200ms pause between batches
-}
-
-console.log("✅ Alliance logos updated.");
-
-// Send Discord webhook notification if new logos were found
-if (newLogos.length > 0 && process.env.DISCORD_WEBHOOK) {
-	try {
-		const webhookData = {
-			embeds: [{
-				title: "🎨 New Alliance Logos Detected!",
-				description: `Found **${newLogos.length}** new custom alliance logo${newLogos.length > 1 ? 's' : ''}`,
-				color: 0x00ff00, // Green color
-				footer: {
-					text: "Alliance Logos Tracker",
-					icon_url: "https://image.eveonline.com/Alliance/1_32.png"
-				},
-				timestamp: new Date().toISOString(),
-				url: "https://logos.zzeve.com"
-			}]
-		};
-
-		const webhookResponse = await fetch(process.env.DISCORD_WEBHOOK, {
-			method: 'POST',
-			headers: {
-				'Content-Type': 'application/json',
-			},
-			body: JSON.stringify(webhookData)
-		});
-
-		if (webhookResponse.ok) {
-			console.log(`✅ Discord notification sent for ${newLogos.length} new logos`);
-		} else {
-			console.error('❌ Failed to send Discord notification:', webhookResponse.status, webhookResponse.statusText);
-		}
-	} catch (err) {
-		console.error('❌ Discord webhook error:', err.message);
+	} else if (newLogos.length > 0) {
+		console.log(`Found ${newLogos.length} new logos but no Discord webhook configured`);
 	}
-} else if (newLogos.length > 0) {
-	console.log(`ℹ️ Found ${newLogos.length} new logos but no Discord webhook configured`);
 }
 
 // Get all alliances with logos
@@ -219,33 +216,46 @@ const groupedSorted = Object.entries(grouped).sort((a, b) => {
 	return new Date(b[0]) - new Date(a[0]);
 });
 
-// Helper: render logo block
-const logoBlock = ({ id, ticker }) => `
-  <div class="pull-left"
-    style="text-align: center; width: 64px; height: 100px !important; max-height: 90px; margin-right: 1em; overflow: hidden; text-overflow: ellipsis;">
-    <a target="_blank" href="https://zkillboard.com/alliance/${id}/"><img
-      class="eveimage img-rounded"
-      src="https://image.eveonline.com/Alliance/${id}_64.png"
-      style="width: 64px; height: 64px;" rel="tooltip"
-      title="${ticker}"></a><small>&lt;${ticker}&gt;</small>
-  </div>`;
+const escapeHTML = value => String(value).replace(/[&<>"']/g, character => ({
+	'&': '&amp;',
+	'<': '&lt;',
+	'>': '&gt;',
+	'"': '&quot;',
+	"'": '&#39;'
+})[character]);
+
+// Each tile remains a useful zKillboard link when JavaScript is unavailable.
+const logoBlock = ({ id, ticker }, eager = false) => {
+	const safeTicker = escapeHTML(ticker || 'Unknown');
+	const loading = eager ? 'eager' : 'lazy';
+	return `
+      <li class="alliance-logo">
+        <a class="logo-link" href="https://zkillboard.com/alliance/${id}/" data-alliance-id="${id}"
+          data-ticker="${safeTicker}" aria-haspopup="dialog" aria-label="View ${safeTicker} alliance logo details">
+          <img class="eveimage img-rounded" src="https://image.eveonline.com/Alliance/${id}_64.png"
+            alt="" width="64" height="64" loading="${loading}" decoding="async">
+          <span aria-hidden="true">&lt;${safeTicker}&gt;</span>
+        </a>
+      </li>`;
+};
 
 // Build sections
-const newestHTML = newest.map(logoBlock).join('\n');
+const newestHTML = newest.map(row => logoBlock(row, true)).join('\n');
 
 const groupedHTML = groupedSorted.map(([month, logos]) => `
-  <div class="well pull-left" style="margin-right: 1em; padding-left: 1em;">
-    <h4>${month}</h4>
-    ${logos.map(logoBlock).join('\n')}
-  </div>`).join('\n');
+      <div class="logo-group well">
+        <h3 id="month-${month.toLowerCase().replace(' ', '-')}">${month}</h3>
+        <ul class="logo-grid">
+          ${logos.map(row => logoBlock(row)).join('\n')}
+        </ul>
+      </div>`).join('\n');
 
 // Write full HTML page
 const html = `<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="Alliance Logos is for showing the newest alliance logos within the MMO Eve Online">
+  <meta name="description" content="Discover the newest custom alliance logos from EVE Online.">
   <meta name="title" content="Alliance Logos">
   <meta name="keywords" content="eve-online, eve, ccp, ccp games, massively, multiplayer, online, role, playing, game, mmorpg">
   <meta name="robots" content="index,follow">
@@ -269,62 +279,92 @@ const html = `<!DOCTYPE html>
   <meta name="twitter:image:alt" content="A collage of recent EVE Online alliance logos">
   <title>Alliance Logos</title>
   <link href="css/bootstrap-combined.min.2.2.2.css" rel="stylesheet">
-  <link href="css/main.css?1" rel="stylesheet">
+  <link href="css/main.css?3" rel="stylesheet">
   <script src="js/jquery.min.1.8.3.js"></script>
   <script src="js/bootstrap.min.2.2.2.js"></script>
 </head>
 <body>
-  <div class="container">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
     <div class="navbar container">
       <div class="navbar-inner">
-        <li class="brand" href="/"><img class="eveimage img-rounded" src="https://image.eveonline.com/Alliance/1_32.png"
-          style="padding: 0; margin: 0; background-color: #111; height: 25px; width: 25px;">&nbsp;
-          Alliance Logos</li>
+        <h1 class="site-title">
+          <a class="brand" href="/">
+            <img class="eveimage img-rounded" src="https://image.eveonline.com/Alliance/1_32.png"
+              alt="" width="32" height="32">
+            <span>Alliance Logos</span>
+          </a>
+        </h1>
       </div>
     </div>
+  </header>
 
-		<div id="logo-modal" class="modal hide" tabindex="-1" role="dialog" aria-labelledby="logo-modal-title"
-			aria-hidden="true">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h3 id="logo-modal-title">Alliance Logo</h3>
-			</div>
-			<div class="modal-body" style="text-align: center; max-height: none; overflow: visible; position: relative;">
-				<button id="logo-modal-prev" class="btn" aria-label="Previous logo" style="position: absolute; left: 0; top: 50%; transform: translateY(-50%); z-index: 10; font-size: 1.4em; padding: 0.2em 0.5em;">&#8249;</button>
-				<img id="logo-modal-image" class="eveimage img-rounded" src="" alt="Alliance logo preview"
-					style="width: 512px; height: 512px;">
-				<div><small id="logo-modal-ticker"></small></div>
-				<button id="logo-modal-next" class="btn" aria-label="Next logo" style="position: absolute; right: 0; top: 50%; transform: translateY(-50%); z-index: 10; font-size: 1.4em; padding: 0.2em 0.5em;">&#8250;</button>
-			</div>
-			<div class="modal-footer">
-				<a id="logo-modal-zkill" class="btn btn-primary" target="_blank" href="#">zKillboard</a>
-				<a id="logo-modal-evewho" class="btn" target="_blank" href="#">EveWho</a>
-				<button type="button" class="btn" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-
-    <h5>Latest Alliance Logos <small>${rows[0]?.logoSince} (sorted by alliance age)</small></h5>
-    <div class="row"><div class="span12">
-      <div class="well pull-left" style="margin-right: 1em; padding-left: 1em;">
-        ${newestHTML}
+  <main id="main-content" class="container" tabindex="-1">
+    <section class="logo-section" aria-labelledby="latest-heading">
+      <h2 id="latest-heading">Latest Alliance Logos</h2>
+      <p class="section-meta"><time datetime="${rows[0]?.logoSince || ''}">${rows[0]?.logoSince || 'No detection date'}</time>; sorted by alliance age</p>
+      <div class="logo-group well">
+        <ul class="logo-grid">
+          ${newestHTML}
+        </ul>
       </div>
-    </div></div>
+    </section>
 
-    <h5>Alliances with Logos <small>(sorted by alliance creation date)</small></h5>
-    <div class="row"><div class="span12">
+    <section class="logo-section" aria-labelledby="all-heading">
+      <h2 id="all-heading">Alliances with Logos</h2>
+      <p class="section-meta">Sorted by alliance creation date</p>
+      <div class="month-groups">
       ${groupedHTML}
-    </div></div>
+      </div>
+    </section>
+  </main>
 
-  	<hr/>
-	<footer class="footer"><small>
-		<center><a href="https://evewho.com/character/1633218082">Brought to you by Squizz Caphinator</a> /  / <a href="https://github.com/zKillboard/logos.zzeve.com" target="_blank" title="View source code on GitHub">GitHub </a><br><a
-				class="zz-badge external-link ms-2" href="https://zzeve.com" target="_blank"><img
-					src="https://img.shields.io/badge/zz-Suite-blueviolet?style=flat-square" alt="Part of zz Suite"
-					style="vertical-align: middle;" class="eveimage"></a></center>
-		<center data-toggle="tooltip" style="cursor: pointer; text-decoration: underline" title=""
-			data-original-title="EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners. EVE Online, the EVE logo, EVE and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts or other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. CCP hf. has granted permission to evewho.com to use EVE Online and all associated logos and designs for promotional and information purposes on its website but does not endorse, and is not in any way affiliated with, evewho.com. CCP is in no way responsible for the content on or functioning of this website, nor can it be liable for any damage arising from the use of this website.">
-			All Eve Related Materials are Property of CCP Games</center>
-	</small></footer>
+  <div id="logo-modal" class="modal hide" tabindex="-1" role="dialog" aria-modal="true"
+    aria-labelledby="logo-modal-title" aria-describedby="logo-modal-ticker" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close logo details">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <h2 id="logo-modal-title">Alliance Logo</h2>
+    </div>
+    <div class="modal-body">
+      <button id="logo-modal-prev" class="btn modal-nav modal-nav-prev" type="button" aria-label="Previous alliance logo">
+        <span aria-hidden="true">&#8249;</span>
+      </button>
+      <img id="logo-modal-image" class="eveimage img-rounded"
+        src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" alt="" width="512" height="512">
+      <p id="logo-modal-ticker" class="modal-ticker" aria-live="polite"></p>
+      <button id="logo-modal-next" class="btn modal-nav modal-nav-next" type="button" aria-label="Next alliance logo">
+        <span aria-hidden="true">&#8250;</span>
+      </button>
+    </div>
+    <div class="modal-footer">
+      <a id="logo-modal-zkill" class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="#">
+        zKillboard<span class="visually-hidden"> (opens in a new tab)</span>
+      </a>
+      <a id="logo-modal-evewho" class="btn" target="_blank" rel="noopener noreferrer" href="#">
+        EveWho<span class="visually-hidden"> (opens in a new tab)</span>
+      </a>
+      <button type="button" class="btn" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+
+  <footer class="footer container">
+    <p>
+      <a href="https://evewho.com/character/1633218082">Brought to you by Squizz Caphinator</a>
+      <span aria-hidden="true"> / </span>
+      <a href="https://github.com/zKillboard/logos.zzeve.com" target="_blank" rel="noopener noreferrer">
+        GitHub<span class="visually-hidden"> (opens in a new tab)</span>
+      </a>
+    </p>
+    <a class="zz-badge external-link" href="https://zzeve.com" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/zz-Suite-blueviolet?style=flat-square" alt="Part of zz Suite (opens in a new tab)" width="75" height="20">
+    </a>
+    <details class="legal">
+      <summary>All EVE-related materials are property of CCP Games</summary>
+      <p>EVE Online and the EVE logo are registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners. EVE Online, the EVE logo, EVE, and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts, and other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. CCP hf. has granted permission to evewho.com to use EVE Online and all associated logos and designs for promotional and information purposes on its website but does not endorse, and is not affiliated with, evewho.com. CCP is not responsible for the content or functioning of this website and cannot be liable for damage arising from its use.</p>
+    </details>
+  </footer>
 	<script>
 		$(function () {
 			var $modal = $('#logo-modal');
@@ -334,21 +374,20 @@ const html = `<!DOCTYPE html>
 			var $modalTicker = $('#logo-modal-ticker');
 			var $modalZkill = $('#logo-modal-zkill');
 			var $modalEveWho = $('#logo-modal-evewho');
+			var blankImage = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=';
 			var preservedScrollTop = 0;
+			var lastTrigger = null;
 
-			// Build deduplicated ordered list of alliances from all logo links on the page
+			// Build a deduplicated navigation list from the rendered logo tiles.
 			var alliances = [];
 			var seenIds = {};
-			$('a[href^="https://zkillboard.com/alliance/"]').each(function () {
-				var $img = $(this).find('img.eveimage');
-				if (!$img.length) return;
-				var href = $(this).attr('href') || '';
-				var hrefParts = href.split('/').filter(Boolean);
-				var allianceId = hrefParts[hrefParts.length - 1];
+			$('.logo-link').each(function () {
+				var $link = $(this);
+				var allianceId = $link.attr('data-alliance-id');
 				if (!/^[0-9]+$/.test(allianceId)) return;
 				if (seenIds[allianceId]) return;
 				seenIds[allianceId] = true;
-				alliances.push({ id: allianceId, ticker: $img.attr('title') || allianceId });
+				alliances.push({ id: allianceId, ticker: $link.attr('data-ticker') || allianceId });
 			});
 
 			var currentIndex = 0;
@@ -358,9 +397,10 @@ const html = `<!DOCTYPE html>
 				currentIndex = (idx + alliances.length) % alliances.length;
 				var a = alliances[currentIndex];
 				$modalTitle.text(a.ticker + ' Alliance Logo');
-				$modalImage.attr('src', '');
-				$modalImage.attr('src', 'https://image.eveonline.com/Alliance/' + a.id + '_512.png');
-				$modalImage.attr('alt', a.ticker + ' logo');
+				$modalImage.attr({
+					src: 'https://image.eveonline.com/Alliance/' + a.id + '_512.png',
+					alt: a.ticker + ' alliance logo'
+				});
 				$modalTicker.text('<' + a.ticker + '>');
 				$modalZkill.attr('href', 'https://zkillboard.com/alliance/' + a.id + '/');
 				$modalEveWho.attr('href', 'https://evewho.com/alliance/' + a.id);
@@ -371,7 +411,7 @@ const html = `<!DOCTYPE html>
 				var modalBodyWidth = $modalBody.innerWidth();
 				if (!modalBodyWidth) return;
 
-				var size = Math.min(512, modalBodyWidth - 80);
+				var size = Math.max(120, Math.min(512, modalBodyWidth - 112));
 				$modalImage.css({
 					width: size + 'px',
 					height: size + 'px'
@@ -380,15 +420,20 @@ const html = `<!DOCTYPE html>
 
 			$modal.on('show', function () {
 				preservedScrollTop = $(window).scrollTop();
+				$modal.attr('aria-hidden', 'false');
 			});
 
 			$modal.on('shown', function () {
 				sizeModalImageToSquare();
 				$(window).scrollTop(preservedScrollTop);
+				$modal.find('.close').focus();
 			});
 
 			$modal.on('hidden', function () {
+				$modal.attr('aria-hidden', 'true');
+				$modalImage.attr({ src: blankImage, alt: '' });
 				$(window).scrollTop(preservedScrollTop);
+				if (lastTrigger) lastTrigger.focus();
 			});
 
 			$(window).on('resize', function () {
@@ -407,29 +452,41 @@ const html = `<!DOCTYPE html>
 
 			$(document).on('keydown', function (e) {
 				if (!$modal.is(':visible')) return;
-				if (e.key === 'ArrowLeft') showAllianceAtIndex(currentIndex - 1);
-				else if (e.key === 'ArrowRight') showAllianceAtIndex(currentIndex + 1);
+				if (e.key === 'ArrowLeft') {
+					e.preventDefault();
+					showAllianceAtIndex(currentIndex - 1);
+				} else if (e.key === 'ArrowRight') {
+					e.preventDefault();
+					showAllianceAtIndex(currentIndex + 1);
+				} else if (e.key === 'Escape') {
+					e.preventDefault();
+					$modal.modal('hide');
+				} else if (e.key === 'Tab') {
+					var $focusable = $modal.find('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])').filter(':visible');
+					var first = $focusable[0];
+					var last = $focusable[$focusable.length - 1];
+					if (e.shiftKey && document.activeElement === first) {
+						e.preventDefault();
+						last.focus();
+					} else if (!e.shiftKey && document.activeElement === last) {
+						e.preventDefault();
+						first.focus();
+					}
+				}
 			});
 
-			$(document).on('click', 'a[href^="https://zkillboard.com/alliance/"]', function (event) {
+			$(document).on('click', '.logo-link', function (event) {
 				var $anchor = $(this);
-				var $img = $anchor.find('img.eveimage');
-				if (!$img.length) return;
-
-				event.preventDefault();
-
-				var href = $anchor.attr('href') || '';
-				var hrefParts = href.split('/').filter(Boolean);
-				var allianceId = hrefParts[hrefParts.length - 1];
+				var allianceId = $anchor.attr('data-alliance-id');
 				if (!/^[0-9]+$/.test(allianceId)) return;
+				event.preventDefault();
 
 				var idx = 0;
 				for (var i = 0; i < alliances.length; i++) {
 					if (alliances[i].id === allianceId) { idx = i; break; }
 				}
 
-				preservedScrollTop = $(window).scrollTop();
-				$modal.css('top', (preservedScrollTop + 20) + 'px');
+				lastTrigger = this;
 				showAllianceAtIndex(idx);
 				$modal.modal('show');
 			});
@@ -439,5 +496,5 @@ const html = `<!DOCTYPE html>
 </html>`;
 
 // Save to disk
-fs.writeFileSync('docs/index.html', html);
+fs.writeFileSync('docs/index.html', html.replace(/[ \t]+$/gm, ''));
 console.log('✅ Wrote index.html');
