@@ -78,8 +78,8 @@ summary:focus,
 
 .site-header {
     margin-bottom: 28px;
-    background: #1a1a1a;
-    border-bottom: 1px solid #6b6b6b;
+    background: #0b0b0b;
+    border-bottom: 1px solid #3d3d3d;
 }
 
 .navbar {
@@ -167,8 +167,8 @@ p {
     min-height: 0;
     margin: 0;
     padding: 16px;
-    background: #202020;
-    border: 1px solid #626262;
+    background: #101010;
+    border: 1px solid #3d3d3d;
     border-radius: 6px;
     box-shadow: none;
 }
@@ -216,8 +216,8 @@ p {
 
 .logo-link:hover,
 .logo-link:active {
-    background: #333333;
-    border-color: #777777;
+    background: #242424;
+    border-color: #5f5f5f;
     color: #ffffff;
 }
 
@@ -247,7 +247,7 @@ p {
     margin: 0;
     overflow: auto;
     transform: translateX(-50%);
-    background: #202020;
+    background: #101010;
     color: #f1f1f1;
     border: 1px solid #858585;
     border-radius: 6px;
@@ -256,7 +256,7 @@ p {
 
 .modal-header,
 .modal-footer {
-    border-color: #626262;
+    border-color: #3d3d3d;
 }
 
 .modal-header h2 {
@@ -323,7 +323,7 @@ p {
 }
 
 .modal-footer {
-    background: #191919;
+    background: #0b0b0b;
     box-shadow: none;
 }
 
@@ -368,7 +368,7 @@ p {
     margin-top: 32px;
     padding-top: 24px;
     padding-bottom: 32px;
-    border-top: 1px solid #626262;
+    border-top: 1px solid #3d3d3d;
     color: #c7c7c7;
     text-align: center;
 }
