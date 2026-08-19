@@ -279,7 +279,7 @@ const html = `<!DOCTYPE html>
   <meta name="twitter:image:alt" content="A collage of recent EVE Online alliance logos">
   <title>Alliance Logos</title>
   <link href="css/bootstrap-combined.min.2.2.2.css" rel="stylesheet">
-  <link href="css/main.css?3" rel="stylesheet">
+  <link href="css/main.css?4" rel="stylesheet">
   <script src="js/jquery.min.1.8.3.js"></script>
   <script src="js/bootstrap.min.2.2.2.js"></script>
 </head>
